@@ -63,4 +63,4 @@ function validateBattlefield(field) {
             hasCorrectNumShip(component, 1, 4);
   }
   return false;
-}
+}git
