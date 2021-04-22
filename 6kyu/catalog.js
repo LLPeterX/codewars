@@ -4,22 +4,31 @@
 Найти все строки, у которых в prod.name встречается article
 
 */
-function catalog(s, article) {
-  if(!s || !article) {
-    return "";
-  }
-  let regexp = new RegExp("<prod><name>(.*?"+article+".*?)<\/name><prx>(.+?)<\/prx><qty>(.+?)<\/qty><\/prod>", 'igm');
-  let res = "";
-  let mx = s.match(regexp);
-  if(!mx) {
-    return "Nothing";
-  }
-  mx.forEach(row => {
-    let m = row.match(/<prod><name>(.+)<\/name><prx>(.+?)<\/prx><qty>(.+?)<\/qty><\/prod>/);
-    //console.log(`name=${m[1]} prx=${m[2]} qty=${m[3]}`);
-    res += `${m[1]} > prx: \$${m[2]} qty: ${m[3]}\r\n`;
-  });
-  return res.trim();
+// function catalog(s, article) {
+//   if(!s || !article) {
+//     return "";
+//   }
+//   let regexp = new RegExp("<prod><name>(.*?"+article+".*?)<\/name><prx>(.+?)<\/prx><qty>(.+?)<\/qty><\/prod>", 'igm');
+//   let res = "";
+//   let mx = s.match(regexp);
+//   if(!mx) {
+//     return "Nothing";
+//   }
+//   mx.forEach(row => {
+//     let m = row.match(/<prod><name>(.+)<\/name><prx>(.+?)<\/prx><qty>(.+?)<\/qty><\/prod>/);
+//     res += `${m[1]} > prx: \$${m[2]} qty: ${m[3]}\r\n`;
+//   });
+//   return res.trim();
+// }
+
+// works too
+function catalog2(s, article) {
+  let matches = s.match(new RegExp("<prod><name>(.*?"+article+".*?)<\/name><prx>(.+?)<\/prx><qty>(.+?)<\/qty><\/prod>", 'gm'));
+  return matches  ? matches.reduce((out, row) => {
+      let m = row.match(/<prod><name>(.+)<\/name><prx>(.+?)<\/prx><qty>(.+?)<\/qty><\/prod>/);
+      return out + `${m[1]} > prx: \$${m[2]} qty: ${m[3]}\r\n`;
+      },"").trim() 
+   : "Nothing";
 }
 
 const s = `<prod><name>drill</name><prx>99</prx><qty>5</qty></prod>
@@ -71,8 +80,8 @@ const s = `<prod><name>drill</name><prx>99</prx><qty>5</qty></prod>
 <prod><name>window fan</name><prx>62</prx><qty>8</qty></prod>`;
 
 
-console.log(catalog(s, "ladder"));
-console.log(catalog(s, "saw")); // table saw, saw, saw metal
+//console.log(catalog2(s, "ladder"));
+console.log(catalog2(s, "saw")); // table saw, saw, saw metal
 
 //best
 /* 
