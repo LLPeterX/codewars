@@ -43,3 +43,18 @@ const data =
 //console.log(createDataObject(data));
 console.log(mean("London", data)); // 51.19
 console.log(variance("London", data)); // 57.42
+
+// best
+/* 
+function mean(town, strng) {
+    if (!strng.includes(town+":")) return -1
+    let rainfall = strng.split("\n").filter(el=>el.includes(town))[0].match(/\d+\.?\d*/g)
+    return rainfall.reduce((a,b)=>a + +b,0)/12
+}
+function variance(town, strng) {
+    if (!strng.includes(town+":")) return -1
+    let rainfall = strng.split("\n").filter(el=>el.includes(town))[0].match(/\d+\.?\d*/g)
+    let squaredDiffs = rainfall.map(el=>(el-mean(town,strng))**2)
+    return squaredDiffs.reduce((a,b)=>a + b,0)/12
+}
+*/
