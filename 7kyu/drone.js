@@ -24,3 +24,11 @@ console.log(flyBy('xxxxxxxxx', '==T'), 'oooxxxxxx');
 console.log(flyBy('xxxxxxxxxxxxxxx', '=========T'), 'ooooooooooxxxxx');
 
 //my best
+
+// best:
+
+/*
+const flyBy = (lamps, drone) => [...lamps].fill(`o`, 0, drone.length).join(``)
+
+const flyBy = (l, d) => l.replace(/x/g, (e, i) => i < d.length ? 'o' : e);
+*/
