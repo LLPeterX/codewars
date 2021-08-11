@@ -4,7 +4,7 @@
   "description": "Challenges from codewars.com",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
