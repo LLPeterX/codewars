@@ -1,4 +1,5 @@
 /* 
+6kyu - Help the bookseller !
 https://www.codewars.com/kata/54dc6f5a224c26032800005c/train/javascript
 
 Продавец классифицирует книги.
@@ -11,20 +12,36 @@ https://www.codewars.com/kata/54dc6f5a224c26032800005c/train/javascript
 
 */
 
-function stockList(listOfArt, listOfCat){
-  if(listOfArt=="" || listOfCat=="") return "";
-  return listOfCat.map(cat => {
-    let count = listOfArt.reduce((sum,v)=> {
-       let [code, amount] = v.split(' ');
-       return code[0] === cat[0] ? sum + (+amount) : sum;
-    },0);
-    return `(${cat} : ${count})`;
-  }).join(' - ');
+function stockList(listOfArt, listOfCat) {
+  if (listOfArt.length === 0 || listOfCat.length === 0) return "";
+  let counts = listOfCat.reduce((o, v) => { o[v] = 0; return o; }, {});
+  counts = listOfArt.reduce((o, item) => {
+    let [str, v] = item.split(' ');
+    let id = str[0];
+    if (o.hasOwnProperty(id)) {
+      o[id] += +v;
+    }
+    return o;
+  }, counts);
+  return Object.entries(counts).map(e => `(${e[0]} : ${e[1]})`).join(' - ');
 }
 
 console.log(stockList(["ABART 20", "CDXEF 50", "BKWRK 25", "BTSQZ 89", "DRTYM 60"], ["A", "B", "C", "W"]));
+// (A : 20) - (B : 114) - (C : 50) - (W : 0)
 
-// пиздец
+// best
+
+/* 
+function stockList(listOfArt, listOfCat) {
+  if (!listOfArt.length || !listOfCat.length) return ''
+  return listOfCat.map(w => {
+    const s = listOfArt.reduce((a, b) => a + (b.charAt(0) === w ? +b.split(' ')[1] : 0), 0)
+    return `(${w} : ${s})`
+  }).join(' - ')
+}
+*/
+
+
 /* 
 stockList=(a,b,c=a.map(a=>a.split` `))=>a.length?b.map(i=>[i,c.reduce((a,[b,c])=>a+(b[0]==i?+c:0),0)]).map(([a,b])=>`(${a} : ${b})`).join` - `:''
 */
