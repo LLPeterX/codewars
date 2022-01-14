@@ -1,10 +1,17 @@
 /* 
 7kyu - Pandemia
 https://www.codewars.com/kata/5e2596a9ad937f002e510435/train/javascript
+
+You would be given a map of the world in a type of string:
+ string s = "01000000X000X011X0X"
+ - '0' : uninfected
+ - '1' : infected
+ - 'X' : ocean
  */
 
 function infected(s) {
-  let a = s.split('X'), infected = a.reduce((sum, p) => sum + p.length * p.includes('1'), 0), total = a.reduce((sum, p) => sum + p.length, 0);
+  let total = [...s].reduce((sum, v) => sum + (v === '1' || v === '0' ? 1 : 0), 0)
+  let infected = s.split('X').map(x => x.includes('1') ? x.length : 0).reduce((sum, v) => sum + v, 0);
   return total ? infected / total * 100 : 0;
 }
 
