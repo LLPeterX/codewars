@@ -39,3 +39,7 @@ function allContinents(list) {
   return ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'].every(x => list.some(y => x==y.continent));
 }
 */
+
+/* 
+const allContinents = arr => new Set(arr.map(dev => dev.continent)).size === 5;
+*/
