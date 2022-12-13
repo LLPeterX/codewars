@@ -31,3 +31,8 @@ console.log(isValidChess960("RNBQKBNR"), true);
 console.log(isValidChess960("QNNBBRKR"), true);
 console.log(isValidChess960("QRNNBBRK"), false);
 console.log(isValidChess960("QNBNBRKR"), false);
+
+//cool
+/* 
+isValidChess960=s=>/(?=.*B(..)*B).*R.*K.*R/.test(s)
+*/
