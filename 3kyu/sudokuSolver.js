@@ -1,5 +1,5 @@
 /* 
-3ky - Sudoku Solver
+3kyu - Sudoku Solver
 https://www.codewars.com/kata/5296bc77afba8baa690002d7/train/javascript
 
 Write a function that will solve a 9x9 Sudoku puzzle. 
