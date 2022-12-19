@@ -1,3 +1,7 @@
+/* 
+2kyu - Assebler Interpreter
+*/
+
 function assemblerInterpreter(program) {
   // auxiliary functions for better code reading
   const isRegister = (a) => isNaN(a); // register or number?
@@ -126,12 +130,12 @@ function assemblerInterpreter(program) {
           if (cmdArray[j][0] === "'") {
             res.push(cmdArray[j].replace(/\'/g, ''));
           } else {
-            res.push(registers[cmdArray[j]]===undefined ? cmdArray[j] : registers[cmdArray[j]]);
+            res.push(registers[cmdArray[j]] === undefined ? cmdArray[j] : registers[cmdArray[j]]);
           }
         }
         output = res.join('');
         break;
-    } 
+    }
   }
   return -1;
 }
