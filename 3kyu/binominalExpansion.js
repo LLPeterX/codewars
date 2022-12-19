@@ -1,6 +1,6 @@
 /* 
-3kyu https://www.codewars.com/kata/540d0fdd3b6532e5c3000b5b/train/javascript
-Разложить биноминальное уравнение на множители
+3kyu - Разложить биноминальное уравнение на множители
+https://www.codewars.com/kata/540d0fdd3b6532e5c3000b5b/train/javascript
 
 */
 
