@@ -1,5 +1,5 @@
 /* 
-2kyu - Assebler Interpreter
+2kyu - Assembler Interpreter
 */
 
 function assemblerInterpreter(program) {
