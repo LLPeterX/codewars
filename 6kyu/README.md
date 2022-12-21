@@ -118,3 +118,4 @@
 - [6kyu - Version Manager](versionManager.js)
 - [6kyu - VIN Checker](VINchecker.js)
 - [6kyu - Codewars Leaderboar](getLeaderboardHonor.js)
+- [6kyu - Sqrt approximation](sqrtApproximation.js)
