@@ -225,3 +225,4 @@
 - [7kyu - Hex Hash Sum](hexHash.js)
 - [7kyu - Perfect Number Verifier](isPerfect.js)
 - [7kyu - Find the maximal product](findMaxProduct.js)
+- [7kyu - Squares sequence](squares.js)
