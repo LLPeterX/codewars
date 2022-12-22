@@ -41,3 +41,4 @@
 - [5kyu - Calculate Variance](variance.js)
 - [5kyu - Weight for weight](weight.js)
 - [5kyu - URL Shortener](urlShortener.js)
+- [5kyu - Calculate Pyramid Height](pyramidHeight.js)
