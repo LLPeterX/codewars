@@ -119,3 +119,4 @@
 - [6kyu - VIN Checker](VINchecker.js)
 - [6kyu - Codewars Leaderboar](getLeaderboardHonor.js)
 - [6kyu - Sqrt approximation](sqrtApproximation.js)
+- [6kyu - ave the Spice Harvester (Dune Universe)](harvesterRescue.js)
