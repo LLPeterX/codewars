@@ -223,3 +223,4 @@
 - [7kyu - You Got Change?](youGotChange.js)
 - [7kyu - Will you survive the zombie onslaught?](zombie.js)
 - [7kyu - Hex Hash Sum](hexHash.js)
+- [7kyu - Perfect Number Verifier](isPerfect.js)
