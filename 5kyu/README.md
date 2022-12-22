@@ -42,3 +42,4 @@
 - [5kyu - Weight for weight](weight.js)
 - [5kyu - URL Shortener](urlShortener.js)
 - [5kyu - Calculate Pyramid Height](pyramidHeight.js)
+- [5kyu - Primes with Even Digits](primesWithEvenDigits.js)
