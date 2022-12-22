@@ -120,3 +120,4 @@
 - [6kyu - Codewars Leaderboar](getLeaderboardHonor.js)
 - [6kyu - Sqrt approximation](sqrtApproximation.js)
 - [6kyu - ave the Spice Harvester (Dune Universe)](harvesterRescue.js)
+- [6kyu - Does my number look big in this?](narcissistic.js)
