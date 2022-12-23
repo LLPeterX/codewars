@@ -124,3 +124,4 @@
 - [6kyu - Esolang Interpreters #1 - Introduction to Esolangs and My First Interpreter (MiniStringFuck)](myFirstInterpreter.js)
 - [6kyu - Dbftbs Djqifs](caesar.js)
 - [6kyu - Duplicates. Duplicates Everywhere.](removeDuplicateIds.js)
+- [6kyu - Simple Fun #178: Faulty Odometer](faultyOdometer.js)
