@@ -123,3 +123,4 @@
 - [6kyu - Does my number look big in this?](narcissistic.js)
 - [6kyu - Esolang Interpreters #1 - Introduction to Esolangs and My First Interpreter (MiniStringFuck)](myFirstInterpreter.js)
 - [6kyu - Dbftbs Djqifs](caesar.js)
+- [6kyu - Duplicates. Duplicates Everywhere.](removeDuplicateIds.js)
