@@ -226,3 +226,4 @@
 - [7kyu - Perfect Number Verifier](isPerfect.js)
 - [7kyu - Find the maximal product](findMaxProduct.js)
 - [7kyu - Squares sequence](squares.js)
+- [7kyu - The Culling of Stratholme](purifyTheStratholme.js)
