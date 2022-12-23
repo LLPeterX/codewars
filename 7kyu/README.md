@@ -227,3 +227,4 @@
 - [7kyu - Find the maximal product](findMaxProduct.js)
 - [7kyu - Squares sequence](squares.js)
 - [7kyu - The Culling of Stratholme](purifyTheStratholme.js)
+- [7kyu - Give a shout to your friend walking towards you](madShout.js)
