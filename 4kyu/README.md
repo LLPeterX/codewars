@@ -11,3 +11,4 @@
 - [4kyu - Sum Strings](sumStrings.js)
 - [4kyu - Text align justify](textJustify.js)
 - [4kyu - Multiplying numbers as strings](multiplyAsString.js)
+- [4kyu - Word, char and line count](documentParser.js)
