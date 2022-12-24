@@ -231,3 +231,4 @@
 - [7kyu - The 12 Days of Christmas](christmas12days.js)
 - [7kyu - Mean Means](geo_mean.js)
 - [7kyu - Basic Scheme Math Interpreter](mathInterpreter.js)
+- [7kyu - Help Grinch steal Christmas from JS programmers](grinchChristmas.js)
