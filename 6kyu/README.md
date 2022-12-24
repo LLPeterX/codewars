@@ -125,3 +125,4 @@
 - [6kyu - Dbftbs Djqifs](caesar.js)
 - [6kyu - Duplicates. Duplicates Everywhere.](removeDuplicateIds.js)
 - [6kyu - Simple Fun #178: Faulty Odometer](faultyOdometer.js)
+- [6kyu - Format phone number by template](formatPhoneNumber.js)
