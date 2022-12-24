@@ -229,3 +229,4 @@
 - [7kyu - The Culling of Stratholme](purifyTheStratholme.js)
 - [7kyu - Give a shout to your friend walking towards you](madShout.js)
 - [7kyu - The 12 Days of Christmas](christmas12days.js)
+- [77kyu - Mean Means](geo_mean.js)
