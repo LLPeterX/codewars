@@ -232,3 +232,4 @@
 - [7kyu - Mean Means](geo_mean.js)
 - [7kyu - Basic Scheme Math Interpreter](mathInterpreter.js)
 - [7kyu - Help Grinch steal Christmas from JS programmers](grinchChristmas.js)
+- [7kyu - Clear Passage](clearPassage.js)
