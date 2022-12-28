@@ -126,3 +126,4 @@
 - [6kyu - Duplicates. Duplicates Everywhere.](removeDuplicateIds.js)
 - [6kyu - Simple Fun #178: Faulty Odometer](faultyOdometer.js)
 - [6kyu - Format phone number by template](formatPhoneNumber.js)
+- [6kyu - Fraction to periodic decimal](fractionToPeriodic.js)
