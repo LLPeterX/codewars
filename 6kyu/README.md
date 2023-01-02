@@ -128,3 +128,4 @@
 - [6kyu - Format phone number by template](formatPhoneNumber.js)
 - [6kyu - Fraction to periodic decimal](fractionToPeriodic.js)
 - [6kyu - Zero-plentiful Array](zeroPlentiful.js)
+- [6kyu - Validate Credit Card Number](validateCreditCardNumber.js)
