@@ -236,3 +236,4 @@
 - [7kyu - How fast can the burglar steal all the diamonds?](diamondBurglar.js)
 - [7kyu - Hurry up, the walls are closing in!](canEscape.js)
 - [7kyu - Dictionary from two lists](createDict.js)
+- [7kyu - Cyclops numbers](cyclops.js)
