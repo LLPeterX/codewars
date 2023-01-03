@@ -129,3 +129,4 @@
 - [6kyu - Fraction to periodic decimal](fractionToPeriodic.js)
 - [6kyu - Zero-plentiful Array](zeroPlentiful.js)
 - [6kyu - Validate Credit Card Number](validateCreditCardNumber.js)
+- [6kyu - One line task: Square Every Digit](squareEveryDigit.js)
