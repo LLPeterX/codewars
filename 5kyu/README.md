@@ -45,3 +45,4 @@
 - [5kyu - Primes with Even Digits](primesWithEvenDigits.js)
 - [5kyu - Esolang: Stick](interpreter.js)
 - [5kyu - By the Power Set of Castle Grayskull](powerSet.js)
+- [5kyu - A Simple Music Encoder](simpleMusicEncoder.js)
