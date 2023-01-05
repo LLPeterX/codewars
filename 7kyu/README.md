@@ -237,3 +237,4 @@
 - [7kyu - Hurry up, the walls are closing in!](canEscape.js)
 - [7kyu - Dictionary from two lists](createDict.js)
 - [7kyu - Cyclops numbers](cyclops.js)
+- [7kyu - MinMinMax](minMinMax.js)
