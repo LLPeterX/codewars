@@ -131,3 +131,4 @@
 - [6kyu - Validate Credit Card Number](validateCreditCardNumber.js)
 - [6kyu - One line task: Square Every Digit](squareEveryDigit.js)
 - [6kyu - More Zeros than Ones](moreZeros.js)
+- [6kyu - Rooks](rooks.js)
