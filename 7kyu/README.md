@@ -238,3 +238,4 @@
 - [7kyu - Dictionary from two lists](createDict.js)
 - [7kyu - Cyclops numbers](cyclops.js)
 - [7kyu - MinMinMax](minMinMax.js)
+- [7kyu - Count consonants](countConsonants.js)
