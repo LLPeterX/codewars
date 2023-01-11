@@ -46,3 +46,4 @@
 - [5kyu - Esolang: Stick](interpreter.js)
 - [5kyu - By the Power Set of Castle Grayskull](powerSet.js)
 - [5kyu - A Simple Music Encoder](simpleMusicEncoder.js)
+- [5kyu - Pyramide d'Azkee](drawPyramid.js)
