@@ -240,3 +240,4 @@
 - [7kyu - MinMinMax](minMinMax.js)
 - [7kyu - Count consonants](countConsonants.js)
 - [7kyu - How Many Unique Consonants?](countConsonants2.js)
+- [7kyu - Adding values of arrays in a shifted way](addingShifted.js)
