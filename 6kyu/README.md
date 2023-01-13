@@ -133,4 +133,5 @@
 - [6kyu - More Zeros than Ones](moreZeros.js)
 - [6kyu - Rooks](rooks.js)
 - [6kyu - Lottery Ticket](bingo.js)
-- [66kyu - Implementing Object.create](objectCreate.js)
+- [6kyu - Implementing Object.create](objectCreate.js)
+- [6kyu - Matrix Transpose](matrixTranspose.js)
