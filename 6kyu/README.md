@@ -136,3 +136,4 @@
 - [6kyu - Implementing Object.create](objectCreate.js)
 - [6kyu - Matrix Transpose](matrixTranspose.js)
 - [6kyu - Multidimensional Coordinate Encoding](multidimentionalEncode.js)
+- [6kyu - up AND down](updown.js)
