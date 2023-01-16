@@ -241,3 +241,4 @@
 - [7kyu - Count consonants](countConsonants.js)
 - [7kyu - How Many Unique Consonants?](countConsonants2.js)
 - [7kyu - Adding values of arrays in a shifted way](addingShifted.js)
+- [7kyu - Count up the points for the 7 Wonders board game! Easy version](wonders.js)
