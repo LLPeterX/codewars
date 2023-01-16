@@ -135,3 +135,4 @@
 - [6kyu - Lottery Ticket](bingo.js)
 - [6kyu - Implementing Object.create](objectCreate.js)
 - [6kyu - Matrix Transpose](matrixTranspose.js)
+- [6kyu - Multidimensional Coordinate Encoding](multidimentionalEncode.js)
