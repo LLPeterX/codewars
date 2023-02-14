@@ -138,3 +138,4 @@
 - [6kyu - Multidimensional Coordinate Encoding](multidimentionalEncode.js)
 - [6kyu - up AND down](updown.js)
 - [6kyu - Decompose a number](decomposeNumber.js)
+- [6kyu - ThetaFormulation](thetaFormulation.js)
