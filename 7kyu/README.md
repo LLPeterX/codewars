@@ -243,3 +243,4 @@
 - [7kyu - Adding values of arrays in a shifted way](addingShifted.js)
 - [7kyu - Count up the points for the 7 Wonders board game! Easy version](wonders.js)
 - [7kyu - Multiples By Permutations II](findLowestInt.js)
+- [7kyu - Trimming a string](trim.js)
