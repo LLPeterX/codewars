@@ -245,3 +245,4 @@
 - [7kyu - Multiples By Permutations II](findLowestInt.js)
 - [7kyu - Trimming a string](trim.js)
 - [8kyu - Find Nearest square number](nearestSq.js)
+- [7kyu - Convert Hash To An Array](convertHashToArray.js)
