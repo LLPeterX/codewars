@@ -247,3 +247,4 @@
 - [8kyu - Find Nearest square number](nearestSq.js)
 - [7kyu - Convert Hash To An Array](convertHashToArray.js)
 - [7kyu - Covfefe](covfefe.js)
+- [7kyu - Asperand pixel counting](countPixels.js)
