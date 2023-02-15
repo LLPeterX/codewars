@@ -47,4 +47,5 @@
 - [5kyu - By the Power Set of Castle Grayskull](powerSet.js)
 - [5kyu - A Simple Music Encoder](simpleMusicEncoder.js)
 - [5kyu - Pyramide d'Azkee](drawPyramid.js)
-- [5ky - Tic-Tac-Toe Checker](tic-tac-toe-checker.js)
+- [5kyu - Tic-Tac-Toe Checker](tic-tac-toe-checker.js)
+- [5kyu - Land perimeter](landPerimeter.js)
