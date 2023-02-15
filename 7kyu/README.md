@@ -1,4 +1,4 @@
-# 7kyu solutions
+# 7kyu and 8kyu solutions
 
 - [7kyu - Alphabetical Addition](addLetters.js)
 - [7kyu - Alan Partridge III - London](alan.js)
@@ -244,3 +244,4 @@
 - [7kyu - Count up the points for the 7 Wonders board game! Easy version](wonders.js)
 - [7kyu - Multiples By Permutations II](findLowestInt.js)
 - [7kyu - Trimming a string](trim.js)
+- [8kyu - Find Nearest square number](nearestSq.js)
