@@ -49,3 +49,4 @@
 - [5kyu - Pyramide d'Azkee](drawPyramid.js)
 - [5kyu - Tic-Tac-Toe Checker](tic-tac-toe-checker.js)
 - [5kyu - Land perimeter](landPerimeter.js)
+- [5kyu - Sierpinski's Gasket](sierpinski.js)
