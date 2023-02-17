@@ -248,3 +248,4 @@
 - [7kyu - Convert Hash To An Array](convertHashToArray.js)
 - [7kyu - Covfefe](covfefe.js)
 - [7kyu - Asperand pixel counting](countPixels.js)
+- [7kyu - Set Reducer](setReducer.js)
