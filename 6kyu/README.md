@@ -141,3 +141,4 @@
 - [6kyu - ThetaFormulation](thetaFormulation.js)
 - [6kyu - Sum the nums, sum the sums and sum the nums up to that sum](sumOfSums.js)
 - [6kyu - Simple Fun #52: Pair Of Shoes](pairOfShoes.js)
+- [6kyu - A for Apple](apple.js)
