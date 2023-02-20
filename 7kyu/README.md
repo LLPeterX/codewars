@@ -249,3 +249,4 @@
 - [7kyu - Covfefe](covfefe.js)
 - [7kyu - Asperand pixel counting](countPixels.js)
 - [7kyu - Set Reducer](setReducer.js)
+- [7kyu - Help Suzuki count his vegetables....](countVegetables.js)
