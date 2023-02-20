@@ -143,3 +143,4 @@
 - [6kyu - Simple Fun #52: Pair Of Shoes](pairOfShoes.js)
 - [6kyu - A for Apple](apple.js)
 - [6kyu - Selective Array Reversing](selReverse.js)
+- [6kyu - Calculate number of inversions in array](countInversions.js)
