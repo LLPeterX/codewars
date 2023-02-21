@@ -145,4 +145,4 @@
 - [6kyu - Selective Array Reversing](selReverse.js)
 - [6kyu - Calculate number of inversions in array](countInversions.js)
 - [6kyu - Travelling on a Grid](travelChessboard.js)
-- [6kyu - Does array x contain all values within array y?](containsAll.js)
+- [6kyu - Find matching parenthesis](findParenMatch.js)
