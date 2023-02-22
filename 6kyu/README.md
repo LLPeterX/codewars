@@ -146,3 +146,4 @@
 - [6kyu - Calculate number of inversions in array](countInversions.js)
 - [6kyu - Travelling on a Grid](travelChessboard.js)
 - [6kyu - Find matching parenthesis](findParenMatch.js)
+- [6kyu - Crashing Boxes](crashingWeights.js)
