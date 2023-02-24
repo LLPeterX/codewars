@@ -148,3 +148,4 @@
 - [6kyu - Find matching parenthesis](findParenMatch.js)
 - [6kyu - Crashing Boxes](crashingWeights.js)
 - [6kyu - Checkered Board](checkeredBoard.js)
+- [6kyu - Pattern: Wave](drawWave.js)
