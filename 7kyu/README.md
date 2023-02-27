@@ -254,3 +254,4 @@
 - [7kyu - The First Non Repeated Character In A String](firstNonRepeated.js)
 - [7kyu - Geometric Progression Sequence](geometricSequenceElements.js)
 - [7kyu - Jenny the youngest detective](missingWord.js)
+- [7kyu - Simple Fun #34: Numbers Grouping](numbersGrouping.js)
