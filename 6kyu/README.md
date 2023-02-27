@@ -149,3 +149,4 @@
 - [6kyu - Crashing Boxes](crashingWeights.js)
 - [6kyu - Checkered Board](checkeredBoard.js)
 - [6kyu - Pattern: Wave](drawWave.js)
+- [6kyu - Ka Ka Ka cypher - words only vol 1](ka_cypher.js)
