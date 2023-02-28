@@ -257,3 +257,4 @@
 - [7kyu - Jenny the youngest detective](missingWord.js)
 - [7kyu - Simple Fun #34: Numbers Grouping](numbersGrouping.js)
 - [7kyu - Page replacement algorithms: FIFO](fifo.js)
+- [7kyu - 2D / 1D array coordinates mapping](1_2D.js)
