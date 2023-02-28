@@ -256,3 +256,4 @@
 - [7kyu - Geometric Progression Sequence](arithmeticSequenceElements.js)
 - [7kyu - Jenny the youngest detective](missingWord.js)
 - [7kyu - Simple Fun #34: Numbers Grouping](numbersGrouping.js)
+- [7kyu - Page replacement algorithms: FIFO](fifo.js)
