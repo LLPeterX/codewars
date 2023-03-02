@@ -260,3 +260,4 @@
 - [7kyu - 2D / 1D array coordinates mapping](1_2D.js)
 - [7kyu - draw me a chessboard](chessBoard.js)
 - [7kyu - Sort rectangles and circles by area II](sortByArea.js)
+- [7kyu - Fun with lists: indexOf](indexOf.js)
