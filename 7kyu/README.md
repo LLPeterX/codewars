@@ -263,3 +263,4 @@
 - [7kyu - Fun with lists: indexOf](indexOf.js)
 - [7kyu - Check digit](checkDigit.js)
 - [7kyu - Music Theory: Find the Melodic Interval Between Two Notes](getInterval.js)
+- [7kyu - Merge overlapping strings](mergeStrings.js)
