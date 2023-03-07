@@ -153,3 +153,4 @@
 - [6kyu - Snakes & Ladders](snakesAndLadders.js)
 - [6kyu - Keyword Cipher](keywordCipher.js)
 - [6kyu - Kebabize](kebabize.js)
+- [6kyu - Ziiiiip!](zipObject.js)
