@@ -154,3 +154,4 @@
 - [6kyu - Keyword Cipher](keywordCipher.js)
 - [6kyu - Kebabize](kebabize.js)
 - [6kyu - Ziiiiip!](zipObject.js)
+- [6kyu - Palindrome for your Dome](palindrome.js)
