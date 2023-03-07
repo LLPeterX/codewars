@@ -51,3 +51,4 @@
 - [5kyu - Land perimeter](landPerimeter.js)
 - [5kyu - Sierpinski's Gasket](sierpinski.js)
 - [5kyu - Fibonacci Streaming](fibonacciStream.js)
+- [5kyu - [Geometry A-1] Locate point - to the right, to the left or on the vector?](pointVsVector.js)
