@@ -1,5 +1,5 @@
 /* 
-6kyu - Exclamation marks series #18: a simple slot machine that only contains exclamation marks and question marks
+7kyu - Exclamation marks series #18: a simple slot machine that only contains exclamation marks and question marks
 https://www.codewars.com/kata/57fb4b289610ce39f70000de/train/javascript
 */
 
