@@ -267,3 +267,4 @@
 - [7kyu - Dots on Domino's Bones](dotsOnDominoBones.js)
 - [7kyu - Bubblesort Once](bubblesortOnce.js)
 - [7kyu - Exclamation marks series #18: a simple slot machine that only contains exclamation marks and question marks](slot.js)
+- [8kyu - Simple Change Machine](changeMe.js)
