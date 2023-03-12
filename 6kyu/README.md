@@ -158,3 +158,4 @@
 - [6kyu - (L33T + Grεεκ) Case](greekCase.js)
 - [6kyu - # Counting 1: I Want Some Subsets, Not All!](counting1.js)
 - [6kyu - Basic Encryption](basicEncryption.js)
+- [6kyu - T.T.T.39: Cut rope](cutRope.js)
