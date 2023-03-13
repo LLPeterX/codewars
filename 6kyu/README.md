@@ -159,3 +159,4 @@
 - [6kyu - # Counting 1: I Want Some Subsets, Not All!](counting1.js)
 - [6kyu - Basic Encryption](basicEncryption.js)
 - [6kyu - T.T.T.39: Cut rope](cutRope.js)
+- [6kyu - longest_palindrome](longestPalindrome.js)
