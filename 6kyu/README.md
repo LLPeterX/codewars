@@ -160,3 +160,4 @@
 - [6kyu - Basic Encryption](basicEncryption.js)
 - [6kyu - T.T.T.39: Cut rope](cutRope.js)
 - [6kyu - longest_palindrome](longestPalindrome.js)
+- [6kyu - Page replacement algorithms: LRU](LRU.js)
