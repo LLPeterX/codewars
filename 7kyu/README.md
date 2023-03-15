@@ -269,3 +269,4 @@
 - [7kyu - Exclamation marks series #18: a simple slot machine that only contains exclamation marks and question marks](slot.js)
 - [8kyu - Simple Change Machine](changeMe.js)
 - [7kyu - Mysterious Singularity Numbers](realNumbers.js)
+- [7kyu - Decimal Time Conversion](decimalTime.js)
