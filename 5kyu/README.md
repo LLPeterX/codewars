@@ -54,3 +54,4 @@
 - [5kyu - [Geometry A-1] Locate point - to the right, to the left or on the vector?](pointVsVector.js)
 - [5kyu - Calculate Fibonacci return count of digit occurrences](fibDigits.js)
 - [5kyu - Is the King in check ?](kingIsInCheck.js)
+- [5kyu - Pete, the baker](cakes.js)
