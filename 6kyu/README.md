@@ -162,3 +162,4 @@
 - [6kyu - longest_palindrome](longestPalindrome.js)
 - [6kyu - Page replacement algorithms: LRU](LRU.js)
 - [6kyu - age replacement algorithms: clock](clock.js)
+- [6kyu - Array Deep Count](deepCount.js)
