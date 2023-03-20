@@ -163,3 +163,4 @@
 - [6kyu - Page replacement algorithms: LRU](LRU.js)
 - [6kyu - age replacement algorithms: clock](clock.js)
 - [6kyu - Array Deep Count](deepCount.js)
+- [6kyu - Binary Coded Decimal](toBcd.js)
