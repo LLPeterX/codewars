@@ -164,3 +164,4 @@
 - [6kyu - age replacement algorithms: clock](clock.js)
 - [6kyu - Array Deep Count](deepCount.js)
 - [6kyu - Binary Coded Decimal](toBcd.js)
+- [6kyu - I guess this is a 6kyu kata #5: Whac-A-Mole](whacAMole.js)
