@@ -272,3 +272,4 @@
 - [7kyu - Decimal Time Conversion](decimalTime.js)
 - [7kyu - Divide and Conquer](divCon.js)
 - [7kyu - Double value every next call](doubleValue.js)
+- [7kyu - Building blocks](block_class.js)
