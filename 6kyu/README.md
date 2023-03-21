@@ -167,3 +167,4 @@
 - [6kyu - I guess this is a 6kyu kata #5: Whac-A-Mole](whacAMole.js)
 - [6kyu - Kids and candies](candiesToBuy.js)
 - [6kyu - Thue-Morse Sequence](thueMorse.js)
+- [6kyu - Count the Islands](countIslands.js)
