@@ -168,3 +168,4 @@
 - [6kyu - Kids and candies](candiesToBuy.js)
 - [6kyu - Thue-Morse Sequence](thueMorse.js)
 - [6kyu - Count the Islands](countIslands.js)
+- [6kyu - Covered pawns](coveredPawns.js)
