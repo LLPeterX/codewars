@@ -170,3 +170,4 @@
 - [6kyu - Count the Islands](countIslands.js)
 - [6kyu - Covered pawns](coveredPawns.js)
 - [6kyu - Emotional Sort](sortEmotions.js)
+- [6kyu - Block Letter Printer](blockPrint.js)
