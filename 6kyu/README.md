@@ -172,3 +172,4 @@
 - [6kyu - Emotional Sort](sortEmotions.js)
 - [6kyu - Block Letter Printer](blockPrint.js)
 - [6kyu - Simple Fun #84: Box Blur](boxBlur.js)
+- [6kyu - Coordinates Validator](isValidCoordinates.js)
