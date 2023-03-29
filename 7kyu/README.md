@@ -276,3 +276,4 @@
 - [7kyu - Excel sheet column numbers](titleToNumber.js)
 - [7kyu - Simple Fun #9: Array Packing](arrayPacking.js)
 - [7kyu - Decreasing Inputs](add.js)
+- [7kyu - char_to_ascii](charToAscii.js)
