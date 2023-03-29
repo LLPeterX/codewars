@@ -274,3 +274,4 @@
 - [7kyu - Double value every next call](doubleValue.js)
 - [7kyu - Building blocks](block_class.js)
 - [7kyu - Excel sheet column numbers](titleToNumber.js)
+- [7kyu - Simple Fun #9: Array Packing](arrayPacking.js)
