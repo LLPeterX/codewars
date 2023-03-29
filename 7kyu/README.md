@@ -277,3 +277,4 @@
 - [7kyu - Simple Fun #9: Array Packing](arrayPacking.js)
 - [7kyu - Decreasing Inputs](add.js)
 - [7kyu - char_to_ascii](charToAscii.js)
+- [7kyu - Odd-Even String Sort](sortMyString.js)
