@@ -13,3 +13,4 @@
 - [4kyu - Multiplying numbers as strings](multiplyAsString.js)
 - [4kyu - Word, char and line count](documentParser.js)
 - [4kyu - Elemental Words](elementalWords.js)
+- [4kyu - Explosive Sum](explosiveSum.js)
