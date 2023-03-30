@@ -278,3 +278,4 @@
 - [7kyu - Decreasing Inputs](add.js)
 - [7kyu - char_to_ascii](charToAscii.js)
 - [7kyu - Odd-Even String Sort](sortMyString.js)
+- [7kyu - Sums of consecutive integers](position.js)
