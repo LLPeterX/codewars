@@ -55,3 +55,4 @@
 - [5kyu - Calculate Fibonacci return count of digit occurrences](fibDigits.js)
 - [5kyu - Is the King in check ?](kingIsInCheck.js)
 - [5kyu - Pete, the baker](cakes.js)
+- [5kyu - Math Issues](mathIssues.js)
