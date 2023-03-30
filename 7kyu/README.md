@@ -279,3 +279,4 @@
 - [7kyu - char_to_ascii](charToAscii.js)
 - [7kyu - Odd-Even String Sort](sortMyString.js)
 - [7kyu - Sums of consecutive integers](position.js)
+- [7kyu - Reflect Point Over Line](reflect.js)
