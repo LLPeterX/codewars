@@ -173,3 +173,4 @@
 - [6kyu - Block Letter Printer](blockPrint.js)
 - [6kyu - Simple Fun #84: Box Blur](boxBlur.js)
 - [6kyu - Coordinates Validator](isValidCoordinates.js)
+- [Simple Fun #19: Count Black Cells](countBlackCells.js)
