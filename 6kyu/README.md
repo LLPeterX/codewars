@@ -176,3 +176,4 @@
 - [Simple Fun #19: Count Black Cells](countBlackCells.js)
 - [6kyu - Count the smiley faces!](countSmileys.js)
 - [6kyu - Valid Braces](validBraces.js)
+- [6kyu - Simple Encryption #1 - Alternating Split](encrypt4.js)
