@@ -281,3 +281,4 @@
 - [7kyu - Sums of consecutive integers](position.js)
 - [7kyu - Reflect Point Over Line](reflect.js)
 - [7kyu - Insert dashes](insertDash.js)
+- [7kyu - Sum of the first nth term of Series](SeriesSum.js)
