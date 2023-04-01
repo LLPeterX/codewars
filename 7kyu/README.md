@@ -284,3 +284,4 @@
 - [7kyu - Sum of the first nth term of Series](SeriesSum.js)
 - [7kyu - Money, Money, Money](calculateYears.js)
 - [7kyu - Two fighters, one winner.](declareWinner.js)
+- [7kyu - Title Case](titleCase.js)
