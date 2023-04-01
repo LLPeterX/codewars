@@ -282,3 +282,4 @@
 - [7kyu - Reflect Point Over Line](reflect.js)
 - [7kyu - Insert dashes](insertDash.js)
 - [7kyu - Sum of the first nth term of Series](SeriesSum.js)
+- [7kyu - Money, Money, Money](calculateYears.js)
