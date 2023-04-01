@@ -56,3 +56,4 @@
 - [5kyu - Is the King in check ?](kingIsInCheck.js)
 - [5kyu - Pete, the baker](cakes.js)
 - [5kyu - Math Issues](mathIssues.js)
+- [5kyu - First non-repeating character](firstNonRepeatingLetter.js)
