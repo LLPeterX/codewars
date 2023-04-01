@@ -174,3 +174,4 @@
 - [6kyu - Simple Fun #84: Box Blur](boxBlur.js)
 - [6kyu - Coordinates Validator](isValidCoordinates.js)
 - [Simple Fun #19: Count Black Cells](countBlackCells.js)
+- [6kyu - Count the smiley faces!](countSmileys.js)
