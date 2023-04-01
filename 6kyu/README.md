@@ -175,3 +175,4 @@
 - [6kyu - Coordinates Validator](isValidCoordinates.js)
 - [Simple Fun #19: Count Black Cells](countBlackCells.js)
 - [6kyu - Count the smiley faces!](countSmileys.js)
+- [6kyu - Valid Braces](validBraces.js)
