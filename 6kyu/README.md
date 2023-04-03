@@ -181,3 +181,4 @@
 - [6kyu - Simple Fun #186: Duplicate Phone Numbers](findDuplicatePhoneNumbers.js)
 - [6kyu - Simple Fun #162: Pair Wise](pairwise.js)
 - [6kyu - Simple Fun #156: Rotate Paper By 180 Degrees](rotatePaper.js)
+- [6kyu - Good vs Evil](goodVsEvil.js)
