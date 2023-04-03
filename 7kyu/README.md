@@ -285,3 +285,4 @@
 - [7kyu - Money, Money, Money](calculateYears.js)
 - [7kyu - Two fighters, one winner.](declareWinner.js)
 - [7kyu - Title Case](titleCase.js)
+- [7kyu - The Coupon Code](checkCoupon.js)]
