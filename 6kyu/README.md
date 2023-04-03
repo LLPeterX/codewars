@@ -179,3 +179,4 @@
 - [6kyu - Simple Encryption #1 - Alternating Split](encrypt4.js)
 - [6kyu - WeIrD StRiNg CaSe](toWeirdCase.js)
 - [6kyu - Simple Fun #186: Duplicate Phone Numbers](findDuplicatePhoneNumbers.js)
+- [6kyu - Simple Fun #162: Pair Wise](pairwise.js)
