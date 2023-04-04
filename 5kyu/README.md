@@ -57,3 +57,4 @@
 - [5kyu - Pete, the baker](cakes.js)
 - [5kyu - Math Issues](mathIssues.js)
 - [5kyu - First non-repeating character](firstNonRepeatingLetter.js)
+- [5kyu - Regex Password Validation](regexPassordValidation.js)
