@@ -286,3 +286,4 @@
 - [7kyu - Two fighters, one winner.](declareWinner.js)
 - [7kyu - Title Case](titleCase.js)
 - [7kyu - The Coupon Code](checkCoupon.js)]
+- [7kyu - Most digits](findLongest2.js)]
