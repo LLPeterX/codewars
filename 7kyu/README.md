@@ -289,3 +289,4 @@
 - [7kyu - Most digits](findLongest2.js)]
 - [7kyu - The Vowel Code](vowelCode.js)]
 - [8kyu - Tip Calculator](calculateTip.js)]
+- [7kyu - Sum of numbers from 0 to N](SequenceSum.js)]
