@@ -287,3 +287,4 @@
 - [7kyu - Title Case](titleCase.js)
 - [7kyu - The Coupon Code](checkCoupon.js)]
 - [7kyu - Most digits](findLongest2.js)]
+- [7kyu - The Vowel Code](vowelCode.js)]
