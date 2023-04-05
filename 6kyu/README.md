@@ -186,3 +186,4 @@
 - [6kyu - Simple Fun #133: Six Column Encryption](sixColumnEncryption.js)
 - [6kyu - Consonant value](consonantValue.js)
 - [6kyu - Triple trouble](tripledouble.js)
+- [66kyu - Fold an array](foldArray.js)
