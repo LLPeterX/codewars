@@ -184,3 +184,4 @@
 - [6kyu - Good vs Evil](goodVsEvil.js)
 - [6kyu - Simple Fun #126: Decrypt Number](decryptPhone.js)
 - [6kyu - Simple Fun #133: Six Column Encryption](sixColumnEncryption.js)
+- [6kyu - Consonant value](consonantValue.js)
