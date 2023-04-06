@@ -292,3 +292,4 @@
 - [7kyu - Sum of numbers from 0 to N](SequenceSum.js)]
 - [7kyu - The alphabet product](alphabetProduct.js)]
 - [8kyu - Regexp Basics - is it a digit?](isDigit.js)]
+- [7kyu - Sum of Odd Cubed Numbers](cubeOdd.js)]
