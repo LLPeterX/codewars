@@ -189,3 +189,4 @@
 - [6kyu - Fold an array](foldArray.js)
 - [6kyu - Highest Rank Number in an Array](highestRank.js)
 - [6kyu - Word a10n (abbreviation)](abbreviate.js)
+- [6kyu - Find the missing term in an Arithmetic Progression](findMissing.js)
