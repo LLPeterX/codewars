@@ -58,3 +58,4 @@
 - [5kyu - Math Issues](mathIssues.js)
 - [5kyu - First non-repeating character](firstNonRepeatingLetter.js)
 - [5kyu - Regex Password Validation](regexPassordValidation.js)
+- [5kyu - Base64 Encoding](base64.js)
