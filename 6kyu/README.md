@@ -193,3 +193,4 @@
 - [6kyu - Array Helpers](arrayHelpers.js)
 - [6kyu - Happy Coding : a Spy On the Train](lengthOfRailway.js)
 - [6kyu - Pattern 01: Merry Christmas (sometimes little bit out of time;-))](christmasTree.js)
+- [6kyu - Converter](converterClass.js)
