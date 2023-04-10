@@ -191,3 +191,4 @@
 - [6kyu - Word a10n (abbreviation)](abbreviate.js)
 - [6kyu - Find the missing term in an Arithmetic Progression](findMissing.js)
 - [6kyu - Array Helpers](arrayHelpers.js)
+- [6kyu - Happy Coding : a Spy On the Train](lengthOfRailway.js)
