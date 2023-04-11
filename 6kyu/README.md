@@ -194,4 +194,4 @@
 - [6kyu - Happy Coding : a Spy On the Train](lengthOfRailway.js)
 - [6kyu - Pattern 01: Merry Christmas (sometimes little bit out of time;-))](christmasTree.js)
 - [6kyu - Converter](converterClass.js)
-- [66kyu - Simple Fun #210: Maximize Points](maximizePoints.js)
+- [6kyu - Simple Fun #210: Maximize Points](maximizePoints.js)
