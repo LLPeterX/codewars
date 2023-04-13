@@ -198,3 +198,4 @@
 - [6kyu - All Star Code Challenge #15](rotateString.js)
 - [6kyu - Tribonacci Sequence](tribonacci.js)
 - [6kyu - Fibonacci, Tribonacci and friends](xbonacci.js)
+- [6kyu - Reverse polish notation calculator](polishCalculator.js)
