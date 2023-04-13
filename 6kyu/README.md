@@ -196,3 +196,4 @@
 - [6kyu - Converter](converterClass.js)
 - [6kyu - Simple Fun #210: Maximize Points](maximizePoints.js)
 - [6kyu - All Star Code Challenge #15](rotateString.js)
+- [6kyu - Tribonacci Sequence](tribonacci.js)
