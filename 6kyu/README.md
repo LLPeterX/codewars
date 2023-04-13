@@ -195,3 +195,4 @@
 - [6kyu - Pattern 01: Merry Christmas (sometimes little bit out of time;-))](christmasTree.js)
 - [6kyu - Converter](converterClass.js)
 - [6kyu - Simple Fun #210: Maximize Points](maximizePoints.js)
+- [6kyu - All Star Code Challenge #15](rotateString.js)
