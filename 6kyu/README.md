@@ -201,3 +201,4 @@
 - [6kyu - Reverse polish notation calculator](polishCalculator.js)
 - [6kyu - Backwards Read Primes](backwardsReadPrimes.js)
 - [6kyu - Derivatives of type x^n](differentiate.js)
+- [6kyu - Length of missing array](getLengthOfMissingArray.js)
