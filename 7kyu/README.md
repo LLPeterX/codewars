@@ -296,3 +296,4 @@
 - [8kyu - Training JS #9: loop statement --while and do..while](padIt.js)]
 - [8kyu - Are they opposite?](isOpposite.js)]
 - [8kyu - Fuel Calculator: Total Cost](fuelPrice.js)]
+- [7kyu - Numbers to Letters](switcher.js)]
