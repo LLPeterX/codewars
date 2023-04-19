@@ -297,3 +297,4 @@
 - [8kyu - Are they opposite?](isOpposite.js)]
 - [8kyu - Fuel Calculator: Total Cost](fuelPrice.js)]
 - [7kyu - Numbers to Letters](switcher.js)]
+- [7kyu - Cat and Mouse - Easy Version](catMouse.js)]
