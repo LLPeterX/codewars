@@ -59,3 +59,4 @@
 - [5kyu - First non-repeating character](firstNonRepeatingLetter.js)
 - [5kyu - Regex Password Validation](regexPassordValidation.js)
 - [5kyu - Base64 Encoding](base64.js)
+- [5kyu - Convert PascalCase string into snake_case](pascalCase.js)
