@@ -299,3 +299,4 @@
 - [7kyu - Numbers to Letters](switcher.js)]
 - [7kyu - Cat and Mouse - Easy Version](catMouse.js)]
 - [7kyu - Clean up after your dog](crap.js)]
+- [7kyu - Green Glass Door](greenGlassDoor.js)]
