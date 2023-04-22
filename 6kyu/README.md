@@ -204,3 +204,4 @@
 - [6kyu - Length of missing array](getLengthOfMissingArray.js)
 - [6kyu - Multi-tap Keypad Text Entry on an Old Mobile Phone](presses.js)
 - [6kyu - extract file name](fileNameExtractor.js)
+- [6kyu - Simple Fun #310: Array Conversion](converion.js)
