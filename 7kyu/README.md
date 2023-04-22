@@ -300,3 +300,4 @@
 - [7kyu - Cat and Mouse - Easy Version](catMouse.js)]
 - [7kyu - Clean up after your dog](crap.js)]
 - [7kyu - Green Glass Door](greenGlassDoor.js)]
+- [7kyu - Quadrants 2: Segments](quadrant_segment.js)]
