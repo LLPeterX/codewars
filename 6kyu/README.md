@@ -205,3 +205,4 @@
 - [6kyu - Multi-tap Keypad Text Entry on an Old Mobile Phone](presses.js)
 - [6kyu - extract file name](fileNameExtractor.js)
 - [6kyu - Simple Fun #310: Array Conversion](converion.js)
+- [6kyu - Difference of 2](difference2.js)
