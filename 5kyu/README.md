@@ -60,3 +60,4 @@
 - [5kyu - Regex Password Validation](regexPassordValidation.js)
 - [5kyu - Base64 Encoding](base64.js)
 - [5kyu - Convert PascalCase string into snake_case](pascalCase.js)
+- [5kyu - Simple Fun #273: Powerset](powerset2.js)
