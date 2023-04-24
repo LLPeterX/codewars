@@ -61,3 +61,4 @@
 - [5kyu - Base64 Encoding](base64.js)
 - [5kyu - Convert PascalCase string into snake_case](pascalCase.js)
 - [5kyu - Simple Fun #273: Powerset](powerset2.js)
+- [5kyu - Elementary Arithmetic - Carries Count](carriesCount.js)
