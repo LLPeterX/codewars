@@ -302,3 +302,4 @@
 - [7kyu - Green Glass Door](greenGlassDoor.js)]
 - [7kyu - Quadrants 2: Segments](quadrant_segment.js)]
 - [7kyu - Hello World - Without Strings](helloWorld.js)]
+- [7kyu - Check three and two](checkThreeAndTwo.js)]
