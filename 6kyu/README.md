@@ -207,3 +207,4 @@
 - [6kyu - Simple Fun #310: Array Conversion](converion.js)
 - [6kyu - Difference of 2](difference2.js)
 - [6kyu - Let's do a fun graph](graph.js)
+- [6kyu - Base Conversion](baseConversion.js)
