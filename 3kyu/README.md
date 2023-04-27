@@ -6,3 +6,4 @@
 - [3kyu - Make a spiral](spiralize.js)
 - [3kyu - Sudoku Solver](sudokuSolver.js)
 - [3kyu - Total area covered by rectangles](totalAreaCoveredByRectangles.js)
+- [3kyu - Alphabetic Anagrams](listPosition.js)
