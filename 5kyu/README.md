@@ -62,3 +62,4 @@
 - [5kyu - Convert PascalCase string into snake_case](pascalCase.js)
 - [5kyu - Simple Fun #273: Powerset](powerset2.js)
 - [5kyu - Elementary Arithmetic - Carries Count](carriesCount.js)
+- [5kyu - Simple Fun #220: Simplified Array](simplifiedArray.js)
