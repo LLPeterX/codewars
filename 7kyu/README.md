@@ -305,3 +305,4 @@
 - [7kyu - Check three and two](checkThreeAndTwo.js)]
 - [7kyu - Formatting decimal places #1](twoDecimalPlaces.js)]
 - [7kyu - Grouping in string](isConsecutive.js)]
+- [7kyu - Initialize my name](initializeNames.js)]
