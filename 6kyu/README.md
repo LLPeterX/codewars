@@ -209,3 +209,4 @@
 - [6kyu - Let's do a fun graph](graph.js)
 - [6kyu - Base Conversion](baseConversion.js)
 - [6kyu - Arrh, grabscrab!](grabscrab.js)
+- [6kyu - Autocomplete! Yay!](autocomplete.js)
