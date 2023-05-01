@@ -210,4 +210,4 @@
 - [6kyu - Base Conversion](baseConversion.js)
 - [6kyu - Arrh, grabscrab!](grabscrab.js)
 - [6kyu - Autocomplete! Yay!](autocomplete.js)
-- [6kyu - String average](averageString.js)
+- [6kyu - Portion of Array](portionOfArray.js)
