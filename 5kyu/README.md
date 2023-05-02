@@ -64,3 +64,4 @@
 - [5kyu - Elementary Arithmetic - Carries Count](carriesCount.js)
 - [5kyu - Simple Fun #220: Simplified Array](simplifiedArray.js)
 - [5kyu - Don't Drink the Water](separateLiquids.js)
+- [5kyu - Spaghetti Code - #1 Easy](spaghettiCode.js)
