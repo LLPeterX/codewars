@@ -212,3 +212,4 @@
 - [6kyu - Autocomplete! Yay!](autocomplete.js)
 - [6kyu - Portion of Array](portionOfArray.js)
 - [6kyu - Simple Fun #79: Delete a Digit](deleteDigit.js)
+- [6kyu - Roman Numerals](romanNumerals.js)
