@@ -308,3 +308,4 @@
 - [7kyu - Initialize my name](initializeNames.js)]
 - [7kyu - Credit card issuer checking](getIssuer.js)]
 - [7kyu - Who's Online?](whosOnline.js)]
+- [8kyu - Finish Guess the Number Game](guessNumber.js)]
