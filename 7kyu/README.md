@@ -309,3 +309,4 @@
 - [7kyu - Credit card issuer checking](getIssuer.js)]
 - [7kyu - Who's Online?](whosOnline.js)]
 - [8kyu - Finish Guess the Number Game](guessNumber.js)]
+- [7kyu - Find your caterer](findCaterer.js)]
