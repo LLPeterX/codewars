@@ -66,3 +66,4 @@
 - [5kyu - Don't Drink the Water](separateLiquids.js)
 - [5kyu - Spaghetti Code - #1 Easy](spaghettiCode.js)
 - [5kyu - Basic DeNico](deNico.js)
+- [5kyu - Basic Nico variation](nico.js)
