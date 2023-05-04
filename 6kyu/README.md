@@ -215,3 +215,4 @@
 - [6kyu - Roman Numerals](romanNumerals.js)
 - [6kyu - Triangle type](triangleType.js)
 - [6kyu - Number Zoo Patrol](findNumber.js)
+- [6kyu - Verify if it's valid (n x n) Magic Square with custom rules](magicSquare.js)
