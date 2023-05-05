@@ -59,5 +59,36 @@ console.log(c.decode('rovwsoiv'), 'codewars');
 console.log(c.decode('laxxhsj'), 'waffles');
 console.log(c.decode('CODEWARS'), 'CODEWARS');
 
-// let d = new VigenèreCipher('password', alphabet);
-// console.log(d.encode("my secret code i want to secure"));
+// best
+
+/* 
+function VigenèreCipher(key, abc) {
+  this.encode = (str) => encode(1, str);
+  this.decode = (str) => encode(-1, str);
+  function encode (mult, str) {
+    return str.split('').map(function (letter, index) {
+      var i = abc.indexOf(letter);
+      return i < 0 ? letter : abc[(abc.length + i + abc.indexOf(key[index % key.length]) * mult) % abc.length];
+    }).join('');
+  }
+}
+*/
+
+/* 
+const mod = (a, b) => a - Math.floor(a / b) * b;
+
+class VigenèreCipher {
+  constructor(key, abc) {
+    this.abc    = abc;
+    this.key    = key;
+    this.encode = s => this.cipher(s, +1);
+    this.decode = s => this.cipher(s, -1);
+  }
+
+  cipher(text, mode) {
+    const a = this.abc.length, k = this.key.length;
+    return text.replace(/./g, (c, i) => this.abc.includes(c)
+      ? this.abc[mod(this.abc.indexOf(c) + mode * this.abc.indexOf(this.key[i % k]), a)] : c);
+  }
+}
+*/
