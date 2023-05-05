@@ -1,5 +1,5 @@
 /* 
-5kyu - Vigenère Cipher Helper
+4kyu - Vigenère Cipher Helper
 https://www.codewars.com/kata/52d1bd3694d26f8d6e0000d3
 */
 

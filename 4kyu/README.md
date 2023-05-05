@@ -16,3 +16,4 @@
 - [4kyu - Explosive Sum](explosiveSum.js)
 - [4kyu - Catching Car Mileage Numbers](isInteresting.js)
 - [4kyu - Codewars style ranking system](rank.js)
+- [4kyu - Vigenère Cipher Helper](vigenereCipher.js)

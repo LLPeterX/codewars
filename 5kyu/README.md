@@ -67,4 +67,3 @@
 - [5kyu - Spaghetti Code - #1 Easy](spaghettiCode.js)
 - [5kyu - Basic DeNico](deNico.js)
 - [5kyu - Basic Nico variation](nico.js)
-- [5kyu - Vigenère Cipher Helper](vigenereCipher.js)
