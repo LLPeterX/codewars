@@ -310,3 +310,4 @@
 - [7kyu - Who's Online?](whosOnline.js)]
 - [8kyu - Finish Guess the Number Game](guessNumber.js)]
 - [7kyu - Find your caterer](findCaterer.js)]
+- [7kyu - Complete The Pattern #2](pattern2.js)]
