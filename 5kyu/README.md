@@ -68,3 +68,4 @@
 - [5kyu - Basic DeNico](deNico.js)
 - [5kyu - Basic Nico variation](nico.js)
 - [5kyu - Square Matrix Multiplication](matrixMultiplication.js)
+- [5kyu - Molecule to atoms](molecule.js)
