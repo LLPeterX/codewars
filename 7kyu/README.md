@@ -311,3 +311,4 @@
 - [8kyu - Finish Guess the Number Game](guessNumber.js)]
 - [7kyu - Find your caterer](findCaterer.js)]
 - [7kyu - Complete The Pattern #2](pattern2.js)]
+- [7kyu - Find heavy ball - level: novice](findBall.js)]
