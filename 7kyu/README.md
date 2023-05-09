@@ -314,3 +314,4 @@
 - [7kyu - Find heavy ball - level: novice](findBall.js)]
 - [7kyu - Hero's root](int_rac.js)]
 - [7kyu - The takeWhile Function](takeWhile.js)]
+- [7kyu - The Span Function](span.js)]
