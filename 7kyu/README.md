@@ -316,3 +316,4 @@
 - [7kyu - The takeWhile Function](takeWhile.js)]
 - [7kyu - The Span Function](span.js)]
 - [7kyu - Likes Vs Dislikes](likeOrDislike.js)]
+- [7kyu - 99 Bottles of Beer](99_bottles_of_beer.js)]
