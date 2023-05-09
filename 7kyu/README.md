@@ -312,3 +312,4 @@
 - [7kyu - Find your caterer](findCaterer.js)]
 - [7kyu - Complete The Pattern #2](pattern2.js)]
 - [7kyu - Find heavy ball - level: novice](findBall.js)]
+- [7kyu - Hero's root](int_rac.js)]
