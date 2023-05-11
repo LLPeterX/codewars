@@ -218,3 +218,4 @@
 - [6kyu - Verify if it's valid (n x n) Magic Square with custom rules](magicSquare.js)
 - [6kyu - Odd-heavy Array](isOddHeavy.js)
 - [6kyu - Wikidata Json Scraper](wikidata_scraper.js)
+- [6kyu - Irreducible Sum of Rationals](sumFracts.js)
