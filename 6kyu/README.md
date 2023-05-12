@@ -219,3 +219,4 @@
 - [6kyu - Odd-heavy Array](isOddHeavy.js)
 - [6kyu - Wikidata Json Scraper](wikidata_scraper.js)
 - [6kyu - Irreducible Sum of Rationals](sumFracts.js)
+- [6kyu - Find heavy ball - level: conqueror](findBall.js)
