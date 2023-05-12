@@ -220,3 +220,4 @@
 - [6kyu - Wikidata Json Scraper](wikidata_scraper.js)
 - [6kyu - Irreducible Sum of Rationals](sumFracts.js)
 - [6kyu - Find heavy ball - level: conqueror](findBall.js)
+- [6kyu - The Walker](walker.js)
