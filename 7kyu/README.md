@@ -317,3 +317,4 @@
 - [7kyu - The Span Function](span.js)]
 - [7kyu - Likes Vs Dislikes](likeOrDislike.js)]
 - [7kyu - 99 Bottles of Beer](99_bottles_of_beer.js)]
+- [7kyu - Playing Cards Draw Order – Part 1](draw.js)]
