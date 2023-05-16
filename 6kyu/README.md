@@ -222,3 +222,4 @@
 - [6kyu - Find heavy ball - level: conqueror](findBall.js)
 - [6kyu - The Walker](walker.js)
 - [6kyu - Back and forth then Reverse!](arrange.js)
+- [6kyu - Reverse Vowels In A String](reverseVowels.js)
