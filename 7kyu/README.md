@@ -318,3 +318,4 @@
 - [7kyu - Likes Vs Dislikes](likeOrDislike.js)]
 - [7kyu - 99 Bottles of Beer](99_bottles_of_beer.js)]
 - [7kyu - Playing Cards Draw Order – Part 1](draw.js)]
+- [7kyu - Find Duplicates](findDuplicates.js)]
