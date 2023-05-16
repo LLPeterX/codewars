@@ -223,3 +223,4 @@
 - [6kyu - The Walker](walker.js)
 - [6kyu - Back and forth then Reverse!](arrange.js)
 - [6kyu - Reverse Vowels In A String](reverseVowels.js)
+- [6kyu - Number Format](numberFormat.js)
