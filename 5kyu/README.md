@@ -70,3 +70,4 @@
 - [5kyu - Square Matrix Multiplication](matrixMultiplication.js)
 - [5kyu - Molecule to atoms](molecule.js)
 - [5kyu - Soundex](soundex.js)
+- [5kyu - Find the unique string](findUniq.js)
