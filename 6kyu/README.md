@@ -225,3 +225,4 @@
 - [6kyu - Reverse Vowels In A String](reverseVowels.js)
 - [6kyu - Number Format](numberFormat.js)
 - [6kyu - Moduli number system](moduli.js)
+- [6kyu - Unary function chainer](chained.js)
