@@ -320,3 +320,4 @@
 - [7kyu - Playing Cards Draw Order – Part 1](draw.js)]
 - [7kyu - Find Duplicates](findDuplicates.js)]
 - [7kyu - Fun with ES6 Classes #2 - Animals and Inheritance](es6_classes.js)]
+- [7kyu - Split The Bill](splitTheBill.js)]
