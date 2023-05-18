@@ -323,3 +323,4 @@
 - [7kyu - Split The Bill](splitTheBill.js)]
 - [7kyu - Absent vowel](absentVowel.js)]
 - [7kyu - Replace every nth](replaceNth.js)]
+- [7kyu - Well of Ideas - Harder Version](well.js)]
