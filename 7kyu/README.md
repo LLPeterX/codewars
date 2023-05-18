@@ -322,3 +322,4 @@
 - [7kyu - Fun with ES6 Classes #2 - Animals and Inheritance](es6_classes.js)]
 - [7kyu - Split The Bill](splitTheBill.js)]
 - [7kyu - Absent vowel](absentVowel.js)]
+- [7kyu - Replace every nth](replaceNth.js)]
