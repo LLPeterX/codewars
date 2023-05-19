@@ -72,3 +72,4 @@
 - [5kyu - Soundex](soundex.js)
 - [5kyu - Find the unique string](findUniq.js)
 - [5kyu - Simple fraction to mixed number converter](mixedFraction.js)
+- [5kyu - Vector class](vector.js)
