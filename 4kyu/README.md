@@ -18,3 +18,4 @@
 - [4kyu - Codewars style ranking system](rank.js)
 - [4kyu - Vigenère Cipher Helper](vigenereCipher.js)
 - [4kyu - Simplifying multilinear polynomials](simplify.js)
+- [4kyu - Befunge Interpreter](interpret.js)
