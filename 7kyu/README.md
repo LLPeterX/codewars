@@ -324,3 +324,4 @@
 - [7kyu - Absent vowel](absentVowel.js)]
 - [7kyu - Replace every nth](replaceNth.js)]
 - [7kyu - Well of Ideas - Harder Version](well.js)]
+- [7kyu - Latin Squares](makeLatinSquare.js)]
