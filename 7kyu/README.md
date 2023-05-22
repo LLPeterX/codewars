@@ -325,3 +325,4 @@
 - [7kyu - Replace every nth](replaceNth.js)]
 - [7kyu - Well of Ideas - Harder Version](well.js)]
 - [7kyu - Latin Squares](makeLatinSquare.js)]
+- [7kyu - Reverse a number in any base](reverseNumber.js)]
