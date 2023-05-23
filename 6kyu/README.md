@@ -226,3 +226,4 @@
 - [6kyu - Number Format](numberFormat.js)
 - [6kyu - Moduli number system](moduli.js)
 - [6kyu - Unary function chainer](chained.js)
+- [6kyu - Scheduling (Round-Robin)](roundRobin.js)
