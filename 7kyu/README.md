@@ -326,3 +326,4 @@
 - [7kyu - Well of Ideas - Harder Version](well.js)]
 - [7kyu - Latin Squares](makeLatinSquare.js)]
 - [7kyu - Reverse a number in any base](reverseNumber.js)]
+- [7kyu - Determine if the poker hand is flush](isFlush.js)]
