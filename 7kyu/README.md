@@ -327,3 +327,4 @@
 - [7kyu - Latin Squares](makeLatinSquare.js)]
 - [7kyu - Reverse a number in any base](reverseNumber.js)]
 - [7kyu - Determine if the poker hand is flush](isFlush.js)]
+- [7kyu - Is It Negative Zero (-0)?](isNegativeZero.js)]
