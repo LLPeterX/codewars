@@ -19,3 +19,4 @@
 - [4kyu - Vigenère Cipher Helper](vigenereCipher.js)
 - [4kyu - Simplifying multilinear polynomials](simplify.js)
 - [4kyu - Befunge Interpreter](interpret.js)
+- [4kyu - Esolang Interpreters #3 - Custom Paintf\*\*k Interpreter](paintfuck.js)
