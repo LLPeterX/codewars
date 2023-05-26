@@ -329,3 +329,4 @@
 - [7kyu - Determine if the poker hand is flush](isFlush.js)]
 - [7kyu - Is It Negative Zero (-0)?](isNegativeZero.js)]
 - [7kyu - Fizz Buzz Cuckoo Clock](fizzBuzzCuckooClock.js)]
+- [7kyu - What dominates your array?](dominator.js)]
