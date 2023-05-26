@@ -74,3 +74,4 @@
 - [5kyu - Simple fraction to mixed number converter](mixedFraction.js)
 - [5kyu - Vector class](vector.js)
 - [5kyu - T.T.T.57: Reverse a number](reverseNumber.js)
+- [5kyu - Simple Fun #89: Boxes Packing](boxesPacking.js)
