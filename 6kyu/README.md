@@ -227,3 +227,4 @@
 - [6kyu - Moduli number system](moduli.js)
 - [6kyu - Unary function chainer](chained.js)
 - [6kyu - Scheduling (Round-Robin)](roundRobin.js)
+- [6kyu - Collatz](collatz.js)
