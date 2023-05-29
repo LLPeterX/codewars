@@ -75,3 +75,4 @@
 - [5kyu - Vector class](vector.js)
 - [5kyu - T.T.T.57: Reverse a number](reverseNumber.js)
 - [5kyu - Simple Fun #89: Boxes Packing](boxesPacking.js)
+- [5kyu - Simple Fun #43: Ada Number](adaNumber.js)
