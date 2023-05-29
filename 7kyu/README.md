@@ -330,3 +330,4 @@
 - [7kyu - Is It Negative Zero (-0)?](isNegativeZero.js)]
 - [7kyu - Fizz Buzz Cuckoo Clock](fizzBuzzCuckooClock.js)]
 - [7kyu - What dominates your array?](dominator.js)]
+- [7kyu - Vampire Numbers](vampire_test.js)]
