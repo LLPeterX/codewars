@@ -331,3 +331,4 @@
 - [7kyu - Fizz Buzz Cuckoo Clock](fizzBuzzCuckooClock.js)]
 - [7kyu - What dominates your array?](dominator.js)]
 - [7kyu - Vampire Numbers](vampire_test.js)]
+- [7kyu - Product of Largest Pair](maxProduct.js)]
