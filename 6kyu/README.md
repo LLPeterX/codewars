@@ -228,3 +228,4 @@
 - [6kyu - Unary function chainer](chained.js)
 - [6kyu - Scheduling (Round-Robin)](roundRobin.js)
 - [6kyu - Collatz](collatz.js)
+- [6kyu - Permute a Palindrome](permuteAPalindrome.js)
