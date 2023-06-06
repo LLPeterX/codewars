@@ -332,3 +332,4 @@
 - [7kyu - What dominates your array?](dominator.js)]
 - [7kyu - Vampire Numbers](vampire_test.js)]
 - [7kyu - Product of Largest Pair](maxProduct.js)]
+- [7kyu - 2D Coordinates Finder!](findCoordinates.js)]
