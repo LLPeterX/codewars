@@ -333,3 +333,4 @@
 - [7kyu - Vampire Numbers](vampire_test.js)]
 - [7kyu - Product of Largest Pair](maxProduct.js)]
 - [7kyu - 2D Coordinates Finder!](findCoordinates.js)]
+- [7kyu - You Complete Me](youCompleteMe.js)]
