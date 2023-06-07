@@ -335,3 +335,4 @@
 - [7kyu - 2D Coordinates Finder!](findCoordinates.js)]
 - [7kyu - You Complete Me](youCompleteMe.js)]
 - [7kyu - Cubes in the box](cubesInBox.js)]
+- [7kyu - Another Card Game](anotherCardGame.js)]
