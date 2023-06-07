@@ -231,3 +231,4 @@
 - [6kyu - Permute a Palindrome](permuteAPalindrome.js)
 - [6kyu - LZ78 compression](LZ78.js)
 - [6kyu - Color Choice](colorChoice.js)
+- [6kyu - Wave Sorting](waveSort.js)
