@@ -233,3 +233,4 @@
 - [6kyu - Color Choice](colorChoice.js)
 - [6kyu - Wave Sorting](waveSort.js)
 - [6kyu - zipWith II: Lists](zipWith2.js)
+- [6kyu - Replace letters](replaceLetters.js)
