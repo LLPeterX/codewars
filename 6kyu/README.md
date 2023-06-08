@@ -232,3 +232,4 @@
 - [6kyu - LZ78 compression](LZ78.js)
 - [6kyu - Color Choice](colorChoice.js)
 - [6kyu - Wave Sorting](waveSort.js)
+- [6kyu - zipWith II: Lists](zipWith2.js)
