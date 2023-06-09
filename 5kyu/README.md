@@ -77,3 +77,4 @@
 - [5kyu - Simple Fun #89: Boxes Packing](boxesPacking.js)
 - [5kyu - Simple Fun #43: Ada Number](adaNumber.js)
 - [5kyu - Mission: Hidden Message](foundationMessage.js)
+- [5kyu - Langton's ant](ant.js)
