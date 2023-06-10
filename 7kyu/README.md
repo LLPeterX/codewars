@@ -337,3 +337,4 @@
 - [7kyu - Cubes in the box](cubesInBox.js)]
 - [7kyu - Another Card Game](anotherCardGame.js)]
 - [7kyu - Sorting Arrays](sortArray.js)]
+- [7kyu - Simple Fun #296: Round And Round](roundAndRound.js)]
