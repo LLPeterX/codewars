@@ -336,3 +336,4 @@
 - [7kyu - You Complete Me](youCompleteMe.js)]
 - [7kyu - Cubes in the box](cubesInBox.js)]
 - [7kyu - Another Card Game](anotherCardGame.js)]
+- [7kyu - Sorting Arrays](sortArray.js)]
