@@ -338,3 +338,4 @@
 - [7kyu - Another Card Game](anotherCardGame.js)]
 - [7kyu - Sorting Arrays](sortArray.js)]
 - [7kyu - Simple Fun #296: Round And Round](roundAndRound.js)]
+- [7kyu - Search JSON for any key value pair](getCharacters.js)]
