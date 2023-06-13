@@ -341,3 +341,4 @@
 - [7kyu - Search JSON for any key value pair](getCharacters.js)]
 - [7kyu - Jubilee Year](isJubilee.js)]
 - [7kyu - Tap Code Translation](tapCodeTranslation.js)]
+- [7kyu - Adding useful functional functionality to JavaScript arrays](array_func.js)]
