@@ -340,3 +340,4 @@
 - [7kyu - Simple Fun #296: Round And Round](roundAndRound.js)]
 - [7kyu - Search JSON for any key value pair](getCharacters.js)]
 - [7kyu - Jubilee Year](isJubilee.js)]
+- [7kyu - Tap Code Translation](tapCodeTranslation.js)]
