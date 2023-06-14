@@ -236,3 +236,4 @@
 - [6kyu - Replace letters](replaceLetters.js)
 - [6kyu - Words to Hex](wordsToHex.js)
 - [6kyu - Columnize](columnize.js)
+- [6kyu - Fruit Machine](fruit.js)
