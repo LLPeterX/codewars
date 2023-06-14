@@ -343,4 +343,5 @@
 - [7kyu - Tap Code Translation](tapCodeTranslation.js)]
 - [7kyu - Adding useful functional functionality to JavaScript arrays](array_func.js)]
 - [7kyu - Linked Lists - Push & BuildOneTwoThree](linkedList.js)]
-- [77kyu - LinkedList -> Array](listToArray.js)]
+- [7kyu - LinkedList -> Array](listToArray.js)]
+- [7kyu - Counting in the Amazon](countArara.js)]
