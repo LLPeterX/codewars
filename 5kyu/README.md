@@ -81,3 +81,4 @@
 - [5kyu - Grab CSV Columns](csvColumns.js)
 - [5kyu - 1-800-CODE-WAR](check1800.js)
 - [5kyu - A Knight's Tour](knights_tour.js)
+- [5kyu - Object extend](extend.js)
