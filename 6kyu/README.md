@@ -237,3 +237,4 @@
 - [6kyu - Words to Hex](wordsToHex.js)
 - [6kyu - Columnize](columnize.js)
 - [6kyu - Fruit Machine](fruit.js)
+- [6kyu - Condi cipher](condiCipher.js)
