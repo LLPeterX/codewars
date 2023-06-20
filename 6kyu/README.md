@@ -240,3 +240,4 @@
 - [6kyu - Condi cipher](condiCipher.js)
 - [6kyu - Run-length encoding](RLE.js)
 - [6kyu - Round by 0.5 steps](round.js)
+- [66kyu - Closures and Scopes](closures.js)
