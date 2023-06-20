@@ -238,3 +238,4 @@
 - [6kyu - Columnize](columnize.js)
 - [6kyu - Fruit Machine](fruit.js)
 - [6kyu - Condi cipher](condiCipher.js)
+- [6kyu - Run-length encoding](RLE.js)
