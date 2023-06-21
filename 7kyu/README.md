@@ -346,3 +346,4 @@
 - [7kyu - LinkedList -> Array](listToArray.js)]
 - [7kyu - Counting in the Amazon](countArara.js)]
 - [8kyu - What's up next?](nextItem.js)]
+- [7kyu - Last](last.js)]
