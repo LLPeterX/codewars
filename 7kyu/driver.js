@@ -22,6 +22,7 @@ Input
 3 = Date of Birth (In the format Day Month Year, this could include the full Month name or just shorthand ie September or Sep)
 4 = M-Male or F-Female
 */
+
 /* 
 function driver([foreName, middleName, surname, dateOfBirth, sex]) {
   let db = new Date(dateOfBirth);
@@ -35,7 +36,6 @@ function driver([foreName, middleName, surname, dateOfBirth, sex]) {
   result += '9AA'; // 14-16
   return result;
 }
-
  */
 
 function driver([foreName, middleName, surname, dateOfBirth, sex]) {
