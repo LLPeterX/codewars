@@ -242,3 +242,4 @@
 - [6kyu - Round by 0.5 steps](round.js)
 - [6kyu - Closures and Scopes](closures.js)
 - [6kyu - RoboScript #1 - Implement Syntax Highlighting](highlight.js)
+- [6kyu - SMS Lottery Bet Validator](validateBet.js)
