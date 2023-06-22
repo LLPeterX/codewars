@@ -348,3 +348,4 @@
 - [8kyu - What's up next?](nextItem.js)]
 - [7kyu - Last](last.js)]
 - [7kyu - Driving Licence](driver.js)]
+- [7kyu - Hit Count](counterEffect.js)]
