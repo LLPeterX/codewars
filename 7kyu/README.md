@@ -349,3 +349,4 @@
 - [7kyu - Last](last.js)]
 - [7kyu - Driving Licence](driver.js)]
 - [7kyu - Hit Count](counterEffect.js)]
+- [7kyu - TV Remote](tvRemote.js)]
