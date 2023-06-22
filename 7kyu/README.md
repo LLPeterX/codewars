@@ -350,3 +350,4 @@
 - [7kyu - Driving Licence](driver.js)]
 - [7kyu - Hit Count](counterEffect.js)]
 - [7kyu - TV Remote](tvRemote.js)]
+- [7kyu - Find sum of top-left to bottom-right diagonals](diagonalSum.js)]
