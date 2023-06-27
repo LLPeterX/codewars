@@ -245,3 +245,4 @@
 - [6kyu - SMS Lottery Bet Validator](validateBet.js)
 - [6kyu - Linked Lists - Remove Duplicates](removeDuplicates.js)
 - [6kyu - Linked Lists - Insert Nth Node](insertNth.js)
+- [6kyu - Seven Segment Display](segmentDisplay.js)
