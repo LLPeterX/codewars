@@ -351,3 +351,4 @@
 - [7kyu - Hit Count](counterEffect.js)]
 - [7kyu - TV Remote](tvRemote.js)]
 - [7kyu - Find sum of top-left to bottom-right diagonals](diagonalSum.js)]
+- [7kyu - Training JS 19](alienLanguage.js)]
