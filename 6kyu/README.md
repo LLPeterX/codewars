@@ -246,3 +246,4 @@
 - [6kyu - Linked Lists - Remove Duplicates](removeDuplicates.js)
 - [6kyu - Linked Lists - Insert Nth Node](insertNth.js)
 - [6kyu - Seven Segment Display](segmentDisplay.js)
+- [6kyu - Evil Autocorrect Prank](autocorrect.js)
