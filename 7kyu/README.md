@@ -353,3 +353,4 @@
 - [7kyu - Find sum of top-left to bottom-right diagonals](diagonalSum.js)]
 - [7kyu - Training JS 19](alienLanguage.js)]
 - [7kyu - Odd Ones Out!](oddOnesOut.js)]
+- [7kyu - MOD 256 without the MOD operator](mod256WithoutMod.js)]
