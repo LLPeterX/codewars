@@ -247,3 +247,4 @@
 - [6kyu - Linked Lists - Insert Nth Node](insertNth.js)
 - [6kyu - Seven Segment Display](segmentDisplay.js)
 - [6kyu - Evil Autocorrect Prank](autocorrect.js)
+- [6kyu - Clocky Mc Clock-Face](whatTimeIsIt.js)
