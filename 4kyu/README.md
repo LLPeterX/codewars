@@ -22,3 +22,4 @@
 - [4kyu - Esolang Interpreters #3 - Custom Paintf\*\*k Interpreter](paintfuck.js)
 - [4kyu - Connect Four](connectFour.js)
 - [4kyu - arrayToString and stringToArray](arrayToString.js)
+- [4kyu - Ranking Poker Hands (incomplete)](PokerHand.js)
