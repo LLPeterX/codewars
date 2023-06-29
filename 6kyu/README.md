@@ -249,3 +249,4 @@
 - [6kyu - Evil Autocorrect Prank](autocorrect.js)
 - [6kyu - Clocky Mc Clock-Face](whatTimeIsIt.js)
 - [6kyu - Bouncing Beams (Pt. 1)](exit_from_maze.js)
+- [6kyu - Simple Simple Simple String Expansion](stringExpansion.js)
