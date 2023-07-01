@@ -255,3 +255,4 @@
 - [6kyu - Longest Common Subsequence](lcs.js)
 - [6kyu - Skills Master (incomplete)](countSkills.js)
 - [6kyu - Split and then add both sides of an array together](splitAndAdd.js)
+- [6kyu - Strip Url Params](stripUrlParams.js)
