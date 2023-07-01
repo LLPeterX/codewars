@@ -285,74 +285,75 @@
 - [7kyu - Money, Money, Money](calculateYears.js)
 - [7kyu - Two fighters, one winner.](declareWinner.js)
 - [7kyu - Title Case](titleCase.js)
-- [7kyu - The Coupon Code](checkCoupon.js)]
-- [7kyu - Most digits](findLongest2.js)]
-- [7kyu - The Vowel Code](vowelCode.js)]
-- [8kyu - Tip Calculator](calculateTip.js)]
-- [7kyu - Sum of numbers from 0 to N](SequenceSum.js)]
-- [7kyu - The alphabet product](alphabetProduct.js)]
-- [8kyu - Regexp Basics - is it a digit?](isDigit.js)]
+- [7kyu - The Coupon Code](checkCoupon.js)
+- [7kyu - Most digits](findLongest2.js)
+- [7kyu - The Vowel Code](vowelCode.js)
+- [8kyu - Tip Calculator](calculateTip.js)
+- [7kyu - Sum of numbers from 0 to N](SequenceSum.js)
+- [7kyu - The alphabet product](alphabetProduct.js)
+- [8kyu - Regexp Basics - is it a digit?](isDigit.js)
 - [7kyu - Sum of Odd Cubed Numbers](cubeOdd.js)]
-- [8kyu - Training JS #9: loop statement --while and do..while](padIt.js)]
-- [8kyu - Are they opposite?](isOpposite.js)]
-- [8kyu - Fuel Calculator: Total Cost](fuelPrice.js)]
-- [7kyu - Numbers to Letters](switcher.js)]
-- [7kyu - Cat and Mouse - Easy Version](catMouse.js)]
-- [7kyu - Clean up after your dog](crap.js)]
-- [7kyu - Green Glass Door](greenGlassDoor.js)]
-- [7kyu - Quadrants 2: Segments](quadrant_segment.js)]
-- [7kyu - Hello World - Without Strings](helloWorld.js)]
-- [7kyu - Check three and two](checkThreeAndTwo.js)]
-- [7kyu - Formatting decimal places #1](twoDecimalPlaces.js)]
-- [7kyu - Grouping in string](isConsecutive.js)]
-- [7kyu - Initialize my name](initializeNames.js)]
-- [7kyu - Credit card issuer checking](getIssuer.js)]
-- [7kyu - Who's Online?](whosOnline.js)]
-- [8kyu - Finish Guess the Number Game](guessNumber.js)]
-- [7kyu - Find your caterer](findCaterer.js)]
-- [7kyu - Complete The Pattern #2](pattern2.js)]
-- [7kyu - Find heavy ball - level: novice](findBall.js)]
-- [7kyu - Hero's root](int_rac.js)]
-- [7kyu - The takeWhile Function](takeWhile.js)]
-- [7kyu - The Span Function](span.js)]
-- [7kyu - Likes Vs Dislikes](likeOrDislike.js)]
-- [7kyu - 99 Bottles of Beer](99_bottles_of_beer.js)]
-- [7kyu - Playing Cards Draw Order – Part 1](draw.js)]
-- [7kyu - Find Duplicates](findDuplicates.js)]
-- [7kyu - Fun with ES6 Classes #2 - Animals and Inheritance](es6_classes.js)]
-- [7kyu - Split The Bill](splitTheBill.js)]
-- [7kyu - Absent vowel](absentVowel.js)]
-- [7kyu - Replace every nth](replaceNth.js)]
-- [7kyu - Well of Ideas - Harder Version](well.js)]
-- [7kyu - Latin Squares](makeLatinSquare.js)]
-- [7kyu - Reverse a number in any base](reverseNumber.js)]
-- [7kyu - Determine if the poker hand is flush](isFlush.js)]
-- [7kyu - Is It Negative Zero (-0)?](isNegativeZero.js)]
-- [7kyu - Fizz Buzz Cuckoo Clock](fizzBuzzCuckooClock.js)]
-- [7kyu - What dominates your array?](dominator.js)]
-- [7kyu - Vampire Numbers](vampire_test.js)]
-- [7kyu - Product of Largest Pair](maxProduct.js)]
-- [7kyu - 2D Coordinates Finder!](findCoordinates.js)]
-- [7kyu - You Complete Me](youCompleteMe.js)]
-- [7kyu - Cubes in the box](cubesInBox.js)]
-- [7kyu - Another Card Game](anotherCardGame.js)]
-- [7kyu - Sorting Arrays](sortArray.js)]
-- [7kyu - Simple Fun #296: Round And Round](roundAndRound.js)]
-- [7kyu - Search JSON for any key value pair](getCharacters.js)]
-- [7kyu - Jubilee Year](isJubilee.js)]
-- [7kyu - Tap Code Translation](tapCodeTranslation.js)]
-- [7kyu - Adding useful functional functionality to JavaScript arrays](array_func.js)]
-- [7kyu - Linked Lists - Push & BuildOneTwoThree](linkedList.js)]
-- [7kyu - LinkedList -> Array](listToArray.js)]
-- [7kyu - Counting in the Amazon](countArara.js)]
-- [8kyu - What's up next?](nextItem.js)]
-- [7kyu - Last](last.js)]
-- [7kyu - Driving Licence](driver.js)]
-- [7kyu - Hit Count](counterEffect.js)]
-- [7kyu - TV Remote](tvRemote.js)]
-- [7kyu - Find sum of top-left to bottom-right diagonals](diagonalSum.js)]
-- [7kyu - Training JS 19](alienLanguage.js)]
-- [7kyu - Odd Ones Out!](oddOnesOut.js)]
-- [7kyu - MOD 256 without the MOD operator](mod256WithoutMod.js)]
-- [7kyu - Color to Grayscale](rgbToGrayscale.js)]
-- [7kyu - How many urinals are free?](getFreeUrinals.js)]
+- [8kyu - Training JS #9: loop statement --while and do..while](padIt.js)
+- [8kyu - Are they opposite?](isOpposite.js)
+- [8kyu - Fuel Calculator: Total Cost](fuelPrice.js)
+- [7kyu - Numbers to Letters](switcher.js)
+- [7kyu - Cat and Mouse - Easy Version](catMouse.js)
+- [7kyu - Clean up after your dog](crap.js)
+- [7kyu - Green Glass Door](greenGlassDoor.js)
+- [7kyu - Quadrants 2: Segments](quadrant_segment.js)
+- [7kyu - Hello World - Without Strings](helloWorld.js)
+- [7kyu - Check three and two](checkThreeAndTwo.js)
+- [7kyu - Formatting decimal places #1](twoDecimalPlaces.js)
+- [7kyu - Grouping in string](isConsecutive.js)
+- [7kyu - Initialize my name](initializeNames.js)
+- [7kyu - Credit card issuer checking](getIssuer.js)
+- [7kyu - Who's Online?](whosOnline.js)
+- [8kyu - Finish Guess the Number Game](guessNumber.js)
+- [7kyu - Find your caterer](findCaterer.js)
+- [7kyu - Complete The Pattern #2](pattern2.js)
+- [7kyu - Find heavy ball - level: novice](findBall.js)
+- [7kyu - Hero's root](int_rac.js)
+- [7kyu - The takeWhile Function](takeWhile.js)
+- [7kyu - The Span Function](span.js)
+- [7kyu - Likes Vs Dislikes](likeOrDislike.js)
+- [7kyu - 99 Bottles of Beer](99_bottles_of_beer.js)
+- [7kyu - Playing Cards Draw Order – Part 1](draw.js)
+- [7kyu - Find Duplicates](findDuplicates.js)
+- [7kyu - Fun with ES6 Classes #2 - Animals and Inheritance](es6_classes.js)
+- [7kyu - Split The Bill](splitTheBill.js)
+- [7kyu - Absent vowel](absentVowel.js)
+- [7kyu - Replace every nth](replaceNth.js)
+- [7kyu - Well of Ideas - Harder Version](well.js)
+- [7kyu - Latin Squares](makeLatinSquare.js)
+- [7kyu - Reverse a number in any base](reverseNumber.js)
+- [7kyu - Determine if the poker hand is flush](isFlush.js)
+- [7kyu - Is It Negative Zero (-0)?](isNegativeZero.js)
+- [7kyu - Fizz Buzz Cuckoo Clock](fizzBuzzCuckooClock.js)
+- [7kyu - What dominates your array?](dominator.js)
+- [7kyu - Vampire Numbers](vampire_test.js)
+- [7kyu - Product of Largest Pair](maxProduct.js)
+- [7kyu - 2D Coordinates Finder!](findCoordinates.js)
+- [7kyu - You Complete Me](youCompleteMe.js)
+- [7kyu - Cubes in the box](cubesInBox.js)
+- [7kyu - Another Card Game](anotherCardGame.js)
+- [7kyu - Sorting Arrays](sortArray.js)
+- [7kyu - Simple Fun #296: Round And Round](roundAndRound.js)
+- [7kyu - Search JSON for any key value pair](getCharacters.js)
+- [7kyu - Jubilee Year](isJubilee.js)
+- [7kyu - Tap Code Translation](tapCodeTranslation.js)
+- [7kyu - Adding useful functional functionality to JavaScript arrays](array_func.js)
+- [7kyu - Linked Lists - Push & BuildOneTwoThree](linkedList.js)
+- [7kyu - LinkedList -> Array](listToArray.js)
+- [7kyu - Counting in the Amazon](countArara.js)
+- [8kyu - What's up next?](nextItem.js)
+- [7kyu - Last](last.js)
+- [7kyu - Driving Licence](driver.js)
+- [7kyu - Hit Count](counterEffect.js)
+- [7kyu - TV Remote](tvRemote.js)
+- [7kyu - Find sum of top-left to bottom-right diagonals](diagonalSum.js)
+- [7kyu - Training JS 19](alienLanguage.js)
+- [7kyu - Odd Ones Out!](oddOnesOut.js)
+- [7kyu - MOD 256 without the MOD operator](mod256WithoutMod.js)
+- [7kyu - Color to Grayscale](rgbToGrayscale.js)
+- [7kyu - How many urinals are free?](getFreeUrinals.js)
+- [7kyu - How many urinals are free?](getFreeUrinals.js)
