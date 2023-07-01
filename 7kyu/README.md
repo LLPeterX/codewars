@@ -358,3 +358,4 @@
 - [7kyu - How many urinals are free?](getFreeUrinals.js)
 - [7kyu - Simple Fun #3: Late Ride](lateRide.js)
 - [7kyu - Simple Fun #10: Range Bit Counting](rangeBitCount.js)
+- [7kyu - Simple Fun #63: Shape Area](shapeArea.js)
