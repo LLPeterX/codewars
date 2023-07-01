@@ -356,4 +356,4 @@
 - [7kyu - MOD 256 without the MOD operator](mod256WithoutMod.js)
 - [7kyu - Color to Grayscale](rgbToGrayscale.js)
 - [7kyu - How many urinals are free?](getFreeUrinals.js)
-- [7kyu - How many urinals are free?](getFreeUrinals.js)
+- [7kyu - Simple Fun #3: Late Ride](lateRide.js)
