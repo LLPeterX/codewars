@@ -253,3 +253,4 @@
 - [6kyu - Who has the most money?](mostMoney.js)
 - [6kyu - Finite State Automata 1: Traffic Lights](StateMachine.js)
 - [6kyu - Longest Common Subsequence](lcs.js)
+- [6kyu - Skills Master (incomplete)](countSkills.js)
