@@ -355,3 +355,4 @@
 - [7kyu - Odd Ones Out!](oddOnesOut.js)]
 - [7kyu - MOD 256 without the MOD operator](mod256WithoutMod.js)]
 - [7kyu - Color to Grayscale](rgbToGrayscale.js)]
+- [How many urinals are free?](getFreeUrinals.js)]
