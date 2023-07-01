@@ -254,3 +254,4 @@
 - [6kyu - Finite State Automata 1: Traffic Lights](StateMachine.js)
 - [6kyu - Longest Common Subsequence](lcs.js)
 - [6kyu - Skills Master (incomplete)](countSkills.js)
+- [6kyu - Split and then add both sides of an array together](splitAndAdd.js)
