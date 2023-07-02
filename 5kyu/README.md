@@ -85,3 +85,4 @@
 - [5kyu - Did you mean ...?](didYouMean.js)
 - [5kyu - Esolang Interpreters 2 - Custom Smallfuck Interpreter](esolang2.js)
 - [5kyu - Best Travel](bestTravel.js)
+- [5kyu - Josephus Permutation](josephus.js)
