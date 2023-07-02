@@ -83,3 +83,4 @@
 - [5kyu - A Knight's Tour](knights_tour.js)
 - [5kyu - Object extend](extend.js)
 - [5kyu - Did you mean ...?](didYouMean.js)
+- [5kyu - Esolang Interpreters 2 - Custom Smallfuck Interpreter](esolang2.js)
