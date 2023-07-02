@@ -86,3 +86,4 @@
 - [5kyu - Esolang Interpreters 2 - Custom Smallfuck Interpreter](esolang2.js)
 - [5kyu - Best Travel](bestTravel.js)
 - [5kyu - Josephus Survivor](josephusSurvivor.js)
+- [5kyu - Value of x](valueOfX.js)
