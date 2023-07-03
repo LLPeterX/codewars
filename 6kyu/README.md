@@ -257,3 +257,4 @@
 - [6kyu - Split and then add both sides of an array together](splitAndAdd.js)
 - [6kyu - Strip Url Params](stripUrlParams.js)
 - [6kyu - Alphabetized](alphabetized.js)
+- [6kyu - Parse HTML/CSS Colors](parseHTMLColor.js)
