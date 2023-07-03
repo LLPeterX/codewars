@@ -361,3 +361,4 @@
 - [7kyu - Simple Fun #63: Shape Area](shapeArea.js)
 - [7kyu - The Lazy Startup Office](binRota.js)
 - [7kyu - Capitals first!](capitalsFirst.js)
+- [7kyu - Digital cypher vol 2](digitalCipher2.js)
