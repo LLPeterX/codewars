@@ -360,3 +360,4 @@
 - [7kyu - Simple Fun #10: Range Bit Counting](rangeBitCount.js)
 - [7kyu - Simple Fun #63: Shape Area](shapeArea.js)
 - [7kyu - The Lazy Startup Office](binRota.js)
+- [7kyu - Capitals first!](capitalsFirst.js)
