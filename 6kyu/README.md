@@ -259,3 +259,4 @@
 - [6kyu - Alphabetized](alphabetized.js)
 - [6kyu - Parse HTML/CSS Colors](parseHTMLColor.js)
 - [6kyu - Lowest product of 4 consecutive numbers](lowestProduct.js)
+- [6kyu - Sorting by bits](sortByBit.js)
