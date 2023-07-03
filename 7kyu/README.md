@@ -362,3 +362,4 @@
 - [7kyu - The Lazy Startup Office](binRota.js)
 - [7kyu - Capitals first!](capitalsFirst.js)
 - [7kyu - Digital cypher vol 2](digitalCipher2.js)
+- [7kyu - Digital cypher vol 1](digitalCipher1.js)
