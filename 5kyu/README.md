@@ -88,3 +88,4 @@
 - [5kyu - Josephus Survivor](josephusSurvivor.js)
 - [5kyu - Value of x](valueOfX.js)
 - [5kyu - Caesar Cipher Helper](CaesarCipher.js)
+- [5kyu - Find the smallest](smallest.js)
