@@ -364,3 +364,4 @@
 - [7kyu - Digital cypher vol 2](digitalCipher2.js)
 - [7kyu - Digital cypher vol 1](digitalCipher1.js)
 - [7kyu - Fruit string calculator](fruit_calculator.js)
+- [7kyu - Cat Years, Dog Years (2)](ownedCatAndDog.js)
