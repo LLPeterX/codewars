@@ -89,3 +89,4 @@
 - [5kyu - Value of x](valueOfX.js)
 - [5kyu - Caesar Cipher Helper](CaesarCipher.js)
 - [5kyu - Find the smallest](smallest.js)
+- [5kyu - Lazy Repeater](makeLooper.js)
