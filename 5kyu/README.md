@@ -90,3 +90,4 @@
 - [5kyu - Caesar Cipher Helper](CaesarCipher.js)
 - [5kyu - Find the smallest](smallest.js)
 - [5kyu - Lazy Repeater](makeLooper.js)
+- [5kyu - The Hunger Games - Zoo Disaster!](zoo_disaster.js)
