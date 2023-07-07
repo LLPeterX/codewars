@@ -366,3 +366,4 @@
 - [7kyu - Fruit string calculator](fruit_calculator.js)
 - [7kyu - Cat Years, Dog Years (2)](ownedCatAndDog.js)
 - [7kyu - Old Greg's Binary Fingers](binaryFingers.js)
+- [7kyu - Find the missing element between two arrays](findMissing.js)
