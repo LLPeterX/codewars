@@ -368,3 +368,4 @@
 - [7kyu - Old Greg's Binary Fingers](binaryFingers.js)
 - [7kyu - Find the missing element between two arrays](findMissing.js)
 - [7kyu - Number to digit tiers](createArrayOfTiers.js)
+- [7kyu - Cartesian neighbors](cartesianNeighbor.js)
