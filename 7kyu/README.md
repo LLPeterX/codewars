@@ -370,3 +370,4 @@
 - [7kyu - Number to digit tiers](createArrayOfTiers.js)
 - [7kyu - Cartesian neighbors](cartesianNeighbor.js)
 - [8kyu - Blood-Alcohol Content](bloodAlcoholContent.js)
+- [7kyu - Reversing Fun](flipNumber.js)
