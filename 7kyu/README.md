@@ -372,3 +372,4 @@
 - [8kyu - Blood-Alcohol Content](bloodAlcoholContent.js)
 - [7kyu - Reversing Fun](flipNumber.js)
 - [7kyu - Power of 4](powerOf4.js)
+- [7kyu - Simple Fun #270: Evil Code Medal](evilCodeMedal.js)
