@@ -265,3 +265,4 @@
 - [6kyu - Bingo Card](getCard.js)
 - [6kyu - Simple Substitution Cipher Helper](SubstitutionCipher.js)
 - [6kyu - Latin Square Validator](verifyLatinSquare.js)
+- [6kyu - Join Two Arrays by Id](joinArraysById.js)
