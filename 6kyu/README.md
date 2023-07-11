@@ -264,3 +264,4 @@
 - [6kyu - Piano Kata, Part 1](piano1.js)
 - [6kyu - Bingo Card](getCard.js)
 - [6kyu - Simple Substitution Cipher Helper](SubstitutionCipher.js)
+- [6kyu - Latin Square Validator](verifyLatinSquare.js)
