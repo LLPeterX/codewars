@@ -374,3 +374,4 @@
 - [7kyu - Power of 4](powerOf4.js)
 - [7kyu - Simple Fun #270: Evil Code Medal](evilCodeMedal.js)
 - [7kyu - Cogs](cogRpm.js)
+- [7kyu - Hands Up](getPositions.js)
