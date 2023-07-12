@@ -266,3 +266,4 @@
 - [6kyu - Simple Substitution Cipher Helper](SubstitutionCipher.js)
 - [6kyu - Latin Square Validator](verifyLatinSquare.js)
 - [6kyu - Join Two Arrays by Id](joinArraysById.js)
+- [6kyu - Simple Fun #258: Is Divisible By 6](isDivisibleBy6.js)
