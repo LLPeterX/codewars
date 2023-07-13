@@ -92,3 +92,4 @@
 - [5kyu - Lazy Repeater](makeLooper.js)
 - [5kyu - The Hunger Games - Zoo Disaster!](zoo_disaster.js)
 - [5kyu - Missing number in Unordered Arithmetic Progression](find.js)
+- [5kyu - WordSquare](wordSquare.js)
