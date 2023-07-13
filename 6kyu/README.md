@@ -268,3 +268,4 @@
 - [6kyu - Join Two Arrays by Id](joinArraysById.js)
 - [6kyu - Simple Fun #258: Is Divisible By 6](isDivisibleBy6.js)
 - [6kyu - Word Challenges at School](wantedWords.js)
+- [6kyu - X marks the spot!](x.js)
