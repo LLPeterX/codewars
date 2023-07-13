@@ -375,3 +375,4 @@
 - [7kyu - Simple Fun #270: Evil Code Medal](evilCodeMedal.js)
 - [7kyu - Cogs](cogRpm.js)
 - [7kyu - Hands Up](getPositions.js)
+- [7kyu - Working with Dictionaries](infDatabase.js)
