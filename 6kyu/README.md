@@ -267,3 +267,4 @@
 - [6kyu - Latin Square Validator](verifyLatinSquare.js)
 - [6kyu - Join Two Arrays by Id](joinArraysById.js)
 - [6kyu - Simple Fun #258: Is Divisible By 6](isDivisibleBy6.js)
+- [6kyu - Word Challenges at School](wantedWords.js)
