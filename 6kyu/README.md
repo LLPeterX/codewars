@@ -271,3 +271,4 @@
 - [6kyu - X marks the spot!](x.js)
 - [6kyu - #Paper and pencil 2: Finding the formula of a single 'x'^2 sequence and the next terms](quadraticFormula.js)
 - [Cat and Mouse - Harder Version](catMouse.js)
+- [6kyu - What's A Name In?](nameInStr.js)
