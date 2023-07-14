@@ -272,3 +272,4 @@
 - [6kyu - #Paper and pencil 2: Finding the formula of a single 'x'^2 sequence and the next terms](quadraticFormula.js)
 - [Cat and Mouse - Harder Version](catMouse.js)
 - [6kyu - What's A Name In?](nameInStr.js)
+- [6kyu - Wheel of Fortune](winner.js)
