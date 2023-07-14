@@ -378,3 +378,4 @@
 - [7kyu - Working with Dictionaries](infDatabase.js)
 - [7kyu - What time is it?](getMilitaryTime.js)
 - [7kyu - Volume of a cup](cupVolume.js)
+- [7kyu - Simple Fun #241: Strange Code](strangeCode.js)
