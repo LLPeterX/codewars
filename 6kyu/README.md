@@ -273,3 +273,4 @@
 - [Cat and Mouse - Harder Version](catMouse.js)
 - [6kyu - What's A Name In?](nameInStr.js)
 - [6kyu - Wheel of Fortune](winner.js)
+- [6kyu - We are the Robots](countRobots.js)
