@@ -379,3 +379,4 @@
 - [7kyu - What time is it?](getMilitaryTime.js)
 - [7kyu - Volume of a cup](cupVolume.js)
 - [7kyu - Simple Fun #241: Strange Code](strangeCode.js)
+- [7kyu - Visible Dots On a Die](totalAmountVisible.js)
