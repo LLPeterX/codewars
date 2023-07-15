@@ -380,3 +380,4 @@
 - [7kyu - Volume of a cup](cupVolume.js)
 - [7kyu - Simple Fun #241: Strange Code](strangeCode.js)
 - [7kyu - Visible Dots On a Die](totalAmountVisible.js)
+- [7kyu - Visible Dots On a Die](isLeapYear.js)
