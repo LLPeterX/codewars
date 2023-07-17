@@ -276,3 +276,4 @@
 - [6kyu - We are the Robots](countRobots.js)
 - [6kyu - Vowel Shifting](vowelShift.js)
 - [6kyu - Binary multiplication](binMul.js)
+- [6kyu - Help Suzuki purchase his Tofu!](buyTofu.js)
