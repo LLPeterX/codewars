@@ -383,3 +383,4 @@
 - [7kyu - We've crashed on a distance planet in our galaxy! When do leap years occur here?](isLeapYear.js)
 - [7kyu - Converting 12-hour time to 24-hour time](to24hourtime.js)
 - [7kyu - Upstream/Downstream](time.js)
+- [7kyu - UVB-76 Message Validator](validate.js)
