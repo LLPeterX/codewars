@@ -274,3 +274,4 @@
 - [6kyu - What's A Name In?](nameInStr.js)
 - [6kyu - Wheel of Fortune](winner.js)
 - [6kyu - We are the Robots](countRobots.js)
+- [6kyu - Vowel Shifting](vowelShift.js)
