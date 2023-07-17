@@ -384,3 +384,4 @@
 - [7kyu - Converting 12-hour time to 24-hour time](to24hourtime.js)
 - [7kyu - Upstream/Downstream](time.js)
 - [7kyu - UVB-76 Message Validator](validate.js)
+- [7kyu - Valid HK Phone Number](isValidHKPhoneNumber.js)
