@@ -94,3 +94,4 @@
 - [5kyu - Missing number in Unordered Arithmetic Progression](find.js)
 - [5kyu - WordSquare](wordSquare.js)
 - [5kyu - Working With Coloured Numbers](sameColSeq.js)
+- [5kyu - Typoglycemia Generator](ScrambleWords.js)
