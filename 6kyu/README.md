@@ -278,3 +278,4 @@
 - [6kyu - Binary multiplication](binMul.js)
 - [6kyu - Help Suzuki purchase his Tofu!](buyTofu.js)
 - [6kyu - Two's Complement](toTwosComplement.js)
+- [6kyu - Ascend, Descend, Repeat?](ascendDescend.js)
