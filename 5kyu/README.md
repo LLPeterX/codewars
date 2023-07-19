@@ -95,3 +95,4 @@
 - [5kyu - WordSquare](wordSquare.js)
 - [5kyu - Working With Coloured Numbers](sameColSeq.js)
 - [5kyu - Typoglycemia Generator](ScrambleWords.js)
+- [5kyu - Endianness Conversion](switchEndian.js)
