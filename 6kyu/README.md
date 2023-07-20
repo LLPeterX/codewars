@@ -280,3 +280,4 @@
 - [6kyu - Two's Complement](toTwosComplement.js)
 - [6kyu - Ascend, Descend, Repeat?](ascendDescend.js)
 - [6kyu - UN-usual Sort](unusualSort.js)
+- [6kyu - Traverse array elements diagonally](diagonals.js)
