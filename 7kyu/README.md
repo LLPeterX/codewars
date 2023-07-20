@@ -385,3 +385,4 @@
 - [7kyu - Upstream/Downstream](time.js)
 - [7kyu - UVB-76 Message Validator](validate.js)
 - [7kyu - Valid HK Phone Number](isValidHKPhoneNumber.js)
+- [7kyu - Simple Fun #101: Regular Months](regularMonths.js)
