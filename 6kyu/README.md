@@ -281,3 +281,4 @@
 - [6kyu - Ascend, Descend, Repeat?](ascendDescend.js)
 - [6kyu - UN-usual Sort](unusualSort.js)
 - [6kyu - Traverse array elements diagonally](diagonals.js)
+- [6kyu - Transpose of a Matrix](transposeArray.js)
