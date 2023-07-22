@@ -282,3 +282,4 @@
 - [6kyu - UN-usual Sort](unusualSort.js)
 - [6kyu - Traverse array elements diagonally](diagonals.js)
 - [6kyu - Transpose of a Matrix](transposeArray.js)
+- [6kyu - Get the addresses of all Google Sheets cells in the range](getCellAddresses.js)
