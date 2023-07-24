@@ -388,3 +388,4 @@
 - [7kyu - Simple Fun #101: Regular Months](regularMonths.js)
 - [7kyu - Transposing a song](transpose.js)
 - [7kyu - Where's Wally](wheresWally.js)
+- [7kyu - Homogenous arrays](filterHomogenous.js)
