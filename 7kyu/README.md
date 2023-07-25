@@ -389,3 +389,4 @@
 - [7kyu - Transposing a song](transpose.js)
 - [7kyu - Where's Wally](wheresWally.js)
 - [7kyu - Homogenous arrays](filterHomogenous.js)
+- [7kyu - Training Time](shuffleIt.js)
