@@ -99,3 +99,4 @@
 - [(incomplete) 5kyu - One Line Task: What century is it?](ws.js)
 - [5kyu - Simple CSS selector comparison](css_compare.js)
 - [5kyu - Transformation of a Number Through Prime Factorization](transformNumber.js)
+- [5kyu - First Variation on Caesar Cipher](movingShift.js)
