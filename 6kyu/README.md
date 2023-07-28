@@ -284,3 +284,4 @@
 - [6kyu - Transpose of a Matrix](transposeArray.js)
 - [6kyu - Get the addresses of all Google Sheets cells in the range](getCellAddresses.js)
 - [6kyu - String Breakers](stringBreakers.js)
+- [6kyu - Tombola - validation](check_tombola.js)
