@@ -286,3 +286,4 @@
 - [6kyu - String Breakers](stringBreakers.js)
 - [6kyu - Tombola - validation](check_tombola.js)
 - [6kyu - Modulus 11 - Check Digit](addCheckDigit.js)
+- [6kyu - Pokemon Damage Calculator](calculateDamage.js)
