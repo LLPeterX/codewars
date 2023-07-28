@@ -391,3 +391,4 @@
 - [7kyu - Homogenous arrays](filterHomogenous.js)
 - [7kyu - Training Time](shuffleIt.js)
 - [7kyu - Tram Capacity](tram.js)
+- [7kyu - Encode data on CD (Compact Disc) surface](encodeCD.js)
