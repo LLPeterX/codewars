@@ -291,3 +291,4 @@
 - [6kyu - Zeros and Ones](replaceZero.js)
 - [6kyu - Sudoku board validator](validateSudoku.js)
 - [6kyu - Ordinal Numbers](ordinal.js)
+- [6kyu = Alphabet Slices](alphabetSlices.js)
