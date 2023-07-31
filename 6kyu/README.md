@@ -289,3 +289,4 @@
 - [6kyu - Pokemon Damage Calculator](calculateDamage.js)
 - [6kyu - Hard Time Bomb](hard_time_bomb.js)
 - [6kyu - Zeros and Ones](replaceZero.js)
+- [6kyu - Sudoku board validator](validateSudoku.js)
