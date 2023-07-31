@@ -393,3 +393,4 @@
 - [7kyu - Tram Capacity](tram.js)
 - [7kyu - Encode data on CD (Compact Disc) surface](encodeCD.js)
 - [7kyu - Minimum Perimeter of a Rectangle](minimumPerimeter.js)
+- [7kyu - Time Converter: hours, minutes, seconds and milliseconds](convertTime.js)
