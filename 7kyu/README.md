@@ -392,3 +392,4 @@
 - [7kyu - Training Time](shuffleIt.js)
 - [7kyu - Tram Capacity](tram.js)
 - [7kyu - Encode data on CD (Compact Disc) surface](encodeCD.js)
+- [7kyu - Minimum Perimeter of a Rectangle](minimumPerimeter.js)
