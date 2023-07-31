@@ -1,5 +1,6 @@
 /* 
-6kyu https://www.codewars.com/kata/55b4d87a3766d9873a0000d4
+6kyu - How Much?
+https://www.codewars.com/kata/55b4d87a3766d9873a0000d4
 У Джона есть несолько золотых M (от m до n, m<=n)
 Если он купит 9 машин стоимостью C, то отанется 1 золотой
 Если он купит 7 лодок стоимостью B каждая, то останется 2 золотых.
@@ -21,7 +22,7 @@ M-7*B = 2 => B = (M-2)/7
 
 function howmuch(m, n) {
   let res = [];
-  for (let money = Math.min(m,n); money <= Math.max(m,n); money++) {
+  for (let money = Math.min(m, n); money <= Math.max(m, n); money++) {
     let c = (money - 1) / 9, b = (money - 2) / 7;
     if (c === ~~c && b === ~~b) {
       res.push([`M: ${money}`, `B: ${b}`, `C: ${c}`]);

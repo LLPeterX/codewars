@@ -52,7 +52,7 @@
 - [6kyu - Hammig Distance](hammingDistance.js)
 - [6kyu - Simple Fun #308: Hamming Rotate](hammingRotate.js)
 - [6kyu - Handshake Problem](handshakeProblem.js)
-- [6kyu https://www.codewars.com/kata/55b4d87a3766d9873a0000d4](howMuch.js)
+- [6kyu - How Much?](howMuch.js)
 - [6kyu - Integer depth](integerDepth.js)
 - [6kyu - IP Address to Number](ipToNum.js)
 - [6kyu - IPv4 to int32](ipv4.js)
