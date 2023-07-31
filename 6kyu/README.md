@@ -290,3 +290,4 @@
 - [6kyu - Hard Time Bomb](hard_time_bomb.js)
 - [6kyu - Zeros and Ones](replaceZero.js)
 - [6kyu - Sudoku board validator](validateSudoku.js)
+- [6kyu - Ordinal Numbers](ordinal.js)
