@@ -292,3 +292,4 @@
 - [6kyu - Sudoku board validator](validateSudoku.js)
 - [6kyu - Ordinal Numbers](ordinal.js)
 - [6kyu = Alphabet Slices](alphabetSlices.js)
+- [6kyu - Random Substitution Cipher](randomSub.js)
