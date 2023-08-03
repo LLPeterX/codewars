@@ -396,3 +396,4 @@
 - [7kyu - Time Converter: hours, minutes, seconds and milliseconds](convertTime.js)
 - [7kyu - ASCII letters from Number](ascii2nums.js)
 - [7kyu - Knight vs King](knightVsKing.js)
+- [7kyu - Convert Color image to greyscale](color2grey.js)
