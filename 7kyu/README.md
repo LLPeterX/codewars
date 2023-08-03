@@ -395,3 +395,4 @@
 - [7kyu - Minimum Perimeter of a Rectangle](minimumPerimeter.js)
 - [7kyu - Time Converter: hours, minutes, seconds and milliseconds](convertTime.js)
 - [7kyu - ASCII letters from Number](ascii2nums.js)
+- [7kyu - Knight vs King](knightVsKing.js)
