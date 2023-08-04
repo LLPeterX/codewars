@@ -397,3 +397,4 @@
 - [7kyu - ASCII letters from Number](ascii2nums.js)
 - [7kyu - Knight vs King](knightVsKing.js)
 - [7kyu - Convert Color image to greyscale](color2grey.js)
+- [7kyu - Time Degrees](clockDegree.js)
