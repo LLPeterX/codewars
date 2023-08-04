@@ -293,3 +293,4 @@
 - [6kyu - Ordinal Numbers](ordinal.js)
 - [6kyu = Alphabet Slices](alphabetSlices.js)
 - [6kyu - Random Substitution Cipher](randomSub.js)
+- [6kyu - Three added Characters](addedChar.js)
