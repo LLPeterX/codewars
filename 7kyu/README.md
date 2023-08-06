@@ -401,3 +401,4 @@
 - [7kyu - Log without dates](checkLogs.js)
 - [7kyu - Convert Integer to Binary](toBinary.js)
 - [7kyu - Complete The Pattern #4](pattern4.js)
+- [7kyu - First-Class Function Factory](factory.js)
