@@ -296,3 +296,4 @@
 - [6kyu - Three added Characters](addedChar.js)
 - [6kyu - Tic-Tac-Toe-like table Generator](displayBoard.js)
 - [6kyu - Min Factor Distance](minDistance.js)
+- [6kyu - Ticker](ticker.js)
