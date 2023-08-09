@@ -405,3 +405,4 @@
 - [7kyu - Calculate Parity bit!](checkParity.js)
 - [7kyu - Binary Representation of an Integer](showBits.js)
 - [7kyu - The mean of two means](getMean.js)
+- [7kyu - The Most Amicable of Numbers](amicableNumbers.js)
