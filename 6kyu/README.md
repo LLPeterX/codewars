@@ -299,3 +299,4 @@
 - [6kyu - Ticker](ticker.js)
 - [6kyu - Thinking & Testing : Mobile phone simulator](Phone.js)
 - [6kyu - The Rhinestone Cowboy - Count the dollars in his boots!](cowboysDollars.js)
+- [6kyu - The maximum and minimum difference -- Simple version](maxAndMin.js)
