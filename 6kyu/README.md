@@ -301,3 +301,4 @@
 - [6kyu - The Rhinestone Cowboy - Count the dollars in his boots!](cowboysDollars.js)
 - [6kyu - The maximum and minimum difference -- Simple version](maxAndMin.js)
 - [6kyu - The queen on the chessboard](availableMoves.js)
+- [6kyu - The Deaf Rats of Hamelin (2D)](countDeafRats.js)
