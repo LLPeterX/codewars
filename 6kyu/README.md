@@ -303,3 +303,4 @@
 - [6kyu - The queen on the chessboard](availableMoves.js)
 - [6kyu - The Deaf Rats of Hamelin (2D)](countDeafRats.js)
 - [6kyu - The Sceptical Kid Generator](AlanAnnoyingKid.js)
+- [6kyu - Regexp Basics - is it IPv4 address?](ipv4regex.js)
