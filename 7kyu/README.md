@@ -407,3 +407,4 @@
 - [7kyu - The mean of two means](getMean.js)
 - [7kyu - The Most Amicable of Numbers](amicableNumbers.js)
 - [7kyu - Genetic Algorithm Series - #1 Generate](generate.js)
+- [7kyu - Turkish Numbers, 0-99](getTurkishNumber.js)
