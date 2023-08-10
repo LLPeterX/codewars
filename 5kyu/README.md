@@ -103,3 +103,4 @@
 - [5kyu - Play with two Strings](workOnStrings.js)
 - [5kyu - String generation by pattern](stringGenerator.js)
 - [5kyu - Write out numbers](number2words.js)
+- [5kyu - flatten](flatten.js)
