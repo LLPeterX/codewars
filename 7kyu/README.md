@@ -409,3 +409,4 @@
 - [7kyu - Genetic Algorithm Series - #1 Generate](generate.js)
 - [7kyu - Turkish Numbers, 0-99](getTurkishNumber.js)
 - [7kyu - Coding 3min: Bug in Apple](sc_apple.js)
+- [7kyu - Convert the score](scoreboard.js)
