@@ -305,3 +305,4 @@
 - [6kyu - The Sceptical Kid Generator](AlanAnnoyingKid.js)
 - [6kyu - Regexp Basics - is it IPv4 address?](ipv4regex.js)
 - [6kyu - How many pages in a book?](amountOfPages.js)
+- [6kyu - Harshad or Niven numbers](Harshad.js)
