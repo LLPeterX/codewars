@@ -412,3 +412,4 @@
 - [7kyu - Convert the score](scoreboard.js)
 - [7kyu - Sorting Dictionaries](sortDict.js)
 - [7kyu - Whose bicycle?](whoseBicycle.js)
+- [7kyu - Ultimate Array Reverser](ultimateReverse.js)
