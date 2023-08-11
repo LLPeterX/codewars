@@ -1,5 +1,7 @@
 # 7kyu and 8kyu solutions
 
+( old )
+
 - [7kyu - Alphabetical Addition](solved/addLetters.js)
 - [7kyu - Alan Partridge III - London](solved/alan.js)
 - [7kyu - All Inclusive?](solved/allInclusive.js)
@@ -413,3 +415,5 @@
 - [7kyu - Sorting Dictionaries](solved/sortDict.js)
 - [7kyu - Whose bicycle?](solved/whoseBicycle.js)
 - [7kyu - Ultimate Array Reverser](solved/ultimateReverse.js)
+
+(current)
