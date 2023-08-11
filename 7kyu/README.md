@@ -411,3 +411,4 @@
 - [7kyu - Coding 3min: Bug in Apple](sc_apple.js)
 - [7kyu - Convert the score](scoreboard.js)
 - [7kyu - Sorting Dictionaries](sortDict.js)
+- [7kyu - Whose bicycle?](whoseBicycle.js)
