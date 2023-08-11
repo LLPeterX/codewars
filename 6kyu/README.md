@@ -307,3 +307,4 @@
 - [6kyu - How many pages in a book?](amountOfPages.js)
 - [6kyu - Harshad or Niven numbers](Harshad.js)
 - [6kyu - Throwing Darts](scoreThrows.js)
+- [6kyu - N smallest elements in original order](firstNSmallest.js)
