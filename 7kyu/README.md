@@ -417,3 +417,5 @@
 - [7kyu - Ultimate Array Reverser](solved/ultimateReverse.js)
 
 (current)
+
+- [7kyu - Slaphead](bald.js)
