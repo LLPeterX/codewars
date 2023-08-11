@@ -308,3 +308,4 @@
 - [6kyu - Harshad or Niven numbers](Harshad.js)
 - [6kyu - Throwing Darts](scoreThrows.js)
 - [6kyu - N smallest elements in original order](firstNSmallest.js)
+- [6kyu - Compare Versions](compareVersions.js)
