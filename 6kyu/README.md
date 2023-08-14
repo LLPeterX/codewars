@@ -311,3 +311,4 @@
 - [6kyu - Compare Versions](compareVersions.js)
 - [6kyu - Point in Polygon](pointInPoly.js)
 - [6kyu - Time Simulation](SimTime.js)
+- [6kyu - Tom's Allergies](Allergies.js)
