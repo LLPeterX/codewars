@@ -309,3 +309,4 @@
 - [6kyu - Throwing Darts](scoreThrows.js)
 - [6kyu - N smallest elements in original order](firstNSmallest.js)
 - [6kyu - Compare Versions](compareVersions.js)
+- [6kyu - Point in Polygon](pointInPoly.js)
