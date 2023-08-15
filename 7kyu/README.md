@@ -419,3 +419,4 @@
 (current)
 
 - [7kyu - Slaphead](bald.js)
+- [7kyu - Last man standing](lastManStanding.js)
