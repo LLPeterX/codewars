@@ -420,3 +420,4 @@
 
 - [7kyu - Slaphead](bald.js)
 - [7kyu - Last man standing](lastManStanding.js)
+- [7kyu - Password validator](password.js)
