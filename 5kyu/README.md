@@ -105,3 +105,4 @@
 - [5kyu - Write out numbers](number2words.js)
 - [5kyu - flatten](flatten.js)
 - [5kyu - Going to zero or to infinity?](going.js)
+- [5kyu - Simple Events](Event.js)
