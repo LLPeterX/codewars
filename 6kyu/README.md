@@ -312,3 +312,4 @@
 - [6kyu - Point in Polygon](pointInPoly.js)
 - [6kyu - Time Simulation](SimTime.js)
 - [6kyu - Tom's Allergies](Allergies.js)
+- [6kyu - Organise duplicate numbers in list](group.js)
