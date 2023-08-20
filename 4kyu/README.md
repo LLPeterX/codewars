@@ -25,3 +25,4 @@
 - [4kyu - Ranking Poker Hands (incomplete)](PokerHand.js)
 - [4kyu - Number of integer partitions](partitions.js)
 - [4kyu - Differentiate a polynomial](differentiate.js)
+- [4kyu - Factorial tail](zeroes.js)
