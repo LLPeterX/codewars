@@ -425,3 +425,4 @@
 - [7kyu - String Reordering](sentence.js)
 - [7kyu - After(?) Midnight](dayAndTime.js)
 - [7kyu - Converting integer to currency format](toCurrency.js)
+- [7kyu - Combine objects](combine.js)
