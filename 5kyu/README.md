@@ -107,3 +107,4 @@
 - [5kyu - Going to zero or to infinity?](going.js)
 - [5kyu - Simple Events](Event.js)
 - [5kyu - Simple Fun #357: Show The Digits](show.js)
+- [5kyu - Battle ships: Sunk damaged or not touched?](damagedOrSunk.js)
