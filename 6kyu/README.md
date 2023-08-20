@@ -313,3 +313,4 @@
 - [6kyu - Time Simulation](SimTime.js)
 - [6kyu - Tom's Allergies](Allergies.js)
 - [6kyu - Organise duplicate numbers in list](group.js)
+- [6kyu - Write Number in Expanded Form - Part 2](expandedForm.js)
