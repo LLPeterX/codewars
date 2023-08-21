@@ -317,3 +317,4 @@
 - [6kyu - Inside Out Strings](insideOut.js)
 - [6kyu - Matrix Multiplier](getMatrixProduct.js)
 - [6kyu - Sum of prime-indexed elements](total.js)
+- [6kyu - Adjacent repeated words in a string](countAdjacentPairs.js)
