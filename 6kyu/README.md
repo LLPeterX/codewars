@@ -322,3 +322,4 @@
 - [6kyu - Unwanted dollars](money_value.js)
 - [6kyu - Function composition](compose.js)
 - [6kyu - Simple Sentences](makeSentence.js)
+- [6kyu - Basics 03: Strings, Numbers and Calculation](calculateString.js)
