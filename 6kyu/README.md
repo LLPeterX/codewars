@@ -316,3 +316,4 @@
 - [6kyu - Write Number in Expanded Form - Part 2](expandedForm.js)
 - [6kyu - Inside Out Strings](insideOut.js)
 - [6kyu - Matrix Multiplier](getMatrixProduct.js)
+- [6kyu - Sum of prime-indexed elements](total.js)
