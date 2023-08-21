@@ -427,3 +427,4 @@
 - [7kyu - Converting integer to currency format](toCurrency.js)
 - [7kyu - Combine objects](combine.js)
 - [7kyu - Gradually Adding Parameters](add.js)
+- [7kyu - Rock Off!](rock_off.js)
