@@ -426,3 +426,4 @@
 - [7kyu - After(?) Midnight](dayAndTime.js)
 - [7kyu - Converting integer to currency format](toCurrency.js)
 - [7kyu - Combine objects](combine.js)
+- [7kyu - Gradually Adding Parameters](add.js)
