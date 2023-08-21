@@ -318,3 +318,4 @@
 - [6kyu - Matrix Multiplier](getMatrixProduct.js)
 - [6kyu - Sum of prime-indexed elements](total.js)
 - [6kyu - Adjacent repeated words in a string](countAdjacentPairs.js)
+- [6kyu - Complete Fibonacci Series](fibonacci.js)
