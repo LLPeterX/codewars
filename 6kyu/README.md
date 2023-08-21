@@ -321,3 +321,4 @@
 - [6kyu - Complete Fibonacci Series](fibonacci.js)
 - [6kyu - Unwanted dollars](money_value.js)
 - [6kyu - Function composition](compose.js)
+- [6kyu - Simple Sentences](makeSentence.js)
