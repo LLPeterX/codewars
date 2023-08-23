@@ -428,3 +428,4 @@
 - [7kyu - Combine objects](combine.js)
 - [7kyu - Gradually Adding Parameters](add.js)
 - [7kyu - Rock Off!](rock_off.js)
+- [7kyu - Simple Fun #87: Shuffled Array](shuffledArray.js)
