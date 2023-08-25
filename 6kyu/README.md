@@ -324,3 +324,4 @@
 - [6kyu - Simple Sentences](makeSentence.js)
 - [6kyu - Basics 03: Strings, Numbers and Calculation](calculateString.js)
 - [6kyu - Coprimes up to N](coprimes.js)
+- [6kyu - Custom FizzBuzz Array](fizzBuzzCustom.js)
