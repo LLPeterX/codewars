@@ -326,3 +326,4 @@
 - [6kyu - Coprimes up to N](coprimes.js)
 - [6kyu - Custom FizzBuzz Array](fizzBuzzCustom.js)
 - [6kyu - String tops](tops.js)
+- [6kyu - ASCII hex converter](Converter.js)
