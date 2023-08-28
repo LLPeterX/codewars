@@ -327,3 +327,4 @@
 - [6kyu - Custom FizzBuzz Array](fizzBuzzCustom.js)
 - [6kyu - String tops](tops.js)
 - [6kyu - ASCII hex converter](Converter.js)
+- [6kyu - Find the integer sequences](findSequences.js)
