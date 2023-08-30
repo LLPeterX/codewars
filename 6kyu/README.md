@@ -329,3 +329,4 @@
 - [6kyu - ASCII hex converter](Converter.js)
 - [6kyu - Find the integer sequences](findSequences.js)
 - [6kyu - The Mysterious Wall](buildAWall.js)
+- [6kyu - Pizza Pi Parsimony (deleted from codwars)](pizzaCompare.js)
