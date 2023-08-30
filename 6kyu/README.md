@@ -330,3 +330,4 @@
 - [6kyu - Find the integer sequences](findSequences.js)
 - [6kyu - The Mysterious Wall](buildAWall.js)
 - [6kyu - Pizza Pi Parsimony (deleted from codwars)](pizzaCompare.js)
+- [66kyu - Decode the woofs!](woofDecoder.js)
