@@ -429,3 +429,4 @@
 - [7kyu - Gradually Adding Parameters](add.js)
 - [7kyu - Rock Off!](rock_off.js)
 - [7kyu - Simple Fun #87: Shuffled Array](shuffledArray.js)
+- [7kyu - Determine the logarithm base](determineBase.js)
