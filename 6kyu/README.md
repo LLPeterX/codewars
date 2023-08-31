@@ -332,3 +332,4 @@
 - [6kyu - Pizza Pi Parsimony (deleted from codwars)](pizzaCompare.js)
 - [6kyu - Decode the woofs!](woofDecoder.js)
 - [6kyu - Unknown amount of duplicates](findDupsMiss.js)
+- [6kyu - Simple Fun #247: To And From](toAndFrom.js)
