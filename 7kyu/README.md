@@ -431,3 +431,4 @@
 - [7kyu - Simple Fun #87: Shuffled Array](shuffledArray.js)
 - [7kyu - Determine the logarithm base](determineBase.js)
 - [7kyu - Simple Fun #30: Strings Construction](stringsConstruction.js)
+- [7kyu - Simple Fun #11: Swap Adjacent Bits](swapAdjacentBits.js)
