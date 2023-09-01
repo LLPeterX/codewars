@@ -334,3 +334,4 @@
 - [6kyu - Unknown amount of duplicates](findDupsMiss.js)
 - [6kyu - Simple Fun #247: To And From](toAndFrom.js)
 - [6kyu - Simple arithmetic progression](simpleProgression.js)
+- [6kyu - (a+b)^n](formula.js)
