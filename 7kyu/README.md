@@ -432,3 +432,4 @@
 - [7kyu - Determine the logarithm base](determineBase.js)
 - [7kyu - Simple Fun #30: Strings Construction](stringsConstruction.js)
 - [7kyu - Simple Fun #11: Swap Adjacent Bits](swapAdjacentBits.js)
+- [7kyu - Number to Bytes](toBytes.js)
