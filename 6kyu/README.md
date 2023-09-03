@@ -337,3 +337,4 @@
 - [6kyu - (a+b)^n](formula.js)
 - [6kyu - Node Mania](searchKFromEnd.js)
 - [6kyu - Data compression using run-length encoding](RLE2.js)
+- [6kyu - The Wrong-Way Cow](cows.js)
