@@ -109,3 +109,4 @@
 - [5kyu - Simple Fun #357: Show The Digits](show.js)
 - [5kyu - Battle ships: Sunk damaged or not touched?](damagedOrSunk.js)
 - [5kyu - Zoom](zoom.js)
+- [5kyu - Swap Node Pairs In Linked List](swapPairs.js)
