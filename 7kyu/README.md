@@ -434,3 +434,4 @@
 - [7kyu - Simple Fun #11: Swap Adjacent Bits](swapAdjacentBits.js)
 - [7kyu - Number to Bytes](toBytes.js)
 - [7kyu - FreeCell Deal Generator](deal.js)
+- [7kyu - Perfect squares, perfect fun](squareIt.js)
