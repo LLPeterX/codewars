@@ -110,3 +110,4 @@
 - [5kyu - Battle ships: Sunk damaged or not touched?](damagedOrSunk.js)
 - [5kyu - Zoom](zoom.js)
 - [5kyu - Swap Node Pairs In Linked List](swapPairs.js)
+- [5kyu - Fun with trees: is perfect](isPerfect.js)
