@@ -339,3 +339,4 @@
 - [6kyu - Data compression using run-length encoding](RLE2.js)
 - [6kyu - The Wrong-Way Cow](cows.js)
 - [6kyu - XOR string reduction](XOR.js)
+- [6kyu - Simple array rotation](simpleArrayRotation.js.js)
