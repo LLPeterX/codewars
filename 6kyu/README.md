@@ -341,3 +341,4 @@
 - [6kyu - XOR string reduction](XOR.js)
 - [6kyu - Simple array rotation](simpleArrayRotation.js)
 - [6kyu - Custom Christmas Tree](customChristmasTree.js)
+- [6kyu - Anagram difference](anagramDifference.js)
