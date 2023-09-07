@@ -342,3 +342,4 @@
 - [6kyu - Simple array rotation](simpleArrayRotation.js)
 - [6kyu - Custom Christmas Tree](customChristmasTree.js)
 - [6kyu - Anagram difference](anagramDifference.js)
+- [6kyu - The Three Amigos](threeAmigos.js)
