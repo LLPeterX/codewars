@@ -111,3 +111,4 @@
 - [5kyu - Zoom](zoom.js)
 - [5kyu - Swap Node Pairs In Linked List](swapPairs.js)
 - [5kyu - Fun with trees: is perfect](isPerfect.js)
+- [5kyu - Base-2](negbinary.js)
