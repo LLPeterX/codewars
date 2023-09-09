@@ -343,3 +343,4 @@
 - [6kyu - Custom Christmas Tree](customChristmasTree.js)
 - [6kyu - Anagram difference](anagramDifference.js)
 - [6kyu - The Three Amigos](threeAmigos.js)
+- [6kyu - It's Raining Tacos](rainTacos.js)
