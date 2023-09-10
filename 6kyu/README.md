@@ -344,3 +344,4 @@
 - [6kyu - Anagram difference](anagramDifference.js)
 - [6kyu - The Three Amigos](threeAmigos.js)
 - [6kyu - It's Raining Tacos](rainTacos.js)
+- [6kyu - Pairs of Bears](bears.js)
