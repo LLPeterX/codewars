@@ -437,3 +437,4 @@
 - [7kyu - Perfect squares, perfect fun](squareIt.js)
 - [7kyu - Number Climber](climb.js)
 - [7kyu - Recursive Replication](recursive_replicate.js)
+- [7kyu - Training JS #26: methods of arrayObject---map()](isolateIt.js)
