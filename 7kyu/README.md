@@ -436,3 +436,4 @@
 - [7kyu - FreeCell Deal Generator](deal.js)
 - [7kyu - Perfect squares, perfect fun](squareIt.js)
 - [7kyu - Number Climber](climb.js)
+- [7kyu - Recursive Replication](recursive_replicate.js)
