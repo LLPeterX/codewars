@@ -439,3 +439,4 @@
 - [7kyu - Recursive Replication](recursive_replicate.js)
 - [7kyu - Training JS #26: methods of arrayObject---map()](isolateIt.js)
 - [7kyu - isEven? - Bitwise Series](isEven.js)
+- [7kyu - Count the Ones](hammingWeight.js)
