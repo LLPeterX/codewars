@@ -440,3 +440,4 @@
 - [7kyu - Training JS #26: methods of arrayObject---map()](isolateIt.js)
 - [7kyu - isEven? - Bitwise Series](isEven.js)
 - [7kyu - Count the Ones](hammingWeight.js)
+- [7kyu - Training JS #37: Unlock new weapon---RegExp Object](countAnimals.js)
