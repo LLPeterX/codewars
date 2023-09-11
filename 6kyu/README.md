@@ -347,3 +347,4 @@
 - [6kyu - Pairs of Bears](bears.js)
 - [6kyu - Numerical Palindrome #1.5](palindrome2.js)
 - [6kyu - Palindromic Numbers](palindromize.js)
+- [6kyu - String Suffixes](stringSuffix.js)
