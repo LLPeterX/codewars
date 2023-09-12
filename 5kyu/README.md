@@ -112,3 +112,4 @@
 - [5kyu - Swap Node Pairs In Linked List](swapPairs.js)
 - [5kyu - Fun with trees: is perfect](isPerfect.js)
 - [5kyu - Base-2](negbinary.js)
+- [5kyu - Find heavy ball - level: master](findBall.js)
