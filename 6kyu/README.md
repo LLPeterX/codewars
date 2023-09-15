@@ -349,3 +349,4 @@
 - [6kyu - Palindromic Numbers](palindromize.js)
 - [6kyu - String Suffixes](stringSuffix.js)
 - [6kyu - TV channels](redarr.js)
+- [6kyu - Basket of Fruits](countBananas.js)
