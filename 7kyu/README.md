@@ -443,3 +443,4 @@
 - [7kyu - Training JS #37: Unlock new weapon---RegExp Object](countAnimals.js)
 - [7kyu - Natural Emptiness](repSet.js)
 - [7kyu - Down Arrow With Numbers](getADownArrowOf.js)
+- [7kyu - Terminal Game #2](terminalGame2.js)
