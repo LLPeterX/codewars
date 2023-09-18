@@ -444,3 +444,4 @@
 - [7kyu - Natural Emptiness](repSet.js)
 - [7kyu - Down Arrow With Numbers](getADownArrowOf.js)
 - [7kyu - Terminal Game #2](terminalGame2.js)
+- [7kyu - Tax Calculator](taxCalculator.js)
