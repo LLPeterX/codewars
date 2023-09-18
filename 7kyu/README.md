@@ -442,3 +442,4 @@
 - [7kyu - Count the Ones](hammingWeight.js)
 - [7kyu - Training JS #37: Unlock new weapon---RegExp Object](countAnimals.js)
 - [7kyu - Natural Emptiness](repSet.js)
+- [7kyu - Down Arrow With Numbers](getADownArrowOf.js)
