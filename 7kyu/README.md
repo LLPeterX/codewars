@@ -445,3 +445,4 @@
 - [7kyu - Down Arrow With Numbers](getADownArrowOf.js)
 - [7kyu - Terminal Game #2](terminalGame2.js)
 - [7kyu - Tax Calculator](taxCalculator.js)
+- [7kyu - Russian postal code checker](zipvalidate.js)
