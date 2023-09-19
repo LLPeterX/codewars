@@ -351,3 +351,4 @@
 - [6kyu - TV channels](redarr.js)
 - [6kyu - Basket of Fruits](countBananas.js)
 - [6kyu - Text align right](alignRight.js)
+- [6kyu - Levenshtein Distance](levenshtein.js)
