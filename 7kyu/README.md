@@ -448,3 +448,4 @@
 - [7kyu - Russian postal code checker](zipvalidate.js)
 - [7kyu - Are there doubles?](doubleCheck.js)
 - [7kyu - Quicksum](quicksum.js)
+- [7kyu - Algorithmic predicament- Bug Fixing #9](highestAge.js)
