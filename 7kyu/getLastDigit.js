@@ -40,9 +40,15 @@ function getLastDigit(index) {
   // console.log(ld);
   // return actual[(index - 1) % 60];
   // последние цифры 
-  const ldf = "112358314594370774156178538190998752796516730336954932572910";
-  return +ldf[(index - 1) % 60];
+  const ldf = "011235831459437077415617853819099875279651673033695493257291";
+  return +ldf[index % 60];
 }
+
+// or
+
+/* 
+const getLastDigit = n => +"011235831459437077415617853819099875279651673033695493257291"[n%60]
+*/
 
 console.log(getLastDigit(193150), 5);
 console.log(getLastDigit(300), 0);
