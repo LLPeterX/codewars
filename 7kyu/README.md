@@ -451,3 +451,4 @@
 - [7kyu - Algorithmic predicament- Bug Fixing #9](highestAge.js)
 - [7kyu - Convert Improper Fraction to Mixed Numeral](convertToMixedNumeral.js)
 - [7kyu - Find Fibonacci last digit](getLastDigit.js)
+- [7kyu - noobCode 04: HOT SINGLES...compare two arrays, return the unpaired items !](hotSingles.js)
