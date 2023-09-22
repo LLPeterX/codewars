@@ -454,3 +454,4 @@
 - [7kyu - noobCode 04: HOT SINGLES...compare two arrays, return the unpaired items !](hotSingles.js)
 - [7kyu - Permutation Average](permutationAverage.js)
 - [7kyu - Infinitely Nested Radicals](fn.js)
+- [7kyu - GA-DE-RY-PO-LU-KI cypher](gaderypoluki.js)
