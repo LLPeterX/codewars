@@ -354,3 +354,4 @@
 - [6kyu - Levenshtein Distance](levenshtein.js)
 - [6kyu - Not prime numbers](notPrimes.js)
 - [6kyu - Build Tower Advanced](towerBuilder.js)
+- [6kyu - Next Version](nextVersion.js)
