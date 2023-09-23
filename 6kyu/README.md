@@ -355,3 +355,4 @@
 - [6kyu - Not prime numbers](notPrimes.js)
 - [6kyu - Build Tower Advanced](towerBuilder.js)
 - [6kyu - Next Version](nextVersion.js)
+- [6kyu - The Book of Mormon](mormons.js)
