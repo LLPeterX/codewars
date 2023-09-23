@@ -356,3 +356,4 @@
 - [6kyu - Build Tower Advanced](towerBuilder.js)
 - [6kyu - Next Version](nextVersion.js)
 - [6kyu - The Book of Mormon](mormons.js)
+- [6kyu - The Enigma Machine - Part 1: The Plugboard](enigma1.js)
