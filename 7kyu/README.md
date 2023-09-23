@@ -455,3 +455,4 @@
 - [7kyu - Permutation Average](permutationAverage.js)
 - [7kyu - Infinitely Nested Radicals](fn.js)
 - [7kyu - GA-DE-RY-PO-LU-KI cypher](gaderypoluki.js)
+- [7kyu - Insert Dashes 2](insertDash2.js)
