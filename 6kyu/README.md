@@ -357,3 +357,4 @@
 - [6kyu - Next Version](old/nextVersion.js)
 - [6kyu - The Book of Mormon](old/mormons.js)
 - [6kyu - The Enigma Machine - Part 1: The Plugboard](old/enigma1.js)
+- [6kyu - The Hunger Games - Foxes and Chickens](hungryFoxes.js)
