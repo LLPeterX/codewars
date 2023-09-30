@@ -458,3 +458,4 @@
 - [7kyu - Insert Dashes 2](insertDash2.js)
 - [7kyu - sum2total](sum2total.js)
 - [7kyu - Sum of powers of 2](powers.js)
+- [7kyu - Spin Around, Touch the Ground](spinAround.js)
