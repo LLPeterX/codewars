@@ -359,3 +359,4 @@
 - [6kyu - The Enigma Machine - Part 1: The Plugboard](old/enigma1.js)
 - [6kyu - The Hunger Games - Foxes and Chickens](hungryFoxes.js)
 - [6kyu - Length of longest subsequence of same incrementing values](longestSequenceIn.js)
+- [6kyu - An OSHA Approved Ladder?](isLadderSafe.js)
