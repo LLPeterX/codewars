@@ -461,3 +461,4 @@
 - [7kyu - Spin Around, Touch the Ground](spinAround.js)
 - [7kyu - Closing in Sum](closingInSum.js)
 - [7kyu - Tree Photography](treePhotography.js)
+- [7kyu - RuplesJS #3: String EachChar](eachChar.js)
