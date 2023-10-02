@@ -462,3 +462,4 @@
 - [7kyu - Closing in Sum](closingInSum.js)
 - [7kyu - Tree Photography](treePhotography.js)
 - [7kyu - RuplesJS #3: String EachChar](eachChar.js)
+- [7kyu - Genetic Algorithm Series - #3 Crossover](crossover.js)
