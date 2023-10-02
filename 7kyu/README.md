@@ -460,3 +460,4 @@
 - [7kyu - Sum of powers of 2](powers.js)
 - [7kyu - Spin Around, Touch the Ground](spinAround.js)
 - [7kyu - Closing in Sum](closingInSum.js)
+- [7kyu - Tree Photography](treePhotography.js)
