@@ -114,3 +114,4 @@
 - [5kyu - Base-2](negbinary.js)
 - [5kyu - Find heavy ball - level: master](findBall.js)
 - [5kyu - Sort - one, three, two](sortByName.js)
+- [5kyu - Build a pile of cubes (incomplete)](pile_of_cubes.js)
