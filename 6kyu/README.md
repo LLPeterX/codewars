@@ -360,3 +360,4 @@
 - [6kyu - The Hunger Games - Foxes and Chickens](hungryFoxes.js)
 - [6kyu - Length of longest subsequence of same incrementing values](longestSequenceIn.js)
 - [6kyu - An OSHA Approved Ladder?](isLadderSafe.js)
+- [6kyu - Case Reversal of Consecutive Duplicates](reverseCase.js)
