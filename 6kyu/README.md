@@ -361,3 +361,4 @@
 - [6kyu - Length of longest subsequence of same incrementing values](longestSequenceIn.js)
 - [6kyu - An OSHA Approved Ladder?](isLadderSafe.js)
 - [6kyu - Case Reversal of Consecutive Duplicates](reverseCase.js)
+- [6kyu - Reach Me and Sum my Digits](sumDigNthTerm.js)
