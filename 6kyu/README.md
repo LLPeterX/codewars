@@ -362,3 +362,4 @@
 - [6kyu - An OSHA Approved Ladder?](isLadderSafe.js)
 - [6kyu - Case Reversal of Consecutive Duplicates](reverseCase.js)
 - [6kyu - Reach Me and Sum my Digits](sumDigNthTerm.js)
+- [6kyu - Shortest steps to a number](shortestStepsToNum.js)
