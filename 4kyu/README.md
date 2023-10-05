@@ -28,3 +28,4 @@
 - [4kyu - Factorial tail](zeroes.js)
 - [4kyu - One Line Task: Squirrel And Tree](squirrel.js)
 - [4kyu - Number of Proper Fractions with Denominator d](properFractions.js)
+- [4kyu - Linear Equation Solver](linearEquationSolver.js)
