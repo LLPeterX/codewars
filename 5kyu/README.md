@@ -117,3 +117,4 @@
 - [5kyu - Build a pile of cubes (incomplete)](pile_of_cubes.js)
 - [5kyu - The "AA" Number Notation](formatNumber.js)
 - [5kyu - Metric Units - 1](meters.js)
+- [5kyu - Binary Contiguous Array](binArray.js)
