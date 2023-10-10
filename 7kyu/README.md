@@ -464,3 +464,4 @@
 - [7kyu - RuplesJS #3: String EachChar](eachChar.js)
 - [7kyu - Genetic Algorithm Series - #3 Crossover](crossover.js)
 - [7kyu - Decompose single strand DNA into 3 reading frames](decomposeSingleStrand.js)
+- [7kyu - Colored Hexes!](hexColor.js)
