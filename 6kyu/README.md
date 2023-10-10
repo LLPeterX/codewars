@@ -364,3 +364,4 @@
 - [6kyu - Reach Me and Sum my Digits](sumDigNthTerm.js)
 - [6kyu - Shortest steps to a number](shortestStepsToNum.js)
 - [6kyu - Fun with trees: max sum](maxSum.js)
+- [6kyu - Simple Fun #15: Addition without Carrying](additionWithoutCarrying.js)
