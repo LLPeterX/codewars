@@ -466,3 +466,4 @@
 - [7kyu - Decompose single strand DNA into 3 reading frames](decomposeSingleStrand.js)
 - [7kyu - Colored Hexes!](hexColor.js)
 - [7kyu - Bugs Life](shortestDistance.js)
+- [7kyu - Find Factors Down to Limit](factors.js)
