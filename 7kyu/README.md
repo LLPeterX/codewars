@@ -465,3 +465,4 @@
 - [7kyu - Genetic Algorithm Series - #3 Crossover](crossover.js)
 - [7kyu - Decompose single strand DNA into 3 reading frames](decomposeSingleStrand.js)
 - [7kyu - Colored Hexes!](hexColor.js)
+- [7kyu - Bugs Life](shortestDistance.js)
