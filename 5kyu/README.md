@@ -119,3 +119,4 @@
 - [5kyu - Metric Units - 1](meters.js)
 - [5kyu - Binary Contiguous Array](binArray.js)
 - [5kyu - 80's Kids #6: Rock 'Em, Sock 'Em Robots](robots.js)
+- [5kyu - Rotate an array matrix](rotate.js)
