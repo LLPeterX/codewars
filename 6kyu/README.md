@@ -367,3 +367,4 @@
 - [6kyu - Simple Fun #15: Addition without Carrying](additionWithoutCarrying.js)
 - [6kyu - Number , number ... wait LETTER !](doMath.js)
 - [6kyu - Numerical Palindrome #4](palindrome4.js)
+- [6kyu - Common array elements](common.js)
