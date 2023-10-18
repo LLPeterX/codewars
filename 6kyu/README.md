@@ -369,3 +369,4 @@
 - [6kyu - Numerical Palindrome #4](palindrome4.js)
 - [6kyu - Common array elements](common.js)
 - [6kyu - Tim's Fruit Shop Challenge](fruitPack.js)
+- [6kyu - Ciphers #2 - The reversed Cipher](cipher2.js)
