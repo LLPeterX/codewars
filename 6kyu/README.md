@@ -368,3 +368,4 @@
 - [6kyu - Number , number ... wait LETTER !](doMath.js)
 - [6kyu - Numerical Palindrome #4](palindrome4.js)
 - [6kyu - Common array elements](common.js)
+- [6kyu - Tim's Fruit Shop Challenge](fruitPack.js)
