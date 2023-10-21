@@ -468,3 +468,4 @@
 - [7kyu - Bugs Life](shortestDistance.js)
 - [7kyu - Find Factors Down to Limit](factors.js)
 - [7kyu - New season, new league](premierLeagueStandings.js)
+- [7kyu - Time until distance between moving ships](findTimeToBreak.js)
