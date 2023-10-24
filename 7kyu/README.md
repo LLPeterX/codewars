@@ -469,3 +469,4 @@
 - [7kyu - Find Factors Down to Limit](factors.js)
 - [7kyu - New season, new league](premierLeagueStandings.js)
 - [7kyu - Time until distance between moving ships](findTimeToBreak.js)
+- [7kyu - Katastrophe!](strongEnough.js)
