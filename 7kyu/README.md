@@ -470,3 +470,4 @@
 - [7kyu - New season, new league](premierLeagueStandings.js)
 - [7kyu - Time until distance between moving ships](findTimeToBreak.js)
 - [7kyu - Katastrophe!](strongEnough.js)
+- [7kyu - Simple Fun #109: Segment Cover](segmentCover.js)
