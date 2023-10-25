@@ -471,3 +471,4 @@
 - [7kyu - Time until distance between moving ships](findTimeToBreak.js)
 - [7kyu - Katastrophe!](strongEnough.js)
 - [7kyu - Simple Fun #109: Segment Cover](segmentCover.js)
+- [7kyu - Simple Fun #106: Is Thue Morse?](isThueMorse.js)
