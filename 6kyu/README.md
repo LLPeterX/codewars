@@ -371,3 +371,4 @@
 - [6kyu - Tim's Fruit Shop Challenge](fruitPack.js)
 - [6kyu - Ciphers #2 - The reversed Cipher](cipher2.js)
 - [6kyu - Begin your day with a challenge, but an easy one.](oneTwoThree.js)
+- [6kyu - Warcraft Series I - Mining Gold](simulateMining.js)
