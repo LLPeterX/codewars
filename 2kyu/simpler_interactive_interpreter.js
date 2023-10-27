@@ -77,7 +77,7 @@ Assignment	        =
 
 class Interpreter {
   constructor() {
-    this.expression = ""; // for error messages only
+    this.expression = "";
     this.vars = {};
     this.operators = {
       '+': { precedence: 1, fn: (a, b) => b + a },
@@ -193,348 +193,351 @@ console.log(interpreter.input("(8 - (4 + 2)) * 3"), 6);
 //console.log(interpreter.input("y")); // ERROR
 
 // best
+
+// ------------------------------------------------ 
+// Array.prototype.last = function() {
+//     return this[this.length-1];
+// }
+
+// function Interpreter()
+// {
+//     this.vars = {};
+//     this.functions = {};
+// }
+
+// Interpreter.prototype.tokenize = function (program)
+// {
+//     if (program === "")
+//         return [];
+
+//     var regex = /\s*([-+*\/\%=\(\)]|[A-Za-z_][A-Za-z0-9_]*|[0-9]*\.?[0-9]+)\s*/g;
+// return program.split(regex).filter(function (s) { return !s.match(/^\s*$/); });
+// };
+
+// Interpreter.prototype.input = function (expr) {
+
+//   var _this = this;
+//   var tokens = this.tokenize(expr);
+//   var ops = [];
+//   var stack = [];
+
+//   tokens.forEach(function (token) {
+
+//     if (_this.isOperator(token)) {
+//       if (_this.getOperatorRank(ops.last()) < _this.getOperatorRank(token) || (stack.length >= 2 && stack[stack.length - 2] == '(')) {
+//         ops.push(token);
+//       } else {
+//         var b = stack.pop();
+//         var a = stack.pop();
+//         stack.push(_this.doOp(a, ops.pop(), b));
+//         ops.push(token);
+//       }
+//     } else if (token == "(") {
+//       stack.push(token);
+//     } else if (_this.isNumber(token)) {
+//       stack.push(token);
+//     } else if (_this.isIdentifier(token)) {
+//       stack.push(token);
+//     } else if (token == ")") {
+//       while (stack.length > 0) {
+//         var b = stack.pop();
+//         var a = stack.pop();
+//         if (stack.last() == "(") {
+//           stack.pop();
+//           stack.push(_this.doOp(a, ops.pop(), b));
+//           break;
+//         }
+//       };
+
+//     }
+//   });
+
+//   while (stack.length > 1) {
+//     var b = stack.pop();
+//     var a = stack.pop();
+//     stack.push(_this.doOp(a, ops.pop(), b));
+//   }
+//   return (tokens.length > 0) ? _this.getVal(stack.pop()) : "";
+// };
+
+// Interpreter.prototype.isDigit = function (token) {
+//   return (token.length == 1 && token >= "0" && token <= "9");
+// };
+
+// Interpreter.prototype.isLetter = function (token) {
+//   return token.length == 1 && (token >= "a" && token <= "z" || token >= "A" && token <= "Z");
+// }
+
+// Interpreter.prototype.isOperator = function (token) {
+//   return ["+", "-", "*", "/", "%", "="].indexOf(token) >= 0;
+// }
+
+// Interpreter.prototype.getOperatorRank = function (token) {
+//   switch (token) {
+//     case "=": return 0;
+//     case "+":
+//     case "-": return 1;
+//     case "*":
+//     case "/":
+//     case "%": return 2;
+//   }
+//   return -1;
+// }
+
+// Interpreter.prototype.isIdentifier = function (token) {
+//   var regex = /^[a-zA-Z]([a-zA-Z_0-9]*)?$/g;
+//   return regex.test(token);
+// }
+
+// Interpreter.prototype.isNumber = function (token) {
+//   var regex = /^[\+\-]?\d*[\.]?\d+$/g;
+//   return regex.test(token);
+// }
+// Interpreter.prototype.getVal = function (a) {
+//   if (this.isNumber(a)) {
+//     a = Number(a);
+//   } else if (this.isIdentifier(a)) {
+//     var aa = this.vars[a];
+//     if (typeof aa === "undefined") {
+//       throw "No variable with name '" + a + "' was found.";
+//     }
+//     a = aa;
+//   }
+//   return a;
+// }
+// Interpreter.prototype.doOp = function (a, op, b) {
+//   if (op != "=") {
+//     var aa = this.getVal(a);
+//     var bb = this.getVal(b);
+
+//     switch (op) {
+//       case "+": return aa + bb;
+//       case "-": return aa - bb;
+//       case "*": return aa * bb;
+//       case "/": return aa / bb;
+//       case "%": return aa % bb;
+//       case "=": this.vars[a] = bb; return a;
+//     }
+//   } else {
+//     this.vars[a] = this.getVal(b);
+//     return a;
+//   }
+// }
+
+// -------------------------------------------------------------------------------------------------
 /* 
-Array.prototype.last = function() {
-    return this[this.length-1];
-}
-
-function Interpreter()
-{
-    this.vars = {};
-    this.functions = {};
-}
-
-Interpreter.prototype.tokenize = function (program)
-{
-    if (program === "")
-        return [];
-
-    var regex = /\s*([-+*\/\%=\(\)]|[A-Za-z_][A-Za-z0-9_]*|[0-9]*\.?[0-9]+)\s*/g;
-return program.split(regex).filter(function (s) { return !s.match(/^\s*$/); });
-};
-
-Interpreter.prototype.input = function (expr) {
-
-  var _this = this;
-  var tokens = this.tokenize(expr);
-  var ops = [];
-  var stack = [];
-
-  tokens.forEach(function (token) {
-
-    if (_this.isOperator(token)) {
-      if (_this.getOperatorRank(ops.last()) < _this.getOperatorRank(token) || (stack.length >= 2 && stack[stack.length - 2] == '(')) {
-        ops.push(token);
-      } else {
-        var b = stack.pop();
-        var a = stack.pop();
-        stack.push(_this.doOp(a, ops.pop(), b));
-        ops.push(token);
-      }
-    } else if (token == "(") {
-      stack.push(token);
-    } else if (_this.isNumber(token)) {
-      stack.push(token);
-    } else if (_this.isIdentifier(token)) {
-      stack.push(token);
-    } else if (token == ")") {
-      while (stack.length > 0) {
-        var b = stack.pop();
-        var a = stack.pop();
-        if (stack.last() == "(") {
-          stack.pop();
-          stack.push(_this.doOp(a, ops.pop(), b));
-          break;
-        }
-      };
-
-    }
-  });
-
-  while (stack.length > 1) {
-    var b = stack.pop();
-    var a = stack.pop();
-    stack.push(_this.doOp(a, ops.pop(), b));
-  }
-  return (tokens.length > 0) ? _this.getVal(stack.pop()) : "";
-};
-
-Interpreter.prototype.isDigit = function (token) {
-  return (token.length == 1 && token >= "0" && token <= "9");
-};
-
-Interpreter.prototype.isLetter = function (token) {
-  return token.length == 1 && (token >= "a" && token <= "z" || token >= "A" && token <= "Z");
-}
-
-Interpreter.prototype.isOperator = function (token) {
-  return ["+", "-", "*", "/", "%", "="].indexOf(token) >= 0;
-}
-
-Interpreter.prototype.getOperatorRank = function (token) {
-  switch (token) {
-    case "=": return 0;
-    case "+":
-    case "-": return 1;
-    case "*":
-    case "/":
-    case "%": return 2;
-  }
-  return -1;
-}
-
-Interpreter.prototype.isIdentifier = function (token) {
-  var regex = /^[a-zA-Z]([a-zA-Z_0-9]*)?$/g;
-  return regex.test(token);
-}
-
-Interpreter.prototype.isNumber = function (token) {
-  var regex = /^[\+\-]?\d*[\.]?\d+$/g;
-  return regex.test(token);
-}
-Interpreter.prototype.getVal = function (a) {
-  if (this.isNumber(a)) {
-    a = Number(a);
-  } else if (this.isIdentifier(a)) {
-    var aa = this.vars[a];
-    if (typeof aa === "undefined") {
-      throw "No variable with name '" + a + "' was found.";
-    }
-    a = aa;
-  }
-  return a;
-}
-Interpreter.prototype.doOp = function (a, op, b) {
-  if (op != "=") {
-    var aa = this.getVal(a);
-    var bb = this.getVal(b);
-
-    switch (op) {
-      case "+": return aa + bb;
-      case "-": return aa - bb;
-      case "*": return aa * bb;
-      case "/": return aa / bb;
-      case "%": return aa % bb;
-      case "=": this.vars[a] = bb; return a;
-    }
-  } else {
-    this.vars[a] = this.getVal(b);
-    return a;
-  }
-}
-  * /
-
-/* 
-function Interpreter()
-{
-    this.vars = {};
-    this.functions = {
-      '+': (a, b) => a + b,
-      '-': (a, b) => a - b,
-      '*': (a, b) => a * b,
-      '/': (a, b) => a / b,
-      '%': (a, b) => a % b
-    };
-}
-
-Interpreter.prototype.tokenize = function (program)
-{
-    if (program === "")
-        return [];
-
-    var regex = /\s*([-+*\/\%=\(\)]|[A-Za-z_][A-Za-z0-9_]*|[0-9]*\.?[0-9]+)\s*/g;
-return program.split(regex).filter(function (s) { return !s.match(/^\s*$/); });
-};
-
-Interpreter.prototype.input = function (expr) {
-  var tokens = this.tokenize(expr);
-  if (!tokens.length) return ""
-
-  const ast = this.parse(tokens)
-  return this.evaluate(ast)
-};
-
-Interpreter.prototype.parse = function (tokens) {
-
-  const parse_with = (operators, parser) => {
-    let result = parser()
-    while (operators.includes(tokens[0])) {
-      const op = tokens.shift()
-      const right = parser()
-      result = {
-        type: op,
-        left: result,
-        right
-      }
-    }
-    return result
-  }
-
-  const parse_expression = () =>
-    parse_with(['+', '-'], () =>
-      parse_with(['*', '/', '%'], () => {
-        const cur = tokens.shift()
-        if (cur == '(') {
-          const expr = parse_expression()
-          tokens.shift()
-          return expr
-        }
-
-        if (/^[A-Za-z_][A-Za-z0-9_]*/.test(cur)) {
-          return {
-            type: 'var',
-            id: cur
-          }
-        }
-        return {
-          type: 'num',
-          val: Number(cur)
-        }
-      }))
-
-  let result = parse_expression()
-  if (tokens.shift() == '=') {
-    result = {
-      type: '=',
-      left: result,
-      right: parse_expression()
-    }
-  }
-  return result
-}
-
-Interpreter.prototype.evaluate = function (ast) {
-  switch (ast.type) {
-    case 'var':
-      if (!this.vars[ast.id]) throw 0
-      return this.vars[ast.id]
-
-    case 'num':
-      return ast.val
-
-    case '=':
-      this.vars[ast.left.id] = this.evaluate(ast.right)
-      return this.vars[ast.left.id]
-
-    default:
-      return this.functions[ast.type](this.evaluate(ast.left), this.evaluate(ast.right))
-  }
-}
-  * /
-
-/* 
-class Interpreter {
-    constructor() {
-        this.vars = {};
-        this.operators = ['()', '*/% ', ' + -', '='];
-
-    }
-
-    static tokenize(program) {
-  const regex = /\s*([-+*\/\%=\(\)]|[A-Za-z_][A-Za-z0-9_]*|[0-9]*\.?[0-9]+)\s*/g;
-  return program.split(regex).filter(s => /\S/.test(s));
-}
-
-input(expr) {
-  const tokens = Interpreter.tokenize(expr);
-  if (!tokens.length) return '';
-
-  if (tokens.length === 1) {
-    if (!/\d+/.test(tokens[0])) {
-      if (!Object.keys(this.vars).includes(tokens[0])) {
-        throw new Error(`ERROR: Invalid identifier. No variable with name '${tokens[0]}' was found.`);
-      }
-
-      return +this.vars[tokens[0]];
-    }
-
-    return +tokens[0];
-  }
-
-
-  for (let i = 0; i < tokens.length; i++) {
-    if (tokens[i] === this.operators[0][0]) {
-      let open = 1;
-
-      let j = i + 1;
-      for (; open; j++) {
-        if (tokens[j] === this.operators[0][0]) open++;
-        else if (tokens[j] === this.operators[0][1]) open--;
-      }
-
-      let result = this.input(tokens.slice(i + 1, j - 1).join('')).toString();
-      tokens.splice(i, j - i, result);
-    }
-  }
-
-  for (let i = 1; i < this.operators.length; i++) {
-    for (let j = 0; j < tokens.length; j++) {
-      if (this.operators[i].includes(tokens[j])) {
-        let result = this.parseExp(tokens[j - 1], tokens[j], tokens[j + 1]);
-
-        tokens.splice(--j, 3, result);
-
-        if (tokens.length === 1) return +tokens[0];
-      }
-    }
-  }
-
-
-
-
-}
-
-
-parseExp(var1, oper, var2){
-
-  let types = [/\d+/.test(var1), /\d+/.test(var2)];
-
-  if (!types[1] && !Object.keys(this.vars).includes(var2)) {
-    throw new Error(`ERROR: Invalid identifier. No variable with name '${var2}' was found.`);
-  }
-
-  if (!types[0]) {
-
-
-    if (oper === '=') {
-      if (!types[1]) {
-        this.vars[var1] = this.vars[var2];
-        return this.vars[var1];
-      }
-
-      this.vars[var1] = var2;
-      return var2;
-    }
-
-    if (!Object.keys(this.vars).includes(var1)) {
-      throw new Error(`ERROR: Invalid identifier. No variable with name '${var1}' was found.`);
-    }
-
-    if (!types[1]) return this.calc(this.vars[var1], oper, this.vars[var2]).toString();
-
-    return this.calc(this.vars[var1], oper, var2).toString();
-
-  }
-
-  if (!types[1]) return this.calc(var1, oper, this.vars[var2]).toString();
-
-  return this.calc(var1, oper, var2).toString();
-}
-
-
-calc(var1, oper, var2){
-  var1 = +var1;
-  var2 = +var2;
-
-  switch (oper) {
-    case '+': return var1 + var2;
-    case '-': return var1 - var2;
-    case '*': return var1 * var2;
-    case '/': return var1 / var2;
-    case '%': return var1 % var2;
-  }
-}
-
-
-}
-* /
+// function Interpreter()
+// {
+//     this.vars = {};
+//     this.functions = {
+//       '+': (a, b) => a + b,
+//       '-': (a, b) => a - b,
+//       '*': (a, b) => a * b,
+//       '/': (a, b) => a / b,
+//       '%': (a, b) => a % b
+//     };
+// }
+
+// Interpreter.prototype.tokenize = function (program)
+// {
+//     if (program === "")
+//         return [];
+
+//     var regex = /\s*([-+*\/\%=\(\)]|[A-Za-z_][A-Za-z0-9_]*|[0-9]*\.?[0-9]+)\s*/g;
+// return program.split(regex).filter(function (s) { return !s.match(/^\s*$/); });
+// };
+
+// Interpreter.prototype.input = function (expr) {
+//   var tokens = this.tokenize(expr);
+//   if (!tokens.length) return ""
+
+//   const ast = this.parse(tokens)
+//   return this.evaluate(ast)
+// };
+
+// Interpreter.prototype.parse = function (tokens) {
+
+//   const parse_with = (operators, parser) => {
+//     let result = parser()
+//     while (operators.includes(tokens[0])) {
+//       const op = tokens.shift()
+//       const right = parser()
+//       result = {
+//         type: op,
+//         left: result,
+//         right
+//       }
+//     }
+//     return result
+//   }
+
+//   const parse_expression = () =>
+//     parse_with(['+', '-'], () =>
+//       parse_with(['*', '/', '%'], () => {
+//         const cur = tokens.shift()
+//         if (cur == '(') {
+//           const expr = parse_expression()
+//           tokens.shift()
+//           return expr
+//         }
+
+//         if (/^[A-Za-z_][A-Za-z0-9_]*/.test(cur)) {
+//           return {
+//             type: 'var',
+//             id: cur
+//           }
+//         }
+//         return {
+//           type: 'num',
+//           val: Number(cur)
+//         }
+//       }))
+
+//   let result = parse_expression()
+//   if (tokens.shift() == '=') {
+//     result = {
+//       type: '=',
+//       left: result,
+//       right: parse_expression()
+//     }
+//   }
+//   return result
+// }
+
+// Interpreter.prototype.evaluate = function (ast) {
+//   switch (ast.type) {
+//     case 'var':
+//       if (!this.vars[ast.id]) throw 0
+//       return this.vars[ast.id]
+
+//     case 'num':
+//       return ast.val
+
+//     case '=':
+//       this.vars[ast.left.id] = this.evaluate(ast.right)
+//       return this.vars[ast.left.id]
+
+//     default:
+//       return this.functions[ast.type](this.evaluate(ast.left), this.evaluate(ast.right))
+//   }
+// }
+//
+
+// -------------------------------------------------------------------------------
+
+//
+// class Interpreter {
+//     constructor() {
+//         this.vars = {};
+//         this.operators = ['()', '*/% ', ' + -', '='];
+
+//     }
+
+//     static tokenize(program) {
+//   const regex = /\s*([-+*\/\%=\(\)]|[A-Za-z_][A-Za-z0-9_]*|[0-9]*\.?[0-9]+)\s*/g;
+//   return program.split(regex).filter(s => /\S/.test(s));
+// }
+
+// input(expr) {
+//   const tokens = Interpreter.tokenize(expr);
+//   if (!tokens.length) return '';
+
+//   if (tokens.length === 1) {
+//     if (!/\d+/.test(tokens[0])) {
+//       if (!Object.keys(this.vars).includes(tokens[0])) {
+//         throw new Error(`ERROR: Invalid identifier. No variable with name '${tokens[0]}' was found.`);
+//       }
+
+//       return +this.vars[tokens[0]];
+//     }
+
+//     return +tokens[0];
+//   }
+
+
+//   for (let i = 0; i < tokens.length; i++) {
+//     if (tokens[i] === this.operators[0][0]) {
+//       let open = 1;
+
+//       let j = i + 1;
+//       for (; open; j++) {
+//         if (tokens[j] === this.operators[0][0]) open++;
+//         else if (tokens[j] === this.operators[0][1]) open--;
+//       }
+
+//       let result = this.input(tokens.slice(i + 1, j - 1).join('')).toString();
+//       tokens.splice(i, j - i, result);
+//     }
+//   }
+
+//   for (let i = 1; i < this.operators.length; i++) {
+//     for (let j = 0; j < tokens.length; j++) {
+//       if (this.operators[i].includes(tokens[j])) {
+//         let result = this.parseExp(tokens[j - 1], tokens[j], tokens[j + 1]);
+
+//         tokens.splice(--j, 3, result);
+
+//         if (tokens.length === 1) return +tokens[0];
+//       }
+//     }
+//   }
+
+
+
+
+// }
+
+
+// parseExp(var1, oper, var2){
+
+//   let types = [/\d+/.test(var1), /\d+/.test(var2)];
+
+//   if (!types[1] && !Object.keys(this.vars).includes(var2)) {
+//     throw new Error(`ERROR: Invalid identifier. No variable with name '${var2}' was found.`);
+//   }
+
+//   if (!types[0]) {
+
+
+//     if (oper === '=') {
+//       if (!types[1]) {
+//         this.vars[var1] = this.vars[var2];
+//         return this.vars[var1];
+//       }
+
+//       this.vars[var1] = var2;
+//       return var2;
+//     }
+
+//     if (!Object.keys(this.vars).includes(var1)) {
+//       throw new Error(`ERROR: Invalid identifier. No variable with name '${var1}' was found.`);
+//     }
+
+//     if (!types[1]) return this.calc(this.vars[var1], oper, this.vars[var2]).toString();
+
+//     return this.calc(this.vars[var1], oper, var2).toString();
+
+//   }
+
+//   if (!types[1]) return this.calc(var1, oper, this.vars[var2]).toString();
+
+//   return this.calc(var1, oper, var2).toString();
+// }
+
+
+// calc(var1, oper, var2){
+//   var1 = +var1;
+//   var2 = +var2;
+
+//   switch (oper) {
+//     case '+': return var1 + var2;
+//     case '-': return var1 - var2;
+//     case '*': return var1 * var2;
+//     case '/': return var1 / var2;
+//     case '%': return var1 % var2;
+//   }
+// }
+
+
+// }
+//
