@@ -373,3 +373,4 @@
 - [6kyu - Begin your day with a challenge, but an easy one.](oneTwoThree.js)
 - [6kyu - Warcraft Series I - Mining Gold](simulateMining.js)
 - [6kyu - Coding 3min: Collatz Array(Split or merge)](sc.js)
+- [6kyu - Cycle a list of values](cycle.js)
