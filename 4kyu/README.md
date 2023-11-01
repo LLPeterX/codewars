@@ -30,3 +30,4 @@
 - [4kyu - Number of Proper Fractions with Denominator d](properFractions.js)
 - [4kyu - Linear Equation Solver](linearEquationSolver.js)
 - [4kyu - Multiplying Polynomials](polynomialProduct.js)
+- [4kyu - Infix to Postfix Converter](toPostfix.js)
