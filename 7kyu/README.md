@@ -476,3 +476,4 @@
 - [7kyu - The Skiponacci Sequence](skiponacci.js)
 - [7kyu - Tetris Series #1 — Scoring System](getScore.js)
 - [7kyu - Cut array into smaller parts](makeParts.js)
+- [7kyu - Complete The Pattern #3 (Horizontal Image of #2)](pattern.js)
