@@ -473,3 +473,4 @@
 - [7kyu - Simple Fun #109: Segment Cover](segmentCover.js)
 - [7kyu - Simple Fun #106: Is Thue Morse?](isThueMorse.js)
 - [7kyu - Prison Break](freedPrisoners.js)
+- [7kyu - The Skiponacci Sequence](skiponacci.js)
