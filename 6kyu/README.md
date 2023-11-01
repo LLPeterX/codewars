@@ -375,3 +375,4 @@
 - [6kyu - Coding 3min: Collatz Array(Split or merge)](sc.js)
 - [6kyu - Cycle a list of values](cycle.js)
 - [6kyu - Pell Numbers](pell.js)
+- [6kyu - String subpattern recognition I](string_subpattern_recognition.js)
