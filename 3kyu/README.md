@@ -7,3 +7,4 @@
 - [3kyu - Sudoku Solver](sudokuSolver.js)
 - [3kyu - Total area covered by rectangles](totalAreaCoveredByRectangles.js)
 - [3kyu - Alphabetic Anagrams](listPosition.js)
+- [3kyu - Prime Streaming (PG-13)](prime_stream.js)
