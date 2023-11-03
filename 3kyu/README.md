@@ -8,3 +8,4 @@
 - [3kyu - Total area covered by rectangles](totalAreaCoveredByRectangles.js)
 - [3kyu - Alphabetic Anagrams](listPosition.js)
 - [3kyu - Prime Streaming (PG-13)](prime_stream.js)
+- [3kyu - The builder of things](Thing1.js)
