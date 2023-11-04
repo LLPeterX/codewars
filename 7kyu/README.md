@@ -479,3 +479,4 @@
 - [7kyu - Complete The Pattern #3 (Horizontal Image of #2)](pattern.js)
 - [7kyu - Extract bits from integer](extractBits.js)
 - [7kyu - Party People](partyPeople.js)
+- [7kyu - Pizza Payments](michaelPays.js)
