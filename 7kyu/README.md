@@ -480,3 +480,4 @@
 - [7kyu - Extract bits from integer](extractBits.js)
 - [7kyu - Party People](partyPeople.js)
 - [7kyu - Pizza Payments](michaelPays.js)
+- [7kyu - Negative Connotation](connotation.js)
