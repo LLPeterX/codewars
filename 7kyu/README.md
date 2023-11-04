@@ -481,3 +481,4 @@
 - [7kyu - Party People](partyPeople.js)
 - [7kyu - Pizza Payments](michaelPays.js)
 - [7kyu - Negative Connotation](connotation.js)
+- [7kyu - Negation of a Value](negationValue.js)
