@@ -379,3 +379,4 @@
 - [6kyu - Validate my Password](validPass.js)
 - [6kyu - Complete The Pattern #16](pattern16.js)
 - [6kyu - Simple Fun #165: Withdraw](withdraw.js)
+- [6kyu - Square string tops](tops.js)
