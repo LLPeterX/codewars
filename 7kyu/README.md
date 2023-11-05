@@ -485,3 +485,4 @@
 - [7kyu - Comfortable words](comfortableWord.js)
 - [7kyu - Bouncing Ball](bouncingBall.js)
 - [7kyu - Sub-array elements sum](elementsSum.js)
+- [7kyu - Alphabetical Sequence](alphaSeq.js)
