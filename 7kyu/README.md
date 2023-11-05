@@ -483,3 +483,4 @@
 - [7kyu - Negative Connotation](connotation.js)
 - [7kyu - Negation of a Value](negationValue.js)
 - [7kyu - Comfortable words](comfortableWord.js)
+- [7kyu - Bouncing Ball](bouncingBall.js)
