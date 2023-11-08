@@ -490,3 +490,4 @@
 - [7kyu - Multiplication - Generators #2](generator2.js)
 - [7kyu - Simple Fun #40: Timed Reading](timedReading.js)
 - [7kyu - Always perfect](checkRoot.js)
+- [7kyu - Mobile Display Keystrokes](mobileKeyboard.js)
