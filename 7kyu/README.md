@@ -491,3 +491,4 @@
 - [7kyu - Simple Fun #40: Timed Reading](timedReading.js)
 - [7kyu - Always perfect](checkRoot.js)
 - [7kyu - Mobile Display Keystrokes](mobileKeyboard.js)
+- [7kyu - Polydivisible Numbers](polydivisible.js)
