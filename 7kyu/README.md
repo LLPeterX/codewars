@@ -487,3 +487,4 @@
 - [7kyu - Sub-array elements sum](elementsSum.js)
 - [7kyu - Alphabetical Sequence](alphaSeq.js)
 - [7kyu - Multiples and Digit Sums](procedure.js)
+- [7kyu - Multiplication - Generators #2](generator2.js)
