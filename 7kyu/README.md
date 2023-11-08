@@ -488,3 +488,4 @@
 - [7kyu - Alphabetical Sequence](alphaSeq.js)
 - [7kyu - Multiples and Digit Sums](procedure.js)
 - [7kyu - Multiplication - Generators #2](generator2.js)
+- [7kyu - Simple Fun #40: Timed Reading](timedReading.js)
