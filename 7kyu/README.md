@@ -492,3 +492,4 @@
 - [7kyu - Always perfect](checkRoot.js)
 - [7kyu - Mobile Display Keystrokes](mobileKeyboard.js)
 - [7kyu - Polydivisible Numbers](polydivisible.js)
+- [7kyu - Dice Rotation](dice_rotation.js)
