@@ -381,3 +381,4 @@
 - [6kyu - Simple Fun #165: Withdraw](withdraw.js)
 - [6kyu - Square string tops](tops.js)
 - [6kyu - Death by Coffee](coffeeLimits.js)
+- [6kyu - Non-even substrings](non_even_substrings.js)
