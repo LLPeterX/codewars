@@ -121,3 +121,4 @@
 - [5kyu - 80's Kids #6: Rock 'Em, Sock 'Em Robots](robots.js)
 - [5kyu - Rotate an array matrix](rotate.js)
 - [5kyu - Alphabet wars - nuclear strike](alphabet_wars.js)
+- [5kyu - Return substring instance count - 2](searchSubstr.js)
