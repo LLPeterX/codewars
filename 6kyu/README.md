@@ -382,3 +382,4 @@
 - [6kyu - Square string tops](tops.js)
 - [6kyu - Death by Coffee](coffeeLimits.js)
 - [6kyu - Non-even substrings](non_even_substrings.js)
+- [6kyu - Master of Files](master_of_files.js)
