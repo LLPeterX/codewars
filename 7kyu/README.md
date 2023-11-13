@@ -494,3 +494,4 @@
 - [7kyu - Polydivisible Numbers](polydivisible.js)
 - [7kyu - Dice Rotation](dice_rotation.js)
 - [7kyu - Driving School Series #1](ds1.js)
+- [7kyu - Smooth numbers](isSmooth.js)
