@@ -386,3 +386,4 @@
 - [6kyu - Adding Binary Numbers](binary_add.js)
 - [6kyu - Special Subsets of Primes](specialPrimes.js)
 - [6kyu - Life without primes](life_without_primes.js)
+- [6kyu - Prime reversion](primes_reversion.js) - not solved
