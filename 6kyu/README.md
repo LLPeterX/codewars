@@ -384,3 +384,4 @@
 - [6kyu - Non-even substrings](non_even_substrings.js)
 - [6kyu - Master of Files](master_of_files.js)
 - [6kyu - Adding Binary Numbers](binary_add.js)
+- [6kyu - Special Subsets of Primes](specialPrimes.js)
