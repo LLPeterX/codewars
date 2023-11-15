@@ -385,3 +385,4 @@
 - [6kyu - Master of Files](master_of_files.js)
 - [6kyu - Adding Binary Numbers](binary_add.js)
 - [6kyu - Special Subsets of Primes](specialPrimes.js)
+- [6kyu - Life without primes](life_without_primes.js)
