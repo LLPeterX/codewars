@@ -388,3 +388,4 @@
 - [6kyu - Life without primes](life_without_primes.js)
 - [6kyu - Prime reversion](primes_reversion.js) - not solved
 - [6kyu - Simple prime streaming](simple_prime_streaming.js)
+- [6kyu - Simple Fun #303: Prime Product](primeProduct.js)
