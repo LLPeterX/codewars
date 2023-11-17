@@ -389,3 +389,4 @@
 - [6kyu - Prime reversion](primes_reversion.js) - not solved
 - [6kyu - Simple prime streaming](simple_prime_streaming.js)
 - [6kyu - Simple Fun #303: Prime Product](primeProduct.js)
+- [6kyu - Lucas Numbers](lucasnum.js)
