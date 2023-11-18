@@ -391,3 +391,4 @@
 - [6kyu - Simple Fun #303: Prime Product](primeProduct.js)
 - [6kyu - Lucas Numbers](lucasnum.js)
 - [6kyu - FizzBuzz++](fizzbuzzPlusPlus.js)
+- [6kyu - How Many Numbers?](selNumber.js)
