@@ -392,3 +392,4 @@
 - [6kyu - Lucas Numbers](lucasnum.js)
 - [6kyu - FizzBuzz++](fizzbuzzPlusPlus.js)
 - [6kyu - How Many Numbers?](selNumber.js)
+- [6kyu - Simple Fun #121: Mr. Odd](mrOdd.js)
