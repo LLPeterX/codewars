@@ -393,3 +393,4 @@
 - [6kyu - FizzBuzz++](fizzbuzzPlusPlus.js)
 - [6kyu - How Many Numbers?](selNumber.js)
 - [6kyu - Simple Fun #121: Mr. Odd](mrOdd.js)
+- [6kyu - GroupBy Advanced](groupByAdv.js)
