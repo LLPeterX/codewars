@@ -124,3 +124,4 @@
 - [5kyu - Return substring instance count - 2](searchSubstr.js)
 - [5kyu - Fouriest transformation](fouriest.js)
 - [5kyu - Binary Tree Traversal](binary_tree_traversal.js)
+- [5kyu - Fun with trees: array to tree](array_to_tree.js)
