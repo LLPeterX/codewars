@@ -496,3 +496,4 @@
 - [7kyu - Driving School Series #1](ds1.js)
 - [7kyu - Smooth numbers](isSmooth.js)
 - [7kyu - Sort the climbing grades](sortGrades.js)
+- [7kyu - Sort by Example](exampleSort.js)
