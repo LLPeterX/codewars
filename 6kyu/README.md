@@ -396,3 +396,4 @@
 - [6kyu - GroupBy Advanced](groupByAdv.js)
 - [6kyu - Dividers of primes](getDividers.js)
 - [6kyu - Traffic Lights - one car](trafficLights.js)
+- [6kyu - String Evaluation](string_evaluation.js)
