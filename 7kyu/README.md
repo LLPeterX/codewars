@@ -497,3 +497,4 @@
 - [7kyu - Smooth numbers](isSmooth.js)
 - [7kyu - Sort the climbing grades](sortGrades.js)
 - [7kyu - Sort by Example](exampleSort.js)
+- [7kyu - Simple Fun #88: Sort By Height](sortByHeight.js)
