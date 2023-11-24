@@ -499,3 +499,4 @@
 - [7kyu - Sort by Example](exampleSort.js)
 - [7kyu - Simple Fun #88: Sort By Height](sortByHeight.js)
 - [7kyu - Sectional Array Sort](sectSort.js)
+- [7kyu - String reverse slicing 101](reverseSlice.js)
