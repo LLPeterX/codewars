@@ -397,3 +397,4 @@
 - [6kyu - Dividers of primes](getDividers.js)
 - [6kyu - Traffic Lights - one car](trafficLights.js)
 - [6kyu - String Evaluation](string_evaluation.js)
+- [6kyu - "Tiny" function](tiny.js)
