@@ -126,3 +126,4 @@
 - [5kyu - Binary Tree Traversal](binary_tree_traversal.js)
 - [5kyu - Fun with trees: array to tree](array_to_tree.js)
 - [5kyu - How Many Numbers? II](maxSumDig.js)
+- [5kyu - Convert cursed data from parallel universe into an object](cursed_data.js)
