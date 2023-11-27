@@ -127,3 +127,4 @@
 - [5kyu - Fun with trees: array to tree](array_to_tree.js)
 - [5kyu - How Many Numbers? II](maxSumDig.js)
 - [5kyu - Convert cursed data from parallel universe into an object](cursed_data.js)
+- [5kyu - Map and Filter to Get a Special Sequence of Integers](prevNext.js)
