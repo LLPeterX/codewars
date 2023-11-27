@@ -31,3 +31,4 @@
 - [4kyu - Linear Equation Solver](linearEquationSolver.js)
 - [4kyu - Multiplying Polynomials](polynomialProduct.js)
 - [4kyu - Infix to Postfix Converter](toPostfix.js)
+- [4kyu - Lempel–Ziv–Welch](LZW.js)
