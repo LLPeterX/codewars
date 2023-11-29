@@ -398,3 +398,4 @@
 - [6kyu - Traffic Lights - one car](trafficLights.js)
 - [6kyu - String Evaluation](string_evaluation.js)
 - [6kyu - "Tiny" function](tiny.js)
+- [6kyu - Group Repeating Fractions](repeatingFractions.js)
