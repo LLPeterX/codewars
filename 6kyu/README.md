@@ -399,3 +399,4 @@
 - [6kyu - String Evaluation](string_evaluation.js)
 - [6kyu - "Tiny" function](tiny.js)
 - [6kyu - Group Repeating Fractions](repeatingFractions.js)
+- [6kyu - Number of anagrams in an array of words](anagramCounter.js)
