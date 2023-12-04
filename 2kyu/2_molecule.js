@@ -228,10 +228,10 @@ class Molecule {
   addChaining(ci, bi, ...elements) {
     console.log(' addChaining', ci, bi, elements);
     if (this.isLocked) throw new LockedMolecule("Molecule is finished");
-    let atom = this.branches[bi - 1][ci - 1];
-    let lastIndex = this.atoms.length;
-    //let backupAtoms = JSON.stringify(this.atoms); // wrong!
-    let prevAtom = atom;
+    let backupAtoms = new Set(this.atoms.map(a => a.id)); // faster than arr.includes()
+    let prevAtom = this.branches[bi - 1][ci - 1];
+    let prevAtomIndex = this.atoms.findIndex(a => a.id == prevAtom.id);
+    let oldIdc = this.idc;
     try {
       for (let i = 0; i < elements.length; i++) {
         if (prevAtom.valence == 1) {
@@ -244,7 +244,11 @@ class Molecule {
         prevAtom = newAtom;
       }
     } catch (e) {
-      this.atoms.splice(lastIndex);
+      // restore molecule
+      this.idc = oldIdc;
+      this.atoms = this.atoms.filter(a => backupAtoms.has(a.id));
+      // fix links
+      this.atoms[prevAtomIndex].links = this.atoms[prevAtomIndex].links.filter(a => backupAtoms.has(a.id));
       throw new InvalidBond();
     }
     return this;
@@ -270,9 +274,16 @@ class Molecule {
   }
 
   unlock() {
-    console.log(' unlock');
+    console.log(' unlock2');
     // Hydrogens should be removed, id's from 1
     let newId = 1;
+    let newBranches = [];
+    for (let b of this.branches) {
+      b = b.filter(a => a.element !== 'H');
+      if (b.length) {
+        newBranches.push(b);
+      }
+    }
     let newAtoms = [];
     for (let a of this.atoms) {
       if (a.element !== 'H') {
@@ -284,11 +295,7 @@ class Molecule {
     if (!newAtoms.length) {
       throw new EmptyMolecule('Molecule is empty');
     }
-    // remove empty branches
-    for (let i = 0; i < this.branches.length; i++) {
-      this.branches[i] = this.branches[i].filter(Boolean);
-    }
-    this.branches = this.branches.filter(b => b.length);
+    this.branches = newBranches;
     this.atoms = newAtoms;
     this.idc = newId;
     this.isLocked = false;
@@ -303,7 +310,8 @@ class Molecule {
   get formula() {
     if (!this.isLocked) throw new UnlockedMolecule("Molecule not finished");
     // CHO first, then others
-    let objCounter = this.atoms.reduce((obj, a) => { obj[a.element] = (obj[a.element] || 0) + 1; return obj; }, {});
+    let objCounter = this.atoms
+      .reduce((obj, a) => { obj[a.element] = (obj[a.element] || 0) + 1; return obj; }, {});
     let strAtoms = Object.entries(objCounter)
       .sort((a, b) => ELEMENTS[a[0]].order - ELEMENTS[b[0]].order)
       .map(([elt, count]) => `${elt}${count > 1 ? count : ''}`);
@@ -345,13 +353,33 @@ class EmptyMolecule extends Error {
 
 // FAIL TEST
 // должно выбросить исключение
-// let m1;
-// try {
-//   m1 = new Molecule('').brancher(3).addChaining(2, 1, 'C', 'C', 'F', 'H').closer();
-// } catch (e) {
-//   console.log(m1.atoms);
-// }
+//Should have removed correctly the first empty branch 
+//and should have used what was previously the second branch 
+//as the currently first one: let m1 = new Molecule('');
+//try {
+m1.brancher(1, 5)
+  .bounder([2, 2, 5, 2], [4, 2, 1, 1])
+  .mutate([1, 1, 'H'])
+  .brancher(3)
+  .bounder([2, 3, 1, 3], [2, 3, 3, 3])
+  .closer()
+  .unlock()
+  .add([2, 2, 'P'])
+  .add([2, 1, 'P'])
 
+//} catch (e) {
+console.log(' error here (must be)');
+console.log(m1.atoms.map(a => a.toString()));
+//}
+/* 
+The carbone (1,2) mutated to hydrogen before has been removed 
+  when unlocking the molecule: it should have been removed 
+  from the branches structure too
+expected [ 'Atom(C.1: C2)', 'Atom(C.2: C1,C3,C5,P10)', 'Atom(C.3: C2,C4)', 'Atom(C.4: C3,C5)', 'Atom(C.5: C2,C4)', 'Atom(C.6: C7,C7)', 'Atom(C.7: C6,C6,C8,C8)', 'Atom(C.8: C7,C7)', 'Atom(P.10: C2)' ] 
+to equal [ 'Atom(C.1: C2)', 'Atom(C.2: C1,C3,C5,P9)',  'Atom(C.3: C2,C4)', 'Atom(C.4: C3,C5)', 'Atom(C.5: C2,C4)', 'Atom(C.6: C7,C7)', 'Atom(C.7: C6,C6,C8,C8)', 'Atom(C.8: C7,C7)', 'Atom(P.9: C2)' ]
+                                                ^^                                                                                                                                     ^^                                  
+
+*/
 
 
 // console.log(' ---Basic tests ---- ');
