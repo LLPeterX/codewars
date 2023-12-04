@@ -100,13 +100,8 @@ const ELEMENTS = {
 
 class Atom {
 
-  static idCounter = 1;
-
-  constructor(elt = 'C') {
-    // if (!elt in ELEMENTS) {
-    //   throw Error(`Unknown element ${elt}`);
-    // }
-    this.id = Atom.idCounter++;
+  constructor(elt, id) {
+    this.id = id;
     this.element = elt;
     this.links = []; // array of bound Atom's
   }
@@ -128,8 +123,12 @@ class Atom {
   }
 
   connect(otherAtom) { // other atom object
-    if (otherAtom.id === this.id) throw new InvalidBond(`Cannot bind ${this} to ${otherAtom}: same atom`);
-    if (this.valence <= this.boundCount || otherAtom.valence <= otherAtom.boundCount) throw new InvalidBond(`Cannot bind ${this} to ${otherAtom}`);
+    if (otherAtom.id === this.id) {
+      throw new InvalidBond(`Cannot bind ${this} to self`);
+    }
+    if (this.valence <= this.boundCount || otherAtom.valence <= otherAtom.boundCount) {
+      throw new InvalidBond(`Cannot bind ${this} to ${otherAtom}: incompatible valences`);
+    }
     this.links.push(otherAtom);
     otherAtom.links.push(this);
   }
@@ -143,12 +142,16 @@ class Atom {
 
   toString() {
     let output = `Atom(${this.element}.${this.id}`;
-    if (!this.boundCount) return output + ')';
-    let hydrogens = this.links.filter(e => e.element === 'H');
-    let nonH = this.links.filter(e => e.element !== 'H').sort((a, b) => a.order == b.order ? a.id - b.id : a.order - b.order);
+    if (!this.boundCount) {
+      return output + ')';
+    }
+    let hs = this.links.filter(e => e.element === 'H');
+    let nonH = this.links
+      .filter(e => e.element !== 'H')
+      .sort((a, b) => a.order == b.order ? a.id - b.id : a.order - b.order);
     output += ': ';
     if (nonH.length > 0) output += nonH.map(e => `${e.element}${e.id}`).join(',');
-    if (hydrogens.length) output += (nonH.length > 0 ? ',' : '') + Array(hydrogens.length).fill('H').join(',');
+    if (hs.length) output += (nonH.length > 0 ? ',' : '') + Array(hs.length).fill('H').join(',');
     output += ')';
     return output;
   }
@@ -161,8 +164,8 @@ class Molecule {
     this.atoms = []; // array of Atom objects
     this.branches = []; // array of arrays of Atom objects
     this.isLocked = false;
-    Atom.idCounter = 1; // reset id counter
-    console.log(' --- new molecule', name);
+    this.idc = 1; // atoms counter
+    console.log('\n --- new molecule:', name);
   }
 
   brancher(...brn) {
@@ -171,7 +174,7 @@ class Molecule {
     for (let atomsCount of brn) {
       let branch = [];
       for (let j = 0; j < atomsCount; j++) {
-        let atom = new Atom('C');
+        let atom = new Atom('C', this.idc++);
         branch.push(atom);
         this.atoms.push(atom);
         if (j > 0) {
@@ -215,7 +218,7 @@ class Molecule {
       if (!atom) {
         throw Error(`Atom in the branch ${bi} at index ${ci} not found`);
       }
-      let newAtom = new Atom(e);
+      let newAtom = new Atom(e, this.idc++);
       atom.connect(newAtom);
       this.atoms.push(newAtom);
     }
@@ -235,7 +238,7 @@ class Molecule {
           throw new InvalidBond(`Valence of ${prevAtom.element} = 1`);
         }
         let elt = elements[i];
-        let newAtom = new Atom(elt);
+        let newAtom = new Atom(elt, this.idc++);
         prevAtom.connect(newAtom);
         this.atoms.push(newAtom);
         prevAtom = newAtom;
@@ -249,17 +252,17 @@ class Molecule {
 
   closer() {
     console.log(' closer');
-    if (this.isLocked) throw new LockedMolecule("Molecule already finished");
+    if (this.isLocked) {
+      throw new LockedMolecule("Molecule already finished");
+    }
     let atomsCount = this.atoms.length;
     for (let i = 0; i < atomsCount; i++) {
       let a = this.atoms[i];
-      if (a.element !== 'H') {
-        let addCount = a.valence - a.boundCount;
-        while (addCount-- > 0) {
-          let h = new Atom('H');
-          this.atoms.push(h);
-          a.connect(h);
-        }
+      let addCount = a.valence - a.boundCount;
+      while (addCount-- > 0) {
+        let h = new Atom('H', this.idc++);
+        this.atoms.push(h);
+        a.connect(h);
       }
     }
     this.isLocked = true;
@@ -287,7 +290,7 @@ class Molecule {
     }
     this.branches = this.branches.filter(b => b.length);
     this.atoms = newAtoms;
-    Atom.idCounter = newId;
+    this.idc = newId;
     this.isLocked = false;
     return this;
   }
@@ -336,15 +339,25 @@ class EmptyMolecule extends Error {
   }
 }
 
-// FAIL TEST
-let m = new Molecule('demo').brancher(1).mutate([1, 1, 'H']).closer();
-console.log('===>', m.formula);
-
-
-
 
 // ----- TESTS -----------
+
+
+// FAIL TEST
+// должно выбросить исключение
+// let m1;
+// try {
+//   m1 = new Molecule('').brancher(3).addChaining(2, 1, 'C', 'C', 'F', 'H').closer();
+// } catch (e) {
+//   console.log(m1.atoms);
+// }
+
+
+
 // console.log(' ---Basic tests ---- ');
+// let mdemo = new Molecule('demo').brancher(1).mutate([1, 1, 'H']).closer();
+// console.log('===>', mdemo.formula, 'H2');
+
 // {
 //   console.log('Constructors');
 //   var m = new Molecule
