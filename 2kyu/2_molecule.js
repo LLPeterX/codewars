@@ -275,7 +275,7 @@ class Molecule {
 
   unlock() {
     console.log(' unlock2');
-    // Hydrogens should be removed, id's from 1
+    // здесь ошибка с удалением пустых веток
     let newId = 1;
     let newBranches = [];
     for (let b of this.branches) {
@@ -288,6 +288,9 @@ class Molecule {
     for (let a of this.atoms) {
       if (a.element !== 'H') {
         a.links = a.links.filter(e => e.element !== 'H');
+        // тут фигня: не в той последовательности 
+        // модифицируются id's
+        // надо их менять при изменении branches[] - ??
         a.id = newId++;
         newAtoms.push(a);
       }
@@ -357,6 +360,7 @@ class EmptyMolecule extends Error {
 //and should have used what was previously the second branch 
 //as the currently first one: let m1 = new Molecule('');
 //try {
+m1 = new Molecule()
 m1.brancher(1, 5)
   .bounder([2, 2, 5, 2], [4, 2, 1, 1])
   .mutate([1, 1, 'H'])
@@ -368,7 +372,6 @@ m1.brancher(1, 5)
   .add([2, 1, 'P'])
 
 //} catch (e) {
-console.log(' error here (must be)');
 console.log(m1.atoms.map(a => a.toString()));
 //}
 /* 
