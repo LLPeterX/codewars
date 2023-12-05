@@ -139,9 +139,13 @@ class Molecule {
     if (this.isLocked) throw new LockedMolecule("Molecule is finished");
     for (let [cn, bn, elt] of a) {
       let atom = this.branches[bn - 1][cn - 1];
-      let newAtom = new Atom(elt, this.idc++);
+      if (atom.boundCount >= ELEMENTS[elt].valence) {
+        throw new InvalidBond();
+      }
+      let newAtom = new Atom(elt, this.idc);
       atom.connect(newAtom);
       this.atoms.push(newAtom);
+      this.idc++;
     }
     return this;
   }
@@ -320,6 +324,7 @@ try {
 
 } catch (e) {
   console.log(m1.atoms.map(a => a.toString()));
+  console.log(m1.show('ERROR'));
 }
 /* 
 The carbone (1,2) mutated to hydrogen before has been removed 
