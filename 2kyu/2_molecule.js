@@ -228,6 +228,17 @@ class Molecule {
     return this;
   }
 
+  show(descr) {
+    console.log(`...${descr}`);
+    console.log(`....atoms:`, this.atoms.map(a => a.toString()).join(','));
+    console.log('....branches:');
+    for (let i = 0; i < this.branches.length; i++) {
+      let str = this.branches[i].map(a => `${a.element}${a.id}`).join('-');
+      console.log(`     ${i + 1}: ${str}`);
+    }
+    return this;
+  }
+
   get molecularWeight() {
     if (!this.isLocked) throw new UnlockedMolecule("Molecule not finished");
     return this.atoms.reduce((sumw, a) => sumw += a.weight, 0);
@@ -288,8 +299,8 @@ class EmptyMolecule extends Error {
 и добавление P (val 3) к ним невозможно.
 
 */
+m1 = new Molecule()
 try {
-  m1 = new Molecule()
   m1.brancher(1, 5)
     .bounder([2, 2, 5, 2], [4, 2, 1, 1])
     .mutate([1, 1, 'H'])
