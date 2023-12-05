@@ -6,6 +6,7 @@ https://www.codewars.com/kata/5a27ca7ab6cfd70f9300007a
 */
 
 
+
 const ELEMENTS = {
   'H': { valence: 1, weight: 1, order: 2 },
   'B': { valence: 3, weight: 10.8, order: 4 },
@@ -50,10 +51,17 @@ class Atom {
       throw new InvalidBond(`Cannot bind ${this} to self`);
     }
     if (this.valence <= this.boundCount || otherAtom.valence <= otherAtom.boundCount) {
-      throw new InvalidBond(`Cannot bind ${this} to ${otherAtom}: free ${this.valence - this.boundCount}, required ${otherAtom.valence}`);
+      throw new InvalidBond(`Cannot bind ${this} to ${otherAtom}: incompatible valences`);
     }
     this.links.push(otherAtom);
     otherAtom.links.push(this);
+  }
+
+  replace(elt) {
+    if (this.boundCount > ELEMENTS[elt].valence) {
+      throw new InvalidBond(`Cannot replace atom ${this} with ${elt}: new valence is too small`);
+    }
+    this.element = elt;
   }
 
   toString() {
@@ -116,17 +124,12 @@ class Molecule {
   mutate(...m) {
     console.log(' mutate', m);
     if (this.isLocked) throw new LockedMolecule("Molecule is finished");
-    for (let [nc, nb, elt] of m) {
-      let atom = this.branches[nb - 1][nc - 1];
-      // if (!branchAtom) {
-      //   throw Error(`Atom in branch ${bi} #${ci} not found`);
-      // }
-      if (atom.boundCount > ELEMENTS[elt].valence) {
-        throw new InvalidBond(`Cannot replace atom ${this} with ${elt}: new valence is too small`);
+    for (let [ci, bi, e] of m) {
+      let branchAtom = this.branches[bi - 1][ci - 1];
+      if (!branchAtom) {
+        throw Error(`Atom in branch ${bi} #${ci} not found`);
       }
-
-      //atom.replace(elt);
-      atom.element = elt;
+      branchAtom.replace(e);
     }
     return this;
   }
@@ -134,8 +137,8 @@ class Molecule {
   add(...a) {
     console.log(' add', a);
     if (this.isLocked) throw new LockedMolecule("Molecule is finished");
-    for (let [nc, nb, elt] of a) {
-      let atom = this.branches[nb - 1][nc - 1];
+    for (let [cn, bn, elt] of a) {
+      let atom = this.branches[bn - 1][cn - 1];
       let newAtom = new Atom(elt, this.idc++);
       atom.connect(newAtom);
       this.atoms.push(newAtom);
@@ -143,11 +146,11 @@ class Molecule {
     return this;
   }
 
-  addChaining(nc, nb, ...elements) {
-    console.log(' addChaining', nc, nb, elements);
+  addChaining(cn, bn, ...elements) {
+    console.log(' addChaining', cn, bn, elements);
     if (this.isLocked) throw new LockedMolecule("Molecule is finished");
     let backupAtoms = new Set(this.atoms.map(a => a.id)); // faster than arr.includes()
-    let prevAtom = this.branches[nb - 1][nc - 1];
+    let prevAtom = this.branches[bn - 1][cn - 1];
     let prevAtomIndex = this.atoms.findIndex(a => a.id == prevAtom.id);
     let oldIdc = this.idc;
     try {
@@ -191,21 +194,8 @@ class Molecule {
     return this;
   }
 
-  show(description) {
-    console.log('...', description);
-    console.log(' ...idc:', this.idc);
-    console.log(' ...atoms:', this.atoms.map(a => a.toString()).join(','));
-    console.log(' ...branches:', this.branches.length);
-    for (let i = 0; i < this.branches.length; i++) {
-      let str = this.branches[i].map(a => `${a.element}${a.id}`).join('-');
-      console.log(`  ${i + 1}: ${str}`);
-    }
-
-    return this;
-  }
-
   unlock() {
-    console.log(' unlock');
+    console.log(' unlock2');
     // здесь ошибка с удалением пустых веток
     let newId = 1;
     let newBranches = [];
@@ -221,11 +211,14 @@ class Molecule {
     for (let a of this.atoms) {
       if (a.element !== 'H') {
         a.links = a.links.filter(e => e.element !== 'H');
+        // тут фигня: не в той последовательности 
+        // модифицируются id's
+        // надо их менять при изменении branches[] - ??
         a.id = newId++;
         newAtoms.push(a);
       }
     }
-    if (newAtoms.length === 0 || newBranches.length === 0) {
+    if (!newAtoms.length) {
       throw new EmptyMolecule('Molecule is empty');
     }
     this.branches = newBranches;
@@ -289,28 +282,34 @@ class EmptyMolecule extends Error {
 //Should have removed correctly the first empty branch 
 //and should have used what was previously the second branch 
 //as the currently first one: let m1 = new Molecule('');
-//try {
-m1 = new Molecule()
-m1.brancher(1, 5)
-  .bounder([2, 2, 5, 2], [4, 2, 1, 1])
-  .mutate([1, 1, 'H'])
-  .show('after mutate')
-  .brancher(3)
-  .show('after second brancher')
-  .bounder([2, 3, 1, 3], [2, 3, 3, 3])
-  .show('after second bounder')
-  .closer()
-  .show('after closer')
-  .unlock()
-  .show('after unlock')
-  .add([2, 2, 'P'])
-  .show('add 2,1,P')
-  .add([2, 1, 'P'])
-  .show('add 2,1,P')
+/* 
+Тут хуйня какая-то.
+В новой ветке (которая станет #2) есть 2 двойных связи
+и добавление P (val 3) к ним невозможно.
 
-//} catch (e) {
-console.log(m1.atoms.map(a => a.toString()));
-//}
+*/
+try {
+  m1 = new Molecule()
+  m1.brancher(1, 5)
+    .bounder([2, 2, 5, 2], [4, 2, 1, 1])
+    .mutate([1, 1, 'H'])
+    .show('after mutate')
+    .brancher(3)
+    .show('after second brancher')
+    .bounder([2, 3, 1, 3], [2, 3, 3, 3])
+    .show('after second bounder')
+    .closer()
+    .show('after closer')
+    .unlock()
+    .show('after unlock')
+    .add([2, 2, 'P'])
+    //    .show('add 2,1,P')
+    .add([2, 1, 'P'])
+    .show('add 2,1,P')
+
+} catch (e) {
+  console.log(m1.atoms.map(a => a.toString()));
+}
 /* 
 The carbone (1,2) mutated to hydrogen before has been removed 
   when unlocking the molecule: it should have been removed 
