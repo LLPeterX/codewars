@@ -2,86 +2,9 @@
 2kyu - Full Metal Chemist #1: build me...
 https://www.codewars.com/kata/5a27ca7ab6cfd70f9300007a
 
-Создать 2 класса: Molecule и Atom.
-это позволит вам, используя набор методов, 
-построить числовые эквиваленты органических соединений 
-и восстановить некоторые из их простейших свойств 
-(например, молекулярный вес и исходную формулу).
-Также надо имплементировать Error.
-
---- Класс Molecule ---
-
-Основной объект, представляет молекулу, её свойства и атомы.
-свойства:
- - this.formula - химическая формула (типа "C2H5OH", "C5H10O2BrClS")
- - this.molecularWeight (double) - вес. г/моль
- - this.atoms - список атомов. Атомы добавляются в порядке создания.
- - this.name - наименование молекулы
-
-Методы:
-- constructor(name = null) . Наименование может быть опущено.
-
-- brancher(x,y,z, ...) - Ветка - это цепочка совединенных вместе атомов.
-  Когда создается ветвь, все ее атомы являются атомами углерода.
-  Каждая «ветвь» молекулы идентифицируется номером, соответствующим 
-  порядку ее создания: первая созданная ветвь имеет номер 1, вторая — номер 2,…
-  Метод brancher() может принимать любое кол-во аргументов, (каждый из
-  аргументов = число атомов C в ветви), добавлет
-  новые "ветви" к текущей молекуле.
-
-- bounder([c1,b1,c2,b2], ...)  - создает соединение между атомами в существующих ветках
-   c1,b1 - позиция первого атома c1 в ветке b1
-   c2,b2 - позиция второго атома
-  Позиции нумеруются с 1. [1,1,5,3] означает соединение первого атома первой ветки
-  с 5-м атомом 3-й ветки. Только положительные целые
-
- - mutate([nc,nb,elt], ...) 
-    * замещает атом углерода nc (нумерация с 1!) в ветке bc на химический элемент elt (строка)
-    * id атома остается прежним
-    
- - add([nc,nb,elt], ...)
-  * добавляет new Atom() типа elt (elt - строка) к углероду nc в ветке nb.
-  * такие добавленные атомы не считаются частью ветви, с которой они связаны, 
-    и не считаются новой ветвью молекулы.
- 
-....
-Related behaviours:
-
-* Методы должны соединяться в цепочку: (ex: molec = Molecule("octane").brancher(8).closer()).
-* Построение молекулы заключается в мутации исходного объекта при каждом вызове метода.
-* Если атом превышает свою валентность или связывается с самим собой,
-  бросать исколючение
-
-An InvalidBond exception should be thrown each time you encounter a case 
-where an atom exceeds its valence number or is bounded to itself 
-(about the valence number, see additional information below).
-When a method throws an exception while it still has several arguments/atoms left to handle, the modifications resulting from the valid previous operations must be kept but all the arguments after the error are ignored.
-Special case with add_chaining: if an error occurs at any point when adding the chain, all its atoms have to be removed from the instance (even the valid ones).
-The whole molecule integrity should hold against any error, meaning that it must be possible to correctly work with a molecule object even after it threw an exception.
-The fields formula and molecular_weight or the associated getters (depending on your language) should throw an UnlockedMolecule exception if an user tries to access them while the molecule isn't locked (because we do not want the user to catch incomplete/invalid information).
-In a similar manner, attempts of modification of a molecule after it has been locked should throw a LockedMolecule exception (the closer method follows this behavior too).
 
 */
 
-
-/* 
-TODO:
-
-1) Check all possible mutations and correct behavior of 'add' on the mutated atom
-new Molecule('').brancher(1).mutate([1,1,'H']).closer()
-Testing raw formula with mutation: expected 'H' to deeply equal 'H2' - ???
-
-2) д.б. Ошибка "Should fail when chaining atoms after any monovalent atom"
-(без closer())
-new Molecule('').brancher(3).addChaining(2,1,'C','C','F','H')
-д.б.: [ 'Atom(C.1: C2)', 'Atom(C.2: C1,C3)', 'Atom(C.3: C2)' ]
-моё:  [ 'Atom(C.1: C2)', 'Atom(C.2: C1,C3,C4)', 'Atom(C.3: C2)' ]
-
-3) При разблокировке перименовать ID атомов в this.atoms[] начиная с 1.
-заодно в links
-
-
-*/
 
 const ELEMENTS = {
   'H': { valence: 1, weight: 1, order: 2 },
@@ -127,17 +50,10 @@ class Atom {
       throw new InvalidBond(`Cannot bind ${this} to self`);
     }
     if (this.valence <= this.boundCount || otherAtom.valence <= otherAtom.boundCount) {
-      throw new InvalidBond(`Cannot bind ${this} to ${otherAtom}: incompatible valences`);
+      throw new InvalidBond(`Cannot bind ${this} to ${otherAtom}: free ${this.valence - this.boundCount}, required ${otherAtom.valence}`);
     }
     this.links.push(otherAtom);
     otherAtom.links.push(this);
-  }
-
-  replace(elt) {
-    if (this.boundCount > ELEMENTS[elt].valence) {
-      throw new InvalidBond(`Cannot replace atom ${this} with ${elt}: new valence is too small`);
-    }
-    this.element = elt;
   }
 
   toString() {
@@ -200,12 +116,17 @@ class Molecule {
   mutate(...m) {
     console.log(' mutate', m);
     if (this.isLocked) throw new LockedMolecule("Molecule is finished");
-    for (let [ci, bi, e] of m) {
-      let branchAtom = this.branches[bi - 1][ci - 1];
-      if (!branchAtom) {
-        throw Error(`Atom in branch ${bi} #${ci} not found`);
+    for (let [nc, nb, elt] of m) {
+      let atom = this.branches[nb - 1][nc - 1];
+      // if (!branchAtom) {
+      //   throw Error(`Atom in branch ${bi} #${ci} not found`);
+      // }
+      if (atom.boundCount > ELEMENTS[elt].valence) {
+        throw new InvalidBond(`Cannot replace atom ${this} with ${elt}: new valence is too small`);
       }
-      branchAtom.replace(e);
+
+      //atom.replace(elt);
+      atom.element = elt;
     }
     return this;
   }
@@ -213,30 +134,27 @@ class Molecule {
   add(...a) {
     console.log(' add', a);
     if (this.isLocked) throw new LockedMolecule("Molecule is finished");
-    for (let [ci, bi, e] of a) {
-      let atom = this.branches[bi - 1][ci - 1];
-      if (!atom) {
-        throw Error(`Atom in the branch ${bi} at index ${ci} not found`);
-      }
-      let newAtom = new Atom(e, this.idc++);
+    for (let [nc, nb, elt] of a) {
+      let atom = this.branches[nb - 1][nc - 1];
+      let newAtom = new Atom(elt, this.idc++);
       atom.connect(newAtom);
       this.atoms.push(newAtom);
     }
     return this;
   }
 
-  addChaining(ci, bi, ...elements) {
-    console.log(' addChaining', ci, bi, elements);
+  addChaining(nc, nb, ...elements) {
+    console.log(' addChaining', nc, nb, elements);
     if (this.isLocked) throw new LockedMolecule("Molecule is finished");
     let backupAtoms = new Set(this.atoms.map(a => a.id)); // faster than arr.includes()
-    let prevAtom = this.branches[bi - 1][ci - 1];
+    let prevAtom = this.branches[nb - 1][nc - 1];
     let prevAtomIndex = this.atoms.findIndex(a => a.id == prevAtom.id);
     let oldIdc = this.idc;
     try {
       for (let i = 0; i < elements.length; i++) {
-        if (prevAtom.valence == 1) {
-          throw new InvalidBond(`Valence of ${prevAtom.element} = 1`);
-        }
+        // if (prevAtom.valence == 1) {
+        //   throw new InvalidBond(`Valence of ${prevAtom.element} = 1`);
+        // }
         let elt = elements[i];
         let newAtom = new Atom(elt, this.idc++);
         prevAtom.connect(newAtom);
@@ -273,8 +191,21 @@ class Molecule {
     return this;
   }
 
+  show(description) {
+    console.log('...', description);
+    console.log(' ...idc:', this.idc);
+    console.log(' ...atoms:', this.atoms.map(a => a.toString()).join(','));
+    console.log(' ...branches:', this.branches.length);
+    for (let i = 0; i < this.branches.length; i++) {
+      let str = this.branches[i].map(a => `${a.element}${a.id}`).join('-');
+      console.log(`  ${i + 1}: ${str}`);
+    }
+
+    return this;
+  }
+
   unlock() {
-    console.log(' unlock2');
+    console.log(' unlock');
     // здесь ошибка с удалением пустых веток
     let newId = 1;
     let newBranches = [];
@@ -285,17 +216,16 @@ class Molecule {
       }
     }
     let newAtoms = [];
+    // The id numbers of the remaining atoms have to be continuous again 
+    // (beginning at 1), keeping the order they had when the molecule was locked.
     for (let a of this.atoms) {
       if (a.element !== 'H') {
         a.links = a.links.filter(e => e.element !== 'H');
-        // тут фигня: не в той последовательности 
-        // модифицируются id's
-        // надо их менять при изменении branches[] - ??
         a.id = newId++;
         newAtoms.push(a);
       }
     }
-    if (!newAtoms.length) {
+    if (newAtoms.length === 0 || newBranches.length === 0) {
       throw new EmptyMolecule('Molecule is empty');
     }
     this.branches = newBranches;
@@ -364,12 +294,19 @@ m1 = new Molecule()
 m1.brancher(1, 5)
   .bounder([2, 2, 5, 2], [4, 2, 1, 1])
   .mutate([1, 1, 'H'])
+  .show('after mutate')
   .brancher(3)
+  .show('after second brancher')
   .bounder([2, 3, 1, 3], [2, 3, 3, 3])
+  .show('after second bounder')
   .closer()
+  .show('after closer')
   .unlock()
+  .show('after unlock')
   .add([2, 2, 'P'])
+  .show('add 2,1,P')
   .add([2, 1, 'P'])
+  .show('add 2,1,P')
 
 //} catch (e) {
 console.log(m1.atoms.map(a => a.toString()));
@@ -378,7 +315,7 @@ console.log(m1.atoms.map(a => a.toString()));
 The carbone (1,2) mutated to hydrogen before has been removed 
   when unlocking the molecule: it should have been removed 
   from the branches structure too
-expected [ 'Atom(C.1: C2)', 'Atom(C.2: C1,C3,C5,P10)', 'Atom(C.3: C2,C4)', 'Atom(C.4: C3,C5)', 'Atom(C.5: C2,C4)', 'Atom(C.6: C7,C7)', 'Atom(C.7: C6,C6,C8,C8)', 'Atom(C.8: C7,C7)', 'Atom(P.10: C2)' ] 
+my       [ 'Atom(C.1: C2)', 'Atom(C.2: C1,C3,C5,P10)', 'Atom(C.3: C2,C4)', 'Atom(C.4: C3,C5)', 'Atom(C.5: C2,C4)', 'Atom(C.6: C7,C7)', 'Atom(C.7: C6,C6,C8,C8)', 'Atom(C.8: C7,C7)', 'Atom(P.10: C2)' ] 
 to equal [ 'Atom(C.1: C2)', 'Atom(C.2: C1,C3,C5,P9)',  'Atom(C.3: C2,C4)', 'Atom(C.4: C3,C5)', 'Atom(C.5: C2,C4)', 'Atom(C.6: C7,C7)', 'Atom(C.7: C6,C6,C8,C8)', 'Atom(C.8: C7,C7)', 'Atom(P.9: C2)' ]
                                                 ^^                                                                                                                                     ^^                                  
 
