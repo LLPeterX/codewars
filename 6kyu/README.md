@@ -400,3 +400,4 @@
 - [6kyu - "Tiny" function](tiny.js)
 - [6kyu - Group Repeating Fractions](repeatingFractions.js)
 - [6kyu - Number of anagrams in an array of words](anagramCounter.js)
+- [6kyu - One Variable Second Degree Equation Solver](secDegSolver.js)
