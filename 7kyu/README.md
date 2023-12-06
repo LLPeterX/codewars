@@ -501,3 +501,4 @@
 - [7kyu - Sectional Array Sort](sectSort.js)
 - [7kyu - String reverse slicing 101](reverseSlice.js)
 - [7kyu - PokerHelper lvl. 1](poker1.js)
+- [7kyu - Simple Fun #38: House Of Cats](houseOfCats.js)
