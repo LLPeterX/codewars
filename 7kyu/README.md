@@ -503,3 +503,4 @@
 - [7kyu - PokerHelper lvl. 1](poker1.js)
 - [7kyu - Simple Fun #38: House Of Cats](houseOfCats.js)
 - [7kyu - Graceful Tipping](gracefulTipping.js)
+- [7kyu - SCHEDULE YOUR DA(RRA)Y](dayPlan.js)
