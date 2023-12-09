@@ -504,3 +504,4 @@
 - [7kyu - Simple Fun #38: House Of Cats](houseOfCats.js)
 - [7kyu - Graceful Tipping](gracefulTipping.js)
 - [7kyu - SCHEDULE YOUR DA(RRA)Y](dayPlan.js)
+- [7kyu - nth Floyd line](nthFloyd.js)
