@@ -403,3 +403,4 @@
 - [6kyu - One Variable Second Degree Equation Solver](secDegSolver.js)
 - [6kyu - Two Sets of Equal Sum](createTwoSetsOfEqualSum.js)
 - [6kyu - Cumulative Triangle](cumulativeTriangle.js)
+- [6kyu - Another one down—the Survival of the Fittest!](removeSmallest.js)
