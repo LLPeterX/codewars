@@ -505,3 +505,4 @@
 - [7kyu - Graceful Tipping](gracefulTipping.js)
 - [7kyu - SCHEDULE YOUR DA(RRA)Y](dayPlan.js)
 - [7kyu - nth Floyd line](nthFloyd.js)
+- [7kyu - Distance from the average](distancesFromAverage.js)
