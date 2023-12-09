@@ -404,3 +404,4 @@
 - [6kyu - Two Sets of Equal Sum](createTwoSetsOfEqualSum.js)
 - [6kyu - Cumulative Triangle](cumulativeTriangle.js)
 - [6kyu - Another one down—the Survival of the Fittest!](removeSmallest.js)
+- [6kyu - Proof Read](proofread.js)
