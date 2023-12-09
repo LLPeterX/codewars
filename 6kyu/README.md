@@ -405,3 +405,4 @@
 - [6kyu - Cumulative Triangle](cumulativeTriangle.js)
 - [6kyu - Another one down—the Survival of the Fittest!](removeSmallest.js)
 - [6kyu - Proof Read](proofread.js)
+- [6kyu - Drunk friend](drunk_friend.js)
