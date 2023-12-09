@@ -402,3 +402,4 @@
 - [6kyu - Number of anagrams in an array of words](anagramCounter.js)
 - [6kyu - One Variable Second Degree Equation Solver](secDegSolver.js)
 - [6kyu - Two Sets of Equal Sum](createTwoSetsOfEqualSum.js)
+- [6kyu - Cumulative Triangle](cumulativeTriangle.js)
