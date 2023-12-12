@@ -409,3 +409,4 @@
 - [6kyu - One down](oneDown.js)
 - [6kyu - Plus - minus - plus - plus - ... - Sum](plus_munus.js)
 - [6kyu - Bracket Duplicates](stringParse.js)
+- [6kyu - Alternating Loops](combine.js)
