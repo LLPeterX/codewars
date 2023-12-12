@@ -408,3 +408,4 @@
 - [6kyu - Drunk friend](drunk_friend.js)
 - [6kyu - One down](oneDown.js)
 - [6kyu - Plus - minus - plus - plus - ... - Sum](plus_munus.js)
+- [6kyu - Bracket Duplicates](stringParse.js)
