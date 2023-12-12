@@ -407,3 +407,4 @@
 - [6kyu - Proof Read](proofread.js)
 - [6kyu - Drunk friend](drunk_friend.js)
 - [6kyu - One down](oneDown.js)
+- [6kyu - Plus - minus - plus - plus - ... - Sum](plus_munus.js)
