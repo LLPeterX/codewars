@@ -5,6 +5,15 @@ https://www.codewars.com/kata/651bfcbd409ea1001ef2c3cb/train/javascript
 
 // см. 3kyu/Thing1.js
 
+
+/* 
+TODO:
+1) реализовать items[]
+2) при добавлении смотреть - если this._tmpName есть в items[]
+   то изменить существующий, иначе - добавить
+3) Перенести ucase() в Item
+4) Item.toString() = Item.fullName(this.name) - ?? надо ли?
+*/
 const ucase = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
 
 class Item {
@@ -116,7 +125,8 @@ class Character {
         let statesStr = stateValues.map((v, i) => v ? `${Character.states[i]} ${v > 0 ? '+' : ''}${v}` : '').filter(Boolean).join(' ');
         this.log.push(logStr + statesStr);
       }
-      Reflect.deleteProperty(this, this._tmpName);
+      //Reflect.deleteProperty(this, this._tmpName);
+      this._tmpName = null;
     }
   }
 
@@ -129,11 +139,13 @@ class Character {
 
   characterInfo() {
     //console.log(this.weapon);
+    console.log('--- stats ---');
     let weaponStr = `${Item.fullName(this.weapon.name)}${this.weapon.enhanced ? '(enhanced)' : ''} ${this.getDamage()} dmg`;
     return `${this.name}\nstr ${this.strength}\ndex ${this.dexterity}\nint ${this.intelligence}\n${weaponStr}`;
   }
 
   eventLog() {
+    console.log('--- log ---');
     return this.log.join("\n");
   }
 }
@@ -142,14 +154,16 @@ class Character {
 
 
 const kroker = new Character({ name: 'Kroker', strength: 15, intelligence: 7 });
-const res = `Kroker\nstr 15\ndex 10\nint 7\nlimbs 32 dmg`;
-//console.log(kroker.characterInfo());
+//const res = `Kroker\nstr 15\ndex 10\nint 7\nlimbs 32 dmg`;
+console.log('initial', kroker.characterInfo());
 //console.log(kroker.strength);
 
-// const test = new Character({ name: 'Kroker', strength: 15, intelligence: 7 });
 kroker.axeOfFire(3, 1, 0, 20);
+kroker.staffOfWater(1, 0, 2, 60);
+console.log('\nafter staff', kroker.characterInfo());
 kroker.axeOfFire(1, 2, 1, 10);
+console.log('\nafter 2 axe', kroker.characterInfo());
 kroker.strangeFruit(-2, 0, 2);
-// const res = `Kroker\nstr 15\ndex 10\nint 7\nAxe of fire 75 dmg`;
-console.log(kroker.characterInfo()); // str 15 dex 10 int 7 axe 75
+console.log('\nafter fruit', kroker.characterInfo());
+//console.log(kroker.characterInfo()); // str 15 dex 10 int 7 axe 75
 console.log(kroker.eventLog()); // str 15 dex 10 int 7 axe 75
