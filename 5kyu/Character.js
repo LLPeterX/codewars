@@ -61,11 +61,10 @@ class Weapon extends Item {
     this.int = Math.max(this.int, int);
     this.extra = Math.max(this.extra, extra);
   }
-
-
 }
 
 class Character {
+  static states = ['strength', 'dexterity', 'intelligence'];
 
   constructor(info) {
     this.name = info.name ?? 'Hero';
@@ -106,17 +105,16 @@ class Character {
             this.weapon = newWeapon;
           }
         }
-        this.log.push(`${this.name} finds '${this._tmpName}'`)
-
+        this.log.push(`${this.name} finds '${Item.fullName(this._tmpName)}'`);
       } else {
         this.strength += str;
         this.dexterity += dex;
         this.intelligence += int;
-        let logStr = this._tmpName + ': ';
-        if (str) logStr += 'strength ' + param2str(str);
-        if (dex) logStr += 'dexterity ' + param2str(dex);
-        if (int) logStr += 'intelligence ' + param2str(int);
-        this.log.push(logStr);
+        let stateValues = [str, dex, int];
+        if (stateValues.every(s => s === 0)) return Item.fullName(this._tmpName);
+        let logStr = Item.fullName(this._tmpName) + ': ';
+        let statesStr = stateValues.map((v, i) => v ? `${Character.states[i]} ${v > 0 ? '+' : ''}${v}` : '').filter(Boolean).join(' ');
+        this.log.push(logStr + statesStr);
       }
       Reflect.deleteProperty(this, this._tmpName);
     }
