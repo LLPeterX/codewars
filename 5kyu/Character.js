@@ -36,7 +36,6 @@ class Weapon extends Item {
   constructor(name, str = 1, dex = 1, int = 1, extra = 0) {
     super(name);
     this.enhanced = false;
-    //    this.setDamage(str, dex, int, extra);
     this.str = str;
     this.dex = dex;
     this.int = int;
@@ -125,7 +124,7 @@ class Character {
   }
 
   characterInfo() {
-    console.log(this.weapon);
+    //console.log(this.weapon);
     let weaponStr = `${this.weapon.fullName}${this.weapon.enhanced ? '(enhanced)' : ''} ${this.getDamage()} dmg`;
     return `${this.name}\nstr ${this.strength}\ndex ${this.dexterity}\nint ${this.intelligence}\n${weaponStr}`;
   }
@@ -149,3 +148,4 @@ kroker.axeOfFire(1, 2, 1, 10);
 kroker.strangeFruit(-2, 0, 2);
 // const res = `Kroker\nstr 15\ndex 10\nint 7\nAxe of fire 75 dmg`;
 console.log(kroker.characterInfo()); // str 15 dex 10 int 7 axe 75
+console.log(kroker.eventLog()); // str 15 dex 10 int 7 axe 75
