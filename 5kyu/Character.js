@@ -6,6 +6,7 @@ https://www.codewars.com/kata/651bfcbd409ea1001ef2c3cb/train/javascript
 // см. 3kyu/Thing1.js
 
 const ucase = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
+
 class Item {
   static regexWeapon = new RegExp("(.+?)Of(.+)");
   static isWeapon(itemName) {
@@ -14,19 +15,24 @@ class Item {
 
   constructor(name) {
     this.name = name;
-    let fullName;
-    let m = name.match(Item.regexWeapon);
-    if (m) {
-      let [, first, second] = m;
-      fullName = `${ucase(first)} of ${second.toLowerCase()}`;
-    } else {
-      fullName = name;
-    }
-    this.fullName = fullName;
   }
 
   toString() {
     return this.name;
+  }
+
+  static fullName(name) {
+    let m = name.match(Item.regexWeapon);
+    if (m) {
+      let [, first, second] = m;
+      return `${ucase(first)} of ${second.toLowerCase()}`;
+    } else {
+      let words = name.match(/([A-Z][a-z]+|[a-z]+)/g);
+      if (!words || words.length == 1) return name;
+      words = words.map(w => w.toLowerCase());
+      words[0] = ucase(words[0]);
+      return words.join(' ');
+    }
   }
 }
 
@@ -125,7 +131,7 @@ class Character {
 
   characterInfo() {
     //console.log(this.weapon);
-    let weaponStr = `${this.weapon.fullName}${this.weapon.enhanced ? '(enhanced)' : ''} ${this.getDamage()} dmg`;
+    let weaponStr = `${Item.fullName(this.weapon.name)}${this.weapon.enhanced ? '(enhanced)' : ''} ${this.getDamage()} dmg`;
     return `${this.name}\nstr ${this.strength}\ndex ${this.dexterity}\nint ${this.intelligence}\n${weaponStr}`;
   }
 
