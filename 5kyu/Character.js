@@ -3,15 +3,14 @@
 https://www.codewars.com/kata/651bfcbd409ea1001ef2c3cb/train/javascript
 */
 
-const { formToJSON } = require("axios");
-
-
 // см. 3kyu/Thing1.js
-// я запутался.
 class Item {
   constructor(name) {
     this.name = name;
-    //this.dmg = 0;
+  }
+
+  toString() {
+    return this.name;
   }
 }
 
@@ -19,31 +18,27 @@ class Item {
 class Weapon extends Item {
 
   static re = new RegExp("(.+?)Of(.+)");
-
-  constructor(name, str = 1, dex = 1, int = 1, extra = 0) {
-    super(name);
-    this.enhanced = false;
-    this.setDamage(str, dex, int, extra);
-  }
-
-
-
   static isWeapon(itemName) {
     return Weapon.re.test(itemName);
   }
 
-  setDamage(str, dex, int, extra) {
+  constructor(name, str = 1, dex = 1, int = 1, extra = 0) {
+    super(name);
+    this.enhanced = false;
+    //    this.setDamage(str, dex, int, extra);
     this.str = str;
     this.dex = dex;
     this.int = int;
     this.extra = extra;
   }
 
+
   toString() {
     return this.name + (this.enhanced) ? '(enhanced)' : '';
   }
 
   enhance(str, dex, int, extra) {
+    console.log('...enhacing ', this.name);
     this.enhanced = true;
     this.str = Math.max(this.str, str);
     this.dex = Math.max(this.dex, dex);
@@ -68,15 +63,11 @@ class Character {
     return new Proxy(this, {
       get: (target, name) => {
         if (name in target) {
+          //existing prop/method
           return target[name];
         } else {
-          // add Item
+          // add temp method
           target._tmpName = name;
-          // if (Weapon.isWeapon(name)) {
-          //   console.log('weapon!');
-          //   Reflect.defineProperty(target, name, { value: target.addItem });
-          //   return target[name];
-          // }
           Reflect.defineProperty(target, name, { value: target.addItem });
           return target[name];
         }
@@ -94,8 +85,8 @@ class Character {
           this.weapon.enhance(str, dex, int, extra);
         } else {
           let newWeapon = new Weapon(this._tmpName, str, dex, int, extra);
-          if (this.damage(newWeapon) > this.damage(this.weapon)) {
-            console.log('set new weapon');
+          if (this.getDamage(newWeapon) > this.getDamage(this.weapon)) {
+            console.log('set new weapon ', this._tmpName);
             this.weapon = newWeapon;
           }
         }
@@ -111,14 +102,11 @@ class Character {
         if (int) logStr += 'intelligence ' + param2str(int);
         this.log.push(logStr);
       }
-      //delete this[this._tmpName];
       Reflect.deleteProperty(this, this._tmpName);
     }
-
-
   }
 
-  damage(weapon) {
+  getDamage(weapon = this.weapon) {
     return weapon.str * this.strength +
       weapon.dex * this.dexterity +
       weapon.int * this.intelligence +
@@ -126,11 +114,8 @@ class Character {
   }
 
   characterInfo() {
-    // let w = this.weapons.sort((a, b) => b.damage - a.damage)[0];
-    // let weaponStr = `${w.name}${w.enhanced ? '(enhanced)' : ''} ${this.damage} dmg`;
-    // return `${this.name}\nstr ${this.strength}\ndex ${this.dexterity}\nint ${this.intelligence}\n${weaponStr}`;
-
-    let weaponStr = `${this.weapon.name}${this.weapon.enhanced ? '(enhanced)' : ''} ${this.damage(this.weapon)} dmg`;
+    console.log(this.weapon);
+    let weaponStr = `${this.weapon.name}${this.weapon.enhanced ? '(enhanced)' : ''} ${this.getDamage()} dmg`;
     return `${this.name}\nstr ${this.strength}\ndex ${this.dexterity}\nint ${this.intelligence}\n${weaponStr}`;
   }
 
