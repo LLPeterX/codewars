@@ -3,18 +3,8 @@
 https://www.codewars.com/kata/651bfcbd409ea1001ef2c3cb/train/javascript
 */
 
-// см. 3kyu/Thing1.js
 
-
-/* 
-TODO:
-1) реализовать items[]
-2) при добавлении смотреть - если this._tmpName есть в items[]
-   то изменить существующий, иначе - добавить
-3) Перенести ucase() в Item
-4) Item.toString() = Item.fullName(this.name) - ?? надо ли?
-*/
-const ucase = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
+//const ucase = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
 
 class Item {
   static regexWeapon = new RegExp("(.+?)Of(.+)");
@@ -35,6 +25,7 @@ class Item {
   }
 
   static fullName(name) {
+    const ucase = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
     let m = name.match(Item.regexWeapon);
     if (m) {
       let [, first, second] = m;
@@ -63,7 +54,7 @@ class Weapon extends Item {
   }
 
   enhance(str, dex, int, extra) {
-    console.log('...enhacing ', this.name);
+    //console.log('...enhacing ', this.name);
     this.enhanced = true;
     this.str = Math.max(this.str, str);
     this.dex = Math.max(this.dex, dex);
@@ -88,8 +79,8 @@ class Character {
 
     return new Proxy(this, {
       get: (target, name) => {
-        target._tmpName = name;
-        if (!(name in target)) {
+        //console.log(`  >> name:${name} HOP:${Reflect.getOwnPropertyDescriptor(target, name)}`);
+        if (!(name in target) || target.items.find(item => item.name === name)) {
           target._tmpName = name;
           Reflect.defineProperty(target, name, { value: target.addItem });
         }
@@ -99,8 +90,7 @@ class Character {
   } // end constructor
 
   addItem(str, dex, int, extra = 0) {
-    console.log('call addItem', arguments, 'name=', this._tmpName);
-    //const param2str = n => "- +"[Math.sign(n) + 1] + n;
+    //console.log('call addItem', arguments, 'name=', this._tmpName);
     if (this._tmpName) {
       if (Item.isWeapon(this._tmpName)) {
         let existingWeapon = this.items.find(item => item.name === this._tmpName);
@@ -109,7 +99,7 @@ class Character {
         } else {
           this.items.push(new Weapon(this._tmpName, str, dex, int, extra));
         }
-        // find max weapon
+        // find max damage
         for (let w of this.items) {
           if (w instanceof (Weapon) && this.getDamage(w) > this.getDamage(this.weapon)) {
             this.weapon = w;
@@ -133,7 +123,7 @@ class Character {
   }
 
 
-  getDamage(weapon = this.weapon) {
+  getDamage(weapon) {
     return weapon.str * this.strength +
       weapon.dex * this.dexterity +
       weapon.int * this.intelligence +
@@ -141,14 +131,13 @@ class Character {
   }
 
   characterInfo() {
-    //console.log(this.weapon);
-    console.log('--- stats ---');
-    let weaponStr = `${Item.fullName(this.weapon.name)}${this.weapon.enhanced ? '(enhanced)' : ''} ${this.getDamage()} dmg`;
+    //console.log('--- stats ---');
+    let weaponStr = `${Item.fullName(this.weapon.name)}${this.weapon.enhanced ? '(enhanced)' : ''} ${this.getDamage(this.weapon)} dmg`;
     return `${this.name}\nstr ${this.strength}\ndex ${this.dexterity}\nint ${this.intelligence}\n${weaponStr}`;
   }
 
   eventLog() {
-    console.log('--- log ---');
+    //console.log('--- log ---');
     return this.log.join("\n");
   }
 }
@@ -162,13 +151,14 @@ console.log('initial:\n', kroker.characterInfo());
 //console.log(kroker.strength);
 
 kroker.axeOfFire(3, 1, 0, 20);
-console.log('\nafter axe:\n', kroker.characterInfo()); // 75 dmg - OK
-console.log(kroker.eventLog()); // "Kroker finds 'Axe of fire'"
+//console.log('\nafter axe:\n', kroker.characterInfo()); // 75 dmg - OK
+//console.log(kroker.eventLog()); // "Kroker finds 'Axe of fire'"
 kroker.staffOfWater(1, 0, 2, 60);
-console.log('\nafter staff:\n', kroker.characterInfo()); // 89 dmg
+//console.log('\nafter staff:\n', kroker.characterInfo()); // 89 dmg
+console.log(' ==== find second axe ====');
 kroker.axeOfFire(1, 2, 1, 10);
 console.log('\nafter 2 axe:\n', kroker.characterInfo()); // 92 dmg
 kroker.strangeFruit(-2, 0, 2);
 console.log('\nafter fruit:\n', kroker.characterInfo());
-console.log(kroker.characterInfo()); // 91 dmg
-console.log(kroker.eventLog()); // str 15 dex 10 int 7 axe 75
+// console.log(kroker.characterInfo()); // 91 dmg
+console.log(kroker.eventLog()); //...
