@@ -22,8 +22,12 @@ class Item {
     return Item.regexWeapon.test(itemName);
   }
 
-  constructor(name) {
+  constructor(name, str, dex, int, extra = 0) {
     this.name = name;
+    this.str = str;
+    this.dex = dex;
+    this.int = int;
+    this.extra = extra;
   }
 
   toString() {
@@ -49,12 +53,8 @@ class Item {
 class Weapon extends Item {
 
   constructor(name, str = 1, dex = 1, int = 1, extra = 0) {
-    super(name);
+    super(name, str, dex, int, extra);
     this.enhanced = false;
-    this.str = str;
-    this.dex = dex;
-    this.int = int;
-    this.extra = extra;
   }
 
 
