@@ -113,7 +113,7 @@ class Character {
         let stateValues = [str, dex, int];
         if (stateValues.every(s => s === 0)) return Item.fullName(this._tmpName);
         let logStr = Item.fullName(this._tmpName) + ': ';
-        let statesStr = stateValues.map((v, i) => v ? `${Character.states[i]} ${v > 0 ? '+' : ''}${v}` : '').filter(Boolean).join(' ');
+        let statesStr = stateValues.map((v, i) => v ? `${Character.states[i]} ${v > 0 ? '+' : ''}${v}` : '').filter(Boolean).join(', ');
         this.items.push(new Item(this._tmpName, str, dex, int));
         this.log.push(logStr + statesStr);
       }
@@ -179,9 +179,6 @@ test.strangeFruit(-2, 0, 2);
 console.log(test.characterInfo()); // `Kroker\nstr 13\ndex 10\nint 9\nStaff of water 91 dmg`;
 // у меня 88, надо 91
 /* 
-The character should always choose the weapon with the highest damage; 
-if a random event changed characteristics so that some weapon 
-from the previously found one became stronger than the one equipped, 
-then you need to change to a stronger one from the inventory. 
-Accordingly, we change the 'Axe of fire(enhanced)' back to the 'Staff of water' 
+expected 'Kroker finds \'Axe of fire\'\nKroker finds \'Staff of water\'\nKroker finds \'Axe of fire\'\nStrange fruit: strength -2 intelligence +2' 
+to equal 'Kroker finds \'Axe of fire\'\nKroker finds \'Staff of water\'\nKroker finds \'Axe of fire\'\nStrange fruit: strength -2, intelligence +2'
 */
