@@ -107,15 +107,37 @@ class Character {
       }
       Reflect.deleteProperty(this, this._tmpName);
       this._tmpName = null;
-      let w = this.items
-        .filter(item => item instanceof Weapon)
-        .sort((a, b) => {
-          if (this.getDamage(b) === this.getDamage(a)) {
-            return b.enhanced - a.enhanced;
+      // let w = this.items
+      //   .filter(item => item instanceof Weapon)
+      //   .sort((a, b) => {
+      //     if (this.getDamage(b) === this.getDamage(a)) {
+      //       return b.enhanced - a.enhanced;
+      //     }
+      //     return this.getDamage(b) - this.getDamage(a);
+      //   })
+      // this.weapon = w[0];
+      let iw = this.items.findIndex(item => item.name === this.weapon.name);
+      let max = this.items[iw];
+      for (let i = 0; i < this.items.length; i++) {
+        if (i !== iw) {
+          let item = this.items[i];
+          if (item instanceof (Weapon)) {
+            let dmgMax = this.getDamage(max);
+            let dmgItem = this.getDamage(item);
+            if (dmgItem == dmgMax) {
+              if (item.enhanced == max.enhanced) {
+                if (i < iw) max = this.items[i];
+              }
+              if (item.enhanced > max.enhanced) {
+                max = this.items[i];
+              }
+            } else if (dmgItem > dmgMax) {
+              max = this.items[i];
+            }
           }
-          return this.getDamage(b) - this.getDamage(a);
-        })
-      this.weapon = w[0];
+        }
+      }
+      this.weapon = max;
     }
   }
 
@@ -183,3 +205,14 @@ test.strangeFruit(0, 2, -1);
 test.ancientBook(2, 1, -2);
 test.ancientBook(2, 1, -2);
 console.log(test.characterInfo());
+
+
+/* 
+expected 'Ebvwhrdd finds \'Spear of light\'\nEbvwhrdd finds \'Axe of dark\'\nMagical fruit: strength +2, dexterity +2\nEbvwhrdd finds \'Staff of light\'\nEbvwhrdd finds \'Mace of light\'\nHorrible book: strength -2, dexterity +2, intelligence -1\nAncient blessing: strength +2, intelligence +1\nEbvwhrdd finds \'Staff of ice\'\nEbvwhrdd finds \'Sword of fire\'\nStrange eeqvwc: dexterity +1\nStrange curse: strength -2, dexterity +2, intelligence -2\nHorrible fruit: strength -1, intelligence -1\nAncient elixir: strength -2, dexterity -2, intelligence +1' 
+to equal 'Strange elixir: \nEbvwhrdd finds \'Spear of light\'\nEbvwhrdd finds \'Axe of dark\'\nMagical fruit: strength +2, dexterity +2\nEbvwhrdd finds \'Staff of light\'\nEbvwhrdd finds \'Mace of light\'\nHorrible book: strength -2, dexterity +2, intelligence -1\nAncient blessing: strength +2, intelligence +1\nEbvwhrdd finds \'Staff of ice\'\nEbvwhrdd finds \'Sword of fire\'\nStrange eeqvwc: dexterity +1\nStrange curse: strength -2, dexterity +2, intelligence -2\nHorrible fruit: strength -1, intelligence -1\nAncient elixir: strength -2, dexterity -2, intelligence +1'
+*/
+
+/* 
+expected 'Horrible elixir: strength -2, dexterity -2, intelligence -2\nTqcgdkdnld finds \'Spear of ice\'\nTqcgdkdnld finds \'Axe of ice\'\nTqcgdkdnld finds \'Spear of light\'\nTqcgdkdnld finds \'Sword of fire\'\nStrange elixir: strength -1, dexterity +1, intelligence -1\nMagical book: dexterity +2, intelligence +2\nMagical elixir: strength +1, intelligence +1\nStrange curse: strength +1, dexterity +2, intelligence +2\nTqcgdkdnld finds \'Staff of dark\'\nTqcgdkdnld finds \'Axe of swwrcwybbb\'\nHorrible book: strength +1, dexterity +2, intelligence -1\nTqcgdkdnld finds \'Axe of dwlzv\'\nMagical jbaczqau: strength +1, dexterity -1, intelligence +2\nTqcgdkdnld finds \'Staff of ice\'\nStrange book: strength +2, dexterity +2, intelligence +2\nTqcgdkdnld finds \'Mace of fire\'\nMagical book: strength -2, dexterity -1\nTqcgdkdnld finds \'Staff of light\'' 
+to equal 'Strange nfxmbjfra: \nHorrible elixir: strength -2, dexterity -2, intelligence -2\nTqcgdkdnld finds \'Spear of ice\'\nTqcgdkdnld finds \'Axe of ice\'\nTqcgdkdnld finds \'Spear of light\'\nTqcgdkdnld finds \'Sword of fire\'\nStrange elixir: strength -1, dexterity +1, intelligence -1\nMagical book: dexterity +2, intelligence +2\nMagical elixir: strength +1, intelligence +1\nStrange curse: strength +1, dexterity +2, intelligence +2\nTqcgdkdnld finds \'Staff of dark\'\nTqcgdkdnld finds \'Axe of swwrcwybbb\'\nHorrible book: strength +1, dexterity +2, intelligence -1\nTqcgdkdnld finds \'Axe of dwlzv\'\nMagical jbaczqau: strength +1, dexterity -1, intelligence +2\nTqcgdkdnld finds \'Staff of ice\'\nStrange book: strength +2, dexterity +2, intelligence +2\nTqcgdkdnld finds \'Mace of fire\'\nMagical book: strength -2, dexterity -1\nTqcgdkdnld finds \'Staff of light\''
+*/
