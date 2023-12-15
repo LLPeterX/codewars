@@ -80,28 +80,26 @@ class Character {
     this.strength = info.strength ?? 10;
     this.dexterity = info.dexterity ?? 10;
     this.intelligence = info.intelligence ?? 10;
-    this.weapon = new Weapon('limbs');
+    this.items = [new Weapon('limbs')];
+    this.weapon = this.items[0];
     this.log = [];
     this._tmpName = null;
 
+
     return new Proxy(this, {
       get: (target, name) => {
-        if (name in target) {
-          //existing prop/method
-          return target[name];
-        } else {
-          // add temp method
+        if (!(name in target)) {
           target._tmpName = name;
           Reflect.defineProperty(target, name, { value: target.addItem });
-          return target[name];
         }
+        return target[name];
       }
     });
   } // end constructor
 
   addItem(str, dex, int, extra = 0) {
-    console.log('call addItem', this._tmpName);
-    const param2str = n => "- +"[Math.sign(n) + 1] + n;
+    //console.log('call addItem', this._tmpName);
+    //const param2str = n => "- +"[Math.sign(n) + 1] + n;
     if (this._tmpName) {
       if (Item.isWeapon(this._tmpName)) {
         if (this.weapon.name === this._tmpName) {
