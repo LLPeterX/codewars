@@ -116,13 +116,13 @@ class Character {
             let dmgMax = this.getDamage(max);
             let dmgItem = this.getDamage(item);
             if (dmgItem == dmgMax) {
-              if (item.enhanced == max.enhanced) {
-                //if (i < iw) max = this.items[i]; // WRONG!!
-                if (item.name < max.name) max = item;
-              }
-              if (item.enhanced > max.enhanced) {
-                max = item;
-              }
+              // if (item.enhanced == max.enhanced) {
+              //   //if (i < iw) max = this.items[i]; // WRONG!!
+              if (item.name < max.name) max = item;
+              // }
+              // if (item.enhanced > max.enhanced) {
+              //   max = item;
+              // }
             } else if (dmgItem > dmgMax) {
               max = item;
             }
