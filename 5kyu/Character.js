@@ -99,12 +99,12 @@ class Character {
         } else {
           this.items.push(new Weapon(this._tmpName, str, dex, int, extra));
         }
-        // find max damage
-        for (let w of this.items) {
-          if (w instanceof (Weapon) && this.getDamage(w) > this.getDamage(this.weapon)) {
-            this.weapon = w;
-          }
-        }
+        // // find max damage
+        // for (let w of this.items) {
+        //   if (w instanceof (Weapon) && this.getDamage(w) > this.getDamage(this.weapon)) {
+        //     this.weapon = w;
+        //   }
+        // }
         this.log.push(`${this.name} finds '${Item.fullName(this._tmpName)}'`);
       } else {
         this.strength += str;
@@ -119,6 +119,13 @@ class Character {
       }
       Reflect.deleteProperty(this, this._tmpName);
       this._tmpName = null;
+      // find weapon with max damage
+      for (let w of this.items) {
+        if (w instanceof (Weapon) && this.getDamage(w) > this.getDamage(this.weapon)) {
+          this.weapon = w;
+        }
+      }
+
     }
   }
 
@@ -145,20 +152,36 @@ class Character {
 // ----- TESTS ----
 
 
-const kroker = new Character({ name: 'Kroker', strength: 15, intelligence: 7 });
-//const res = `Kroker\nstr 15\ndex 10\nint 7\nlimbs 32 dmg`;
-console.log('initial:\n', kroker.characterInfo());
-//console.log(kroker.strength);
+// const kroker = new Character({ name: 'Kroker', strength: 15, intelligence: 7 });
+// //const res = `Kroker\nstr 15\ndex 10\nint 7\nlimbs 32 dmg`;
+// console.log('initial:\n', kroker.characterInfo());
+// //console.log(kroker.strength);
 
-kroker.axeOfFire(3, 1, 0, 20);
-//console.log('\nafter axe:\n', kroker.characterInfo()); // 75 dmg - OK
-//console.log(kroker.eventLog()); // "Kroker finds 'Axe of fire'"
-kroker.staffOfWater(1, 0, 2, 60);
-//console.log('\nafter staff:\n', kroker.characterInfo()); // 89 dmg
-console.log(' ==== find second axe ====');
-kroker.axeOfFire(1, 2, 1, 10);
-console.log('\nafter 2 axe:\n', kroker.characterInfo()); // 92 dmg
-kroker.strangeFruit(-2, 0, 2);
-console.log('\nafter fruit:\n', kroker.characterInfo());
-// console.log(kroker.characterInfo()); // 91 dmg
-console.log(kroker.eventLog()); //...
+// kroker.axeOfFire(3, 1, 0, 20);
+// //console.log('\nafter axe:\n', kroker.characterInfo()); // 75 dmg - OK
+// //console.log(kroker.eventLog()); // "Kroker finds 'Axe of fire'"
+// kroker.staffOfWater(1, 0, 2, 60);
+// //console.log('\nafter staff:\n', kroker.characterInfo()); // 89 dmg
+// console.log(' ==== find second axe ====');
+// kroker.axeOfFire(1, 2, 1, 10);
+// console.log('\nafter 2 axe:\n', kroker.characterInfo()); // 92 dmg
+// kroker.strangeFruit(-2, 0, 2);
+// console.log('\nafter fruit:\n', kroker.characterInfo());
+// // console.log(kroker.characterInfo()); // 91 dmg
+// console.log(kroker.eventLog()); //...
+
+// ---------- TEST 5 (FAIL) ----
+const test = new Character({ name: 'Kroker', strength: 15, intelligence: 7 });
+test.axeOfFire(3, 1, 0, 20);
+test.staffOfWater(1, 0, 2, 60);
+test.axeOfFire(1, 2, 1, 10);
+test.strangeFruit(-2, 0, 2);
+console.log(test.characterInfo()); // `Kroker\nstr 13\ndex 10\nint 9\nStaff of water 91 dmg`;
+// у меня 88, надо 91
+/* 
+The character should always choose the weapon with the highest damage; 
+if a random event changed characteristics so that some weapon 
+from the previously found one became stronger than the one equipped, 
+then you need to change to a stronger one from the inventory. 
+Accordingly, we change the 'Axe of fire(enhanced)' back to the 'Staff of water' 
+*/
