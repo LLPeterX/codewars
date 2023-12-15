@@ -107,13 +107,13 @@ class Character {
       }
       Reflect.deleteProperty(this, this._tmpName);
       this._tmpName = null;
-      // find weapon with max damage
-      let d1, d2;
-      for (let w of this.items) {
-        if (w instanceof (Weapon) && this.getDamage(w) >= this.getDamage(this.weapon)) {
-          this.weapon = w;
+      this.items.sort((a, b) => {
+        if (this.getDamage(b) === this.getDamage(a)) {
+          return b.enhanced - a.enhanced;
         }
-      }
+        return this.getDamage(b) - this.getDamage(a);
+      })
+      this.weapon = this.items[0];
     }
   }
 
