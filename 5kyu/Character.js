@@ -107,13 +107,15 @@ class Character {
       }
       Reflect.deleteProperty(this, this._tmpName);
       this._tmpName = null;
-      this.items.sort((a, b) => {
-        if (this.getDamage(b) === this.getDamage(a)) {
-          return b.enhanced - a.enhanced;
-        }
-        return this.getDamage(b) - this.getDamage(a);
-      })
-      this.weapon = this.items[0];
+      let w = this.items
+        .filter(item => item instanceof Weapon)
+        .sort((a, b) => {
+          if (this.getDamage(b) === this.getDamage(a)) {
+            return b.enhanced - a.enhanced;
+          }
+          return this.getDamage(b) - this.getDamage(a);
+        })
+      this.weapon = w[0];
     }
   }
 
@@ -166,11 +168,18 @@ class Character {
 // test.strangeFruit(-2, 0, 2);
 // console.log(test.characterInfo()); // `Kroker\nstr 13\ndex 10\nint 9\nStaff of water 91 dmg`;
 
-const test = new Character({ name: 'Porky', strength: 15, intelligence: 7 });
+let test = new Character({ name: 'Porky', strength: 15, intelligence: 7 });
 test.pillarOfWater(4, 1, 2, 60);
 test.axeOfFire(3, 1, 2, 20);
 test.dunderOfWater(0, 2, 0, 1);
 test.axeOfFire(4, 0, 1, 60);
 test.staffOfWater(4, 1, 2, 60);
 console.log(test.characterInfo());
-console.log(test.items.filter(item => item instanceof (Weapon)).map((item, i) => `${i}: ${item.name} ${test.getDamage(item)}`))
+//console.log(test.items.filter(item => item instanceof (Weapon)).map((item, i) => `${i}: ${item.name} ${test.getDamage(item)}`))
+
+// ---- TEST 7 ---
+test = new Character({ name: 'Pinky', strength: 5, dexterity: 5, intelligence: 5 });
+test.strangeFruit(0, 2, -1);
+test.ancientBook(2, 1, -2);
+test.ancientBook(2, 1, -2);
+console.log(test.characterInfo());
