@@ -97,7 +97,7 @@ class Character {
         this.dexterity += dex;
         this.intelligence += int;
         let stateValues = [str, dex, int];
-        if (stateValues.every(s => s === 0)) return Item.fullName(this._tmpName);
+        //if (stateValues.every(s => s === 0)) return Item.fullName(this._tmpName);
         let logStr = Item.fullName(this._tmpName) + ': ';
         let statesStr = stateValues
           .map((v, i) => v ? `${Character.states[i]} ${v > 0 ? '+' : ''}${v}` : '')
@@ -107,15 +107,6 @@ class Character {
       }
       Reflect.deleteProperty(this, this._tmpName);
       this._tmpName = null;
-      // let w = this.items
-      //   .filter(item => item instanceof Weapon)
-      //   .sort((a, b) => {
-      //     if (this.getDamage(b) === this.getDamage(a)) {
-      //       return b.enhanced - a.enhanced;
-      //     }
-      //     return this.getDamage(b) - this.getDamage(a);
-      //   })
-      // this.weapon = w[0];
       let iw = this.items.findIndex(item => item.name === this.weapon.name);
       let max = this.items[iw];
       for (let i = 0; i < this.items.length; i++) {
@@ -126,13 +117,14 @@ class Character {
             let dmgItem = this.getDamage(item);
             if (dmgItem == dmgMax) {
               if (item.enhanced == max.enhanced) {
-                if (i < iw) max = this.items[i];
+                //if (i < iw) max = this.items[i]; // WRONG!!
+                if (item.name < max.name) max = item;
               }
               if (item.enhanced > max.enhanced) {
-                max = this.items[i];
+                max = item;
               }
             } else if (dmgItem > dmgMax) {
-              max = this.items[i];
+              max = item;
             }
           }
         }
@@ -200,19 +192,16 @@ console.log(test.characterInfo());
 //console.log(test.items.filter(item => item instanceof (Weapon)).map((item, i) => `${i}: ${item.name} ${test.getDamage(item)}`))
 
 // ---- TEST 7 ---
-test = new Character({ name: 'Pinky', strength: 5, dexterity: 5, intelligence: 5 });
-test.strangeFruit(0, 2, -1);
-test.ancientBook(2, 1, -2);
-test.ancientBook(2, 1, -2);
-console.log(test.characterInfo());
+// test = new Character({ name: 'Pinky', strength: 5, dexterity: 5, intelligence: 5 });
+// test.strangeFruit(0, 2, -1);
+// test.ancientBook(2, 1, -2);
+// test.ancientBook(2, 1, -2);
+// console.log(test.characterInfo());
 
 
-/* 
-expected 'Ebvwhrdd finds \'Spear of light\'\nEbvwhrdd finds \'Axe of dark\'\nMagical fruit: strength +2, dexterity +2\nEbvwhrdd finds \'Staff of light\'\nEbvwhrdd finds \'Mace of light\'\nHorrible book: strength -2, dexterity +2, intelligence -1\nAncient blessing: strength +2, intelligence +1\nEbvwhrdd finds \'Staff of ice\'\nEbvwhrdd finds \'Sword of fire\'\nStrange eeqvwc: dexterity +1\nStrange curse: strength -2, dexterity +2, intelligence -2\nHorrible fruit: strength -1, intelligence -1\nAncient elixir: strength -2, dexterity -2, intelligence +1' 
-to equal 'Strange elixir: \nEbvwhrdd finds \'Spear of light\'\nEbvwhrdd finds \'Axe of dark\'\nMagical fruit: strength +2, dexterity +2\nEbvwhrdd finds \'Staff of light\'\nEbvwhrdd finds \'Mace of light\'\nHorrible book: strength -2, dexterity +2, intelligence -1\nAncient blessing: strength +2, intelligence +1\nEbvwhrdd finds \'Staff of ice\'\nEbvwhrdd finds \'Sword of fire\'\nStrange eeqvwc: dexterity +1\nStrange curse: strength -2, dexterity +2, intelligence -2\nHorrible fruit: strength -1, intelligence -1\nAncient elixir: strength -2, dexterity -2, intelligence +1'
-*/
 
 /* 
-expected 'Horrible elixir: strength -2, dexterity -2, intelligence -2\nTqcgdkdnld finds \'Spear of ice\'\nTqcgdkdnld finds \'Axe of ice\'\nTqcgdkdnld finds \'Spear of light\'\nTqcgdkdnld finds \'Sword of fire\'\nStrange elixir: strength -1, dexterity +1, intelligence -1\nMagical book: dexterity +2, intelligence +2\nMagical elixir: strength +1, intelligence +1\nStrange curse: strength +1, dexterity +2, intelligence +2\nTqcgdkdnld finds \'Staff of dark\'\nTqcgdkdnld finds \'Axe of swwrcwybbb\'\nHorrible book: strength +1, dexterity +2, intelligence -1\nTqcgdkdnld finds \'Axe of dwlzv\'\nMagical jbaczqau: strength +1, dexterity -1, intelligence +2\nTqcgdkdnld finds \'Staff of ice\'\nStrange book: strength +2, dexterity +2, intelligence +2\nTqcgdkdnld finds \'Mace of fire\'\nMagical book: strength -2, dexterity -1\nTqcgdkdnld finds \'Staff of light\'' 
-to equal 'Strange nfxmbjfra: \nHorrible elixir: strength -2, dexterity -2, intelligence -2\nTqcgdkdnld finds \'Spear of ice\'\nTqcgdkdnld finds \'Axe of ice\'\nTqcgdkdnld finds \'Spear of light\'\nTqcgdkdnld finds \'Sword of fire\'\nStrange elixir: strength -1, dexterity +1, intelligence -1\nMagical book: dexterity +2, intelligence +2\nMagical elixir: strength +1, intelligence +1\nStrange curse: strength +1, dexterity +2, intelligence +2\nTqcgdkdnld finds \'Staff of dark\'\nTqcgdkdnld finds \'Axe of swwrcwybbb\'\nHorrible book: strength +1, dexterity +2, intelligence -1\nTqcgdkdnld finds \'Axe of dwlzv\'\nMagical jbaczqau: strength +1, dexterity -1, intelligence +2\nTqcgdkdnld finds \'Staff of ice\'\nStrange book: strength +2, dexterity +2, intelligence +2\nTqcgdkdnld finds \'Mace of fire\'\nMagical book: strength -2, dexterity -1\nTqcgdkdnld finds \'Staff of light\''
+// fail: log test, info tests in random tests
+expected 'Hero finds \'Mace of water\'\nHero finds \'Mace of light\'\nHero finds \'Mace of light\'\nHero finds \'Mace of ice\'\nHero finds \'Staff of water\'\nHero finds \'Spear of dsjqcgrbkx\'\nHero finds \'Staff of ice\'\nHero finds \'Spear of dark\'\nHero finds \'Axe of water\'\nHero finds \'Staff of water\'\nStrange gltsbepa: strength +1, dexterity -2, intelligence +1\nAncient book: strength -2, dexterity -2, intelligence +2\nHero finds \'Sword of dark\'\nAncient elixir: strength -2, dexterity -2, intelligence -2\nHero finds \'Mace of ice\'\nHero finds \'Staff of fire\'\nHero finds \'Staff of rbfubr\'\nHero finds \'Staff of fire\'' 
+to equal 'Hero finds \'Mace of water\'\nHero finds \'Mace of light\'\nMagical book: \nHero finds \'Mace of light\'\nHero finds \'Mace of ice\'\nHero finds \'Staff of water\'\nHero finds \'Spear of dsjqcgrbkx\'\nHero finds \'Staff of ice\'\nHero finds \'Spear of dark\'\nHero finds \'Axe of water\'\nHero finds \'Staff of water\'\nStrange gltsbepa: strength +1, dexterity -2, intelligence +1\nAncient book: strength -2, dexterity -2, intelligence +2\nHero finds \'Sword of dark\'\nAncient elixir: strength -2, dexterity -2, intelligence -2\nHero finds \'Mace of ice\'\nHero finds \'Staff of fire\'\nHero finds \'Staff of rbfubr\'\nHero finds \'Staff of fire\''
 */
