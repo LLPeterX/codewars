@@ -3,8 +3,6 @@
 https://www.codewars.com/kata/651bfcbd409ea1001ef2c3cb/train/javascript
 */
 
-//const ucase = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
-
 class Item {
   static regexWeapon = new RegExp("(.+?)Of(.+)");
 
@@ -36,7 +34,6 @@ class Item {
   }
 }
 
-
 class Weapon extends Item {
 
   constructor(name, str = 1, dex = 1, int = 1, extra = 0) {
@@ -58,7 +55,6 @@ class Weapon extends Item {
 }
 
 class Character {
-  static states = ['strength', 'dexterity', 'intelligence'];
 
   constructor(info) {
     this.name = info.name ?? 'Hero';
@@ -80,7 +76,7 @@ class Character {
         return target[name];
       }
     });
-  } // end constructor
+  }
 
   addItem(str, dex, int, extra = 0) {
     if (this._tmpName) {
@@ -97,15 +93,13 @@ class Character {
         this.dexterity += dex;
         this.intelligence += int;
         let stateValues = [str, dex, int];
-        //if (stateValues.every(s => s === 0)) return Item.fullName(this._tmpName);
         let logStr = Item.fullName(this._tmpName) + ': ';
         let statesStr = stateValues
-          .map((v, i) => v ? `${Character.states[i]} ${v > 0 ? '+' : ''}${v}` : '')
+          .map((v, i) => v ? `${['strength', 'dexterity', 'intelligence'][i]} ${v > 0 ? '+' : ''}${v}` : '')
           .filter(Boolean).join(', ');
         this.items.push(new Item(this._tmpName, str, dex, int));
         this.log.push(logStr + statesStr);
       }
-      Reflect.deleteProperty(this, this._tmpName);
       this._tmpName = null;
       let iw = this.items.findIndex(item => item.name === this.weapon.name);
       let max = this.items[iw];
@@ -115,15 +109,7 @@ class Character {
           if (item instanceof (Weapon)) {
             let dmgMax = this.getDamage(max);
             let dmgItem = this.getDamage(item);
-            if (dmgItem == dmgMax) {
-              // if (item.enhanced == max.enhanced) {
-              //   //if (i < iw) max = this.items[i]; // WRONG!!
-              if (item.name < max.name) max = item;
-              // }
-              // if (item.enhanced > max.enhanced) {
-              //   max = item;
-              // }
-            } else if (dmgItem > dmgMax) {
+            if ((dmgItem == dmgMax && item.name < max.name) || dmgItem > dmgMax) {
               max = item;
             }
           }
@@ -133,7 +119,6 @@ class Character {
     }
   }
 
-
   getDamage(weapon) {
     return weapon.str * this.strength +
       weapon.dex * this.dexterity +
@@ -142,13 +127,11 @@ class Character {
   }
 
   characterInfo() {
-    //console.log('--- stats ---');
     let weaponStr = `${Item.fullName(this.weapon.name)}${this.weapon.enhanced ? '(enhanced)' : ''} ${this.getDamage(this.weapon)} dmg`;
     return `${this.name}\nstr ${this.strength}\ndex ${this.dexterity}\nint ${this.intelligence}\n${weaponStr}`;
   }
 
   eventLog() {
-    //console.log('--- log ---');
     return this.log.join("\n");
   }
 }
