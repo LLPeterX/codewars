@@ -3,14 +3,13 @@
 https://www.codewars.com/kata/651bfcbd409ea1001ef2c3cb/train/javascript
 */
 
-
 //const ucase = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
 
 class Item {
   static regexWeapon = new RegExp("(.+?)Of(.+)");
-  static isWeapon(itemName) {
-    return Item.regexWeapon.test(itemName);
-  }
+  // static isWeapon(itemName) {
+  //   return Item.regexWeapon.test(itemName);
+  // }
 
   constructor(name, str, dex, int, extra = 0) {
     this.name = name;
@@ -92,7 +91,8 @@ class Character {
   addItem(str, dex, int, extra = 0) {
     //console.log('call addItem', arguments, 'name=', this._tmpName);
     if (this._tmpName) {
-      if (Item.isWeapon(this._tmpName)) {
+      //if (Item.isWeapon(this._tmpName)) {
+      if (Item.regexWeapon.test(this._tmpName)) {
         let existingWeapon = this.items.find(item => item.name === this._tmpName);
         if (existingWeapon) {
           existingWeapon.enhance(str, dex, int, extra);
