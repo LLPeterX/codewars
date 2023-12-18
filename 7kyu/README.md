@@ -507,3 +507,4 @@
 - [7kyu - nth Floyd line](nthFloyd.js)
 - [7kyu - Distance from the average](distancesFromAverage.js)
 - [7kyu - Array - squareUp b!](squareUp.js)
+- [7kyu - Array Manipulation](arrayManip.js)
