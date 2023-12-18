@@ -509,3 +509,4 @@
 - [7kyu - Array - squareUp b!](squareUp.js)
 - [7kyu - Array Manipulation](arrayManip.js)
 - [7kyu - Centroid I](centroid.js)
+- [7kyu - Binary to string](binaryToString.js)
