@@ -129,3 +129,4 @@
 - [5kyu - Convert cursed data from parallel universe into an object](cursed_data.js)
 - [5kyu - Map and Filter to Get a Special Sequence of Integers](prevNext.js)
 - [5kyu - Roguelike game 1 - stats and weapon](Character.js)
+- [5kyu - Bulk up!](bulk.js)
