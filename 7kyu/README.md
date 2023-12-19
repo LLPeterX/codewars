@@ -510,3 +510,4 @@
 - [7kyu - Array Manipulation](arrayManip.js)
 - [7kyu - Centroid I](centroid.js)
 - [7kyu - Binary to string](binaryToString.js)
+- [7kyu - Blood Moon](bloodMoon.js)
