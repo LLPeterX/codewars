@@ -412,3 +412,4 @@
 - [6kyu - Alternating Loops](combine.js)
 - [6kyu - Check by Queen](check_queen.js)
 - [6kyu - Cat Kata, Part 1](peacefulYard.js)
+- [6kyu - Cuckoo Clock](cuckooClock.js)
