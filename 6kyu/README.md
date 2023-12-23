@@ -415,3 +415,4 @@
 - [6kyu - Cuckoo Clock](cuckooClock.js)
 - [6kyu - Decoded String by the Numbers](decode.js)
 - [6kyu - Create Four Letter Birding Codes from Bird Names](birdCode.js)
+- [6kyu - Count Repeats](countRepeats.js)
