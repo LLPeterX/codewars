@@ -414,3 +414,4 @@
 - [6kyu - Cat Kata, Part 1](peacefulYard.js)
 - [6kyu - Cuckoo Clock](cuckooClock.js)
 - [6kyu - Decoded String by the Numbers](decode.js)
+- [6kyu - Create Four Letter Birding Codes from Bird Names](birdCode.js)
