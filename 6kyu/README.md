@@ -421,3 +421,4 @@
 - [6kyu - Diamonds and Toads](diamondsAndToads.js)
 - [6kyu - Character Counter and Bars Graph](countCharsBarGraph.js)
 - [6kyu - Small Ouroboros: SQL Quine relay](quine_js_sql.js)
+- [6kyu - Create a frame!](frame.js)
