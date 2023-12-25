@@ -420,3 +420,4 @@
 - [6kyu - Distribute server workload](distribute.js)
 - [6kyu - Diamonds and Toads](diamondsAndToads.js)
 - [6kyu - Character Counter and Bars Graph](countCharsBarGraph.js)
+- [6kyu - Small Ouroboros: SQL Quine relay](quine_js_sql.js)
