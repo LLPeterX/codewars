@@ -512,3 +512,4 @@
 - [7kyu - Binary to string](binaryToString.js)
 - [7kyu - Blood Moon](bloodMoon.js)
 - [7kyu - Creating a Bitset, Part 1](byteToSet.js)
+- [7kyu - Dinner Plans](commonGround.js)
