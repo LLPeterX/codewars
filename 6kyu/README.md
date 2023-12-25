@@ -419,3 +419,4 @@
 - [6kyu - Converting Measures](convertRecipe.js)
 - [6kyu - Distribute server workload](distribute.js)
 - [6kyu - Diamonds and Toads](diamondsAndToads.js)
+- [6kyu - Character Counter and Bars Graph](countCharsBarGraph.js)
