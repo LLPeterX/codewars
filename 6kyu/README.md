@@ -417,3 +417,4 @@
 - [6kyu - Create Four Letter Birding Codes from Bird Names](birdCode.js)
 - [6kyu - Count Repeats](countRepeats.js)
 - [6kyu - Converting Measures](convertRecipe.js)
+- [6kyu - Distribute server workload](distribute.js)
