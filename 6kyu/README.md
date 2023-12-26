@@ -422,3 +422,4 @@
 - [6kyu - Character Counter and Bars Graph](countCharsBarGraph.js)
 - [6kyu - Small Ouroboros: SQL Quine relay](quine_js_sql.js)
 - [6kyu - Create a frame!](frame.js)
+- [6kyu - Exclamation marks series #12: Remove odd number continuous exclamation marks and question marks](remove.js)
