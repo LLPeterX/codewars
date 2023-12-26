@@ -517,3 +517,4 @@
 - [7kyu - Is There an Odd Bit?](anyOdd.js)
 - [7kyu - Countdown to Christmas](daysUntilChristmas.js)
 - [7kyu - Please help Bob](errBob.js)
+- [7kyu - Find the motif in DNA sequence.](motifLocator.js)
