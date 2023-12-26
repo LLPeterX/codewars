@@ -519,3 +519,4 @@
 - [7kyu - Please help Bob](errBob.js)
 - [7kyu - Find the motif in DNA sequence.](motifLocator.js)
 - [7kyu - Competitive eating scoreboard](scoreboard.js)
+- [7kyu - Sum squares of numbers in list that may contain more lists](SumSquares.js)
