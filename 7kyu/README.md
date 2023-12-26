@@ -516,3 +516,4 @@
 - [7kyu - Sequence to 1](seqToOne.js)
 - [7kyu - Is There an Odd Bit?](anyOdd.js)
 - [7kyu - Countdown to Christmas](daysUntilChristmas.js)
+- [7kyu - Please help Bob](errBob.js)
