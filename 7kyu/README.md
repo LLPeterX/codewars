@@ -513,3 +513,4 @@
 - [7kyu - Blood Moon](bloodMoon.js)
 - [7kyu - Creating a Bitset, Part 1](byteToSet.js)
 - [7kyu - Dinner Plans](commonGround.js)
+- [7kyu - Sequence to 1](seqToOne.js)
