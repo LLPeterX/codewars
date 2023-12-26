@@ -514,3 +514,4 @@
 - [7kyu - Creating a Bitset, Part 1](byteToSet.js)
 - [7kyu - Dinner Plans](commonGround.js)
 - [7kyu - Sequence to 1](seqToOne.js)
+- [7kyu - Is There an Odd Bit?](anyOdd.js)
