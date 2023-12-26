@@ -424,3 +424,4 @@
 - [6kyu - Create a frame!](frame.js)
 - [6kyu - Exclamation marks series #12: Remove odd number continuous exclamation marks and question marks](remove.js)
 - [6kyu - Dragon's Curve](Dragon.js)
+- [6kyu - Esolang: Tick](interpreter.js)
