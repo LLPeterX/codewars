@@ -427,3 +427,4 @@
 - [6kyu - Esolang: Tick](interpreter.js)
 - [6kyu - Balance the arrays](balance.js)
 - [6kyu - Esolang: MiniBitMove](interpreter2.js)
+- [6kyu - Doors in the school](doors.js)
