@@ -430,3 +430,4 @@
 - [6kyu - Doors in the school](doors.js)
 - [6kyu - A Memory game array](createTiles.js)
 - [6kyu - Simple Fun #65: Matrix Elements Sum](matrixElementsSum.js)
+- [6kyu - Matrix Rotation](rotateClockwise.js)
