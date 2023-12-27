@@ -429,3 +429,4 @@
 - [6kyu - Esolang: MiniBitMove](interpreter2.js)
 - [6kyu - Doors in the school](doors.js)
 - [6kyu - A Memory game array](createTiles.js)
+- [6kyu - Simple Fun #65: Matrix Elements Sum](matrixElementsSum.js)
