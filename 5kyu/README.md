@@ -131,3 +131,4 @@
 - [5kyu - Roguelike game 1 - stats and weapon](Character.js)
 - [5kyu - Bulk up!](bulk.js)
 - [5kyu - Ookkk, Ok, O? Ook, Ok, Ooo!](okkOokOo.js)
+- [5kyu - All Star Code Challenge #19](sloganMaker.js)
