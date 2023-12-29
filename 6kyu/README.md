@@ -432,3 +432,4 @@
 - [6kyu - Simple Fun #65: Matrix Elements Sum](matrixElementsSum.js)
 - [6kyu - Matrix Rotation](rotateClockwise.js)
 - [6kyu - Simple Fun #132: Number Of Carries](numberOfCarries.js)
+- [6kyu - Happy Numbers](happyNumbers.js)
