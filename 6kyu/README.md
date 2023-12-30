@@ -434,3 +434,4 @@
 - [6kyu - Simple Fun #132: Number Of Carries](numberOfCarries.js)
 - [6kyu - Happy Numbers](happyNumbers.js)
 - [6kyu - Missing Alphabet](insertMissingLetters.js)
+- [6kyu - TV Remote (wrap)](tvRemote1.js)
