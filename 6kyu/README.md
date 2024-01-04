@@ -435,3 +435,4 @@
 - [6kyu - Happy Numbers](happyNumbers.js)
 - [6kyu - Missing Alphabet](insertMissingLetters.js)
 - [6kyu - TV Remote (wrap)](tvRemote1.js)
+- [6kyu - House of cards](houseOfCards.js)
