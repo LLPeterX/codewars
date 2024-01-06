@@ -440,3 +440,4 @@
 - [6kyu - Linear Regression of Y on X](regression_line.js)
 - [6kyu - LCM Cardinality](lcmCardinality.js)
 - [6kyu - LOTTO 6 aus 49 - 6 of 49](lotto.js)
+- [6kyu - Logistic Map](logisticMap.js)
