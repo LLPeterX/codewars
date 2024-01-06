@@ -438,3 +438,4 @@
 - [6kyu - House of cards](houseOfCards.js)
 - [6kyu - The latest clock](latestClock.js)
 - [6kyu - Linear Regression of Y on X](regression_line.js)
+- [6kyu - LCM Cardinality](lcmCardinality.js)
