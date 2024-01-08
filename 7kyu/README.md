@@ -524,3 +524,4 @@
 - [7kyu - Every nth array element. (Basic)](every.js)
 - [7kyu - If you can't beat 'em, join 'em!](cantBeatSoJoin.js)
 - [7kyu - Holiday V - SeaSick Snorkelling](seaSick.js)
+- [7kyu - Sort and Transform](sortTransform.js)
