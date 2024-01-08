@@ -526,3 +526,4 @@
 - [7kyu - Holiday V - SeaSick Snorkelling](seaSick.js)
 - [7kyu - Sort and Transform](sortTransform.js)
 - [7kyu - PRNG: Linear Congruential Generator](LCG.js)
+- [7kyu - Mutate My Strings](mutateMyStrings.js)
