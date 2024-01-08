@@ -443,3 +443,4 @@
 - [6kyu - Logistic Map](logisticMap.js)
 - [6kyu - Creating a string for an array of objects from a set of words](wordsToObject.js)
 - [6kyu - JoJo's Bizarre Kata](isJojo.js)
+- [6kyu - Password generator](passwordGen.js)
