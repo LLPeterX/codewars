@@ -442,3 +442,4 @@
 - [6kyu - LOTTO 6 aus 49 - 6 of 49](lotto.js)
 - [6kyu - Logistic Map](logisticMap.js)
 - [6kyu - Creating a string for an array of objects from a set of words](wordsToObject.js)
+- [6kyu - JoJo's Bizarre Kata](isJojo.js)
