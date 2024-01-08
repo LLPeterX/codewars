@@ -525,3 +525,4 @@
 - [7kyu - If you can't beat 'em, join 'em!](cantBeatSoJoin.js)
 - [7kyu - Holiday V - SeaSick Snorkelling](seaSick.js)
 - [7kyu - Sort and Transform](sortTransform.js)
+- [7kyu - PRNG: Linear Congruential Generator](LCG.js)
