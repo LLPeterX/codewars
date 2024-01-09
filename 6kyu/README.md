@@ -445,3 +445,4 @@
 - [6kyu - JoJo's Bizarre Kata](isJojo.js)
 - [6kyu - Password generator](passwordGen.js)
 - [6kyu - Weekend Birthdays](mostWeekendBirthdays.js)
+- [6kyu - Generic numeric template formatter](numericFormatter.js)
