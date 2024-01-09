@@ -446,3 +446,4 @@
 - [6kyu - Password generator](passwordGen.js)
 - [6kyu - Weekend Birthdays](mostWeekendBirthdays.js)
 - [6kyu - Generic numeric template formatter](numericFormatter.js)
+- [6kyu - Longest palindrome](longestPalindrome.js)
