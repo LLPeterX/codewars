@@ -527,3 +527,4 @@
 - [7kyu - Sort and Transform](sortTransform.js)
 - [7kyu - PRNG: Linear Congruential Generator](LCG.js)
 - [7kyu - Mutate My Strings](mutateMyStrings.js)
+- [7kyu - Password System](helpZoom.js)
