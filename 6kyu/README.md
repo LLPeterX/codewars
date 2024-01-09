@@ -447,3 +447,4 @@
 - [6kyu - Weekend Birthdays](mostWeekendBirthdays.js)
 - [6kyu - Generic numeric template formatter](numericFormatter.js)
 - [6kyu - Longest palindrome](longestPalindrome.js)
+- [6kyu - Reducing by rules to get the result](reduceByRules.js)
