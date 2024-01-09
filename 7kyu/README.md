@@ -528,3 +528,4 @@
 - [7kyu - PRNG: Linear Congruential Generator](LCG.js)
 - [7kyu - Mutate My Strings](mutateMyStrings.js)
 - [7kyu - Password System](helpZoom.js)
+- [7kyu - Order of weight](arrange.js)
