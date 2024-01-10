@@ -529,3 +529,4 @@
 - [7kyu - Mutate My Strings](mutateMyStrings.js)
 - [7kyu - Password System](helpZoom.js)
 - [7kyu - Order of weight](arrange.js)
+- [7kyu - Help your fellow warrior!](getHonorPath.js)
