@@ -448,3 +448,4 @@
 - [6kyu - Generic numeric template formatter](numericFormatter.js)
 - [6kyu - Longest palindrome](longestPalindrome.js)
 - [6kyu - Reducing by rules to get the result](reduceByRules.js)
+- [6kyu - String subpattern recognition III](hasSubpattern.js)
