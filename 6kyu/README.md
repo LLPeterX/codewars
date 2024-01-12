@@ -450,3 +450,4 @@
 - [6kyu - Reducing by rules to get the result](reduceByRules.js)
 - [6kyu - String subpattern recognition III](hasSubpattern.js)
 - [6kyu - SHA-256 Cracker](sha256Cracker.js)
+- [6kyu - Are all elements equal? (Infinity version)](eqAll.js)
