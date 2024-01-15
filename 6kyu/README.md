@@ -453,3 +453,4 @@
 - [6kyu - Are all elements equal? (Infinity version)](eqAll.js)
 - [6kyu - Sorting Arrays by the Amount of Perfect Squares that Each Element May Generate](sortByPerfsq.js)
 - [6kyu - Special Scores For Words](findWord.js)
+- [6kyu - The lost beginning](beginning.js)
