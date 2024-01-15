@@ -531,3 +531,4 @@
 - [7kyu - Order of weight](arrange.js)
 - [7kyu - Help your fellow warrior!](getHonorPath.js)
 - [7kyu - All or Nothing](possiblyPerfect.js)
+- [7kyu - Leonardo numbers](leonardo.js)
