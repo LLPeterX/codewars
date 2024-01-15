@@ -454,3 +454,4 @@
 - [6kyu - Sorting Arrays by the Amount of Perfect Squares that Each Element May Generate](sortByPerfsq.js)
 - [6kyu - Special Scores For Words](findWord.js)
 - [6kyu - The lost beginning](beginning.js)
+- [6kyu - Most Consecutive Zeros of a Binary Number](maxConsecZeros.js)
