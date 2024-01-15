@@ -451,3 +451,4 @@
 - [6kyu - String subpattern recognition III](hasSubpattern.js)
 - [6kyu - SHA-256 Cracker](sha256Cracker.js)
 - [6kyu - Are all elements equal? (Infinity version)](eqAll.js)
+- [6kyu - Sorting Arrays by the Amount of Perfect Squares that Each Element May Generate](sortByPerfsq.js)
