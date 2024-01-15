@@ -532,3 +532,4 @@
 - [7kyu - Help your fellow warrior!](getHonorPath.js)
 - [7kyu - All or Nothing](possiblyPerfect.js)
 - [7kyu - Leonardo numbers](leonardo.js)
+- [7kyu - How long should you cook this for?](cookingTime.js)
