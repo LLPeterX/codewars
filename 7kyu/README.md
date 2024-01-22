@@ -535,3 +535,4 @@
 - [7kyu - How long should you cook this for?](cookingTime.js)
 - [7kyu - Simple Fun #334: Two Beggars And Gold](distributionOf.js)
 - [7kyu - Tabs to spaces](tabToSpaces.js)
+- [7kyu - Sum Times Tables](sumTimesTables.js)
