@@ -457,3 +457,4 @@
 - [6kyu - Most Consecutive Zeros of a Binary Number](maxConsecZeros.js)
 - [6kyu - D&D Character generator #1: attribute modifiers and spells](DD1.js)
 - [6kyu - Scrabble best word](getBestWord.js)
+- [6kyu - Sum of many ints](sum_mods.js)
