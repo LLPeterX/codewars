@@ -536,3 +536,4 @@
 - [7kyu - Simple Fun #334: Two Beggars And Gold](distributionOf.js)
 - [7kyu - Tabs to spaces](tabToSpaces.js)
 - [7kyu - Sum Times Tables](sumTimesTables.js)
+- [7kyu - Sweet Dreams are Made of Cheese](payCheese.js)
