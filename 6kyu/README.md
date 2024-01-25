@@ -460,3 +460,4 @@
 - [6kyu - Sum of many ints](sum_mods.js)
 - [6kyu - Summarize ranges](summaryRanges.js)
 - [6kyu - Square Roots: Simplify/Desimplify](square_root_simplify.js)
+- [6kyu - Sum of a Sequence [Hard-Core Version]](sequenceSum.js)
