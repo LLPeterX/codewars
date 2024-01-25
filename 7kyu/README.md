@@ -538,3 +538,4 @@
 - [7kyu - Sum Times Tables](sumTimesTables.js)
 - [7kyu - Sweet Dreams are Made of Cheese](payCheese.js)
 - [7kyu - Square Roots: Approximation](approxRoot.js)
+- [7kyu - Share prices](sharePrice.js)
