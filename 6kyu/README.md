@@ -461,3 +461,4 @@
 - [6kyu - Summarize ranges](summaryRanges.js)
 - [6kyu - Square Roots: Simplify/Desimplify](square_root_simplify.js)
 - [6kyu - Sum of a Sequence](sequenceSum.js)
+- [6kyu - Range function](range.js)
