@@ -539,3 +539,4 @@
 - [7kyu - Sweet Dreams are Made of Cheese](payCheese.js)
 - [7kyu - Square Roots: Approximation](approxRoot.js)
 - [7kyu - Share prices](sharePrice.js)
+- [7kyu - Showing X to Y of Z Products](paginationText.js)
