@@ -540,3 +540,4 @@
 - [7kyu - Square Roots: Approximation](approxRoot.js)
 - [7kyu - Share prices](sharePrice.js)
 - [7kyu - Showing X to Y of Z Products](paginationText.js)
+- [7kyu - Naughty or Nice?](whatListAmIOn.js)
