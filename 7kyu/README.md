@@ -542,3 +542,4 @@
 - [7kyu - Showing X to Y of Z Products](paginationText.js)
 - [7kyu - Naughty or Nice?](whatListAmIOn.js)
 - [7kyu - Name That Number!](nameThatNumber.js)
+- [7kyu - Offspring Traits](bearFur.js)
