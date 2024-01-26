@@ -463,3 +463,4 @@
 - [6kyu - Square Roots: Simplify/Desimplify](square_root_simplify.js)
 - [6kyu - Sum of a Sequence](sequenceSum.js)
 - [6kyu - Range function](range.js)
+- [6kyu - Numbers of Letters of Numbers](numbersOfLetters.js)
