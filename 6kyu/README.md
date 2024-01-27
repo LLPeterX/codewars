@@ -464,3 +464,4 @@
 - [6kyu - Sum of a Sequence](sequenceSum.js)
 - [6kyu - Range function](range.js)
 - [6kyu - Numbers of Letters of Numbers](numbersOfLetters.js)
+- [6kyu - Cubic Tap Code](cubic_tap_code.js)
