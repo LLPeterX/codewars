@@ -544,3 +544,4 @@
 - [7kyu - Name That Number!](nameThatNumber.js)
 - [7kyu - Offspring Traits](bearFur.js)
 - [7kyu - Offload your work!](workNeeded.js)
+- [7kyu - Paperboy](cheapestQuote.js)
