@@ -543,3 +543,4 @@
 - [7kyu - Naughty or Nice?](whatListAmIOn.js)
 - [7kyu - Name That Number!](nameThatNumber.js)
 - [7kyu - Offspring Traits](bearFur.js)
+- [7kyu - Offload your work!](workNeeded.js)
