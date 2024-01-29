@@ -467,3 +467,4 @@
 - [6kyu - Cubic Tap Code](cubic_tap_code.js)
 - [6kyu - Optimum coding school location](optimumLocation.js)
 - [6kyu - Relational expressions](Relational.js)
+- [6kyu - ASCII Fun #1: X- Shape6kyu - ASCII Fun #1: X- Shape](ascii_1.js)
