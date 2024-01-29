@@ -466,3 +466,4 @@
 - [6kyu - Numbers of Letters of Numbers](numbersOfLetters.js)
 - [6kyu - Cubic Tap Code](cubic_tap_code.js)
 - [6kyu - Optimum coding school location](optimumLocation.js)
+- [6kyu - Relational expressions](Relational.js)
