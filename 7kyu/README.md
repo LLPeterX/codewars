@@ -545,3 +545,4 @@
 - [7kyu - Offspring Traits](bearFur.js)
 - [7kyu - Offload your work!](workNeeded.js)
 - [7kyu - Paperboy](cheapestQuote.js)
+- [7kyu - Send in the Clones](clonewars.js)
