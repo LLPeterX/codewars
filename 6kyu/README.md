@@ -468,3 +468,4 @@
 - [6kyu - Optimum coding school location](optimumLocation.js)
 - [6kyu - Relational expressions](Relational.js)
 - [6kyu - ASCII Fun #1: X- Shape6kyu - ASCII Fun #1: X- Shape](ascii_1.js)
+- [6kyu - Brainfuck generator](toBrainfuck.js)
