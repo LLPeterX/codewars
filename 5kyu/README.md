@@ -136,3 +136,4 @@
 - [5kyu - Rearrangement of Numbers to Have The Minimum Divisible by a Given Factor](rearranger.js)
 - [5kyu - Numbers with The Highest Amount of Divisors](procArrInt.js)
 - [5kyu - Smallest Multiple of 1 to n](smallestMultiple.js)
+- [5kyu - Simpexer](Simplexer.js)
