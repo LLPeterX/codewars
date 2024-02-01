@@ -469,3 +469,4 @@
 - [6kyu - Relational expressions](Relational.js)
 - [6kyu - ASCII Fun #1: X- Shape6kyu - ASCII Fun #1: X- Shape](ascii_1.js)
 - [6kyu - Brainfuck generator](toBrainfuck.js)
+- [6kyu - Christmas mission: Distribute gifts 7](distribute7.js)
