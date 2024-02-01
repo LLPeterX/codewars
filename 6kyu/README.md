@@ -471,3 +471,4 @@
 - [6kyu - Brainfuck generator](toBrainfuck.js)
 - [6kyu - Christmas mission: Distribute gifts 7](distribute7.js)
 - [6kyu - Running Average](runningAverage.js)
+- [6kyu - Simple division](simple_divisions.js)
