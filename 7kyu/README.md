@@ -546,3 +546,4 @@
 - [7kyu - Offload your work!](workNeeded.js)
 - [7kyu - Paperboy](cheapestQuote.js)
 - [7kyu - Send in the Clones](clonewars.js)
+- [7kyu - Naughty or Nice](naughtyOrNice.js)
