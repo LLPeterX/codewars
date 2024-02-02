@@ -472,3 +472,4 @@
 - [6kyu - Christmas mission: Distribute gifts 7](distribute7.js)
 - [6kyu - Running Average](runningAverage.js)
 - [6kyu - Simple division](simple_divisions.js)
+- [6kyu - Spelling Bee](howManyBees.js)
