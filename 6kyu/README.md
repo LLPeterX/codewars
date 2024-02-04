@@ -473,3 +473,4 @@
 - [6kyu - Running Average](runningAverage.js)
 - [6kyu - Simple division](simple_divisions.js)
 - [6kyu - Spelling Bee](howManyBees.js)
+- [6kyu - Pretty date](toPretty.js)
