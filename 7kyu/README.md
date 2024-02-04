@@ -547,3 +547,4 @@
 - [7kyu - Paperboy](cheapestQuote.js)
 - [7kyu - Send in the Clones](clonewars.js)
 - [7kyu - Naughty or Nice](naughtyOrNice.js)
+- [7kyu - From A to Z](gimmeTheLetters.js)
