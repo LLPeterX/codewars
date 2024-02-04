@@ -474,3 +474,4 @@
 - [6kyu - Simple division](simple_divisions.js)
 - [6kyu - Spelling Bee](howManyBees.js)
 - [6kyu - Pretty date](toPretty.js)
+- [6kyu - Simple decrypt algo](simple_decrypt.js)
