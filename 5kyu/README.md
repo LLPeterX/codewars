@@ -137,5 +137,5 @@
 - [5kyu - Numbers with The Highest Amount of Divisors](procArrInt.js)
 - [5kyu - Smallest Multiple of 1 to n](smallestMultiple.js)
 - [5kyu - Simpexer](Simplexer.js)
-- [5kyu - Simpexer](findPartMaxProd.js)
+- [5kyu - Find the Partition with Maximum Product Value](findPartMaxProd.js)
 - [5kyu - Hamster me](hamsterMe.js)
