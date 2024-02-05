@@ -475,3 +475,4 @@
 - [6kyu - Spelling Bee](howManyBees.js)
 - [6kyu - Pretty date](toPretty.js)
 - [6kyu - Simple decrypt algo](simple_decrypt.js)
+- [6kyu - Conic Classification](classifyConic.js)
