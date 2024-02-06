@@ -477,3 +477,4 @@
 - [6kyu - Simple decrypt algo](simple_decrypt.js)
 - [6kyu - Conic Classification](classifyConic.js)
 - [6kyu - #4 Matrices: Process for a Square Matrix](avgDiags.js)
+- [6kyu - FIXME: Hello](fixme_hello.js)
