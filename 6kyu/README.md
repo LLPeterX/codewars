@@ -480,3 +480,4 @@
 - [6kyu - FIXME: Hello](fixme_hello.js)
 - [6kyu - Simple Fun #174: Unlucky Number](unluckyNumber.js) - incomplete
 - [6kyu - 80's Kids #4: Legends of the Hidden Temple](markSpot.js)
+- [6kyu - Alphabet wars - reinforces massacre](alphabetWar.js)
