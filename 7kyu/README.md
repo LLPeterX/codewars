@@ -550,3 +550,4 @@
 - [7kyu - From A to Z](gimmeTheLetters.js)
 - [7kyu - Simple Fun #175: Same Encryption](sameEncryption.js)
 - [7kyu - Simple Fun #205: Split Exp](splitExp.js)
+- [7kyu - Simple Fun #326: The Shortest Time](shortestTime.js)

@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\incomplete\\5_render.js"
+      "program": "${workspaceFolder}\\incomplete\\5_damsel.js"
     }
   ]
 }
