@@ -482,3 +482,4 @@
 - [6kyu - 80's Kids #4: Legends of the Hidden Temple](markSpot.js)
 - [6kyu - Alphabet wars - reinforces massacre](alphabetWar.js)
 - [6kyu - Array Product (Sans n)](productSansN.js)
+- [6kyu - Objectify all the strings](hashify.js)
