@@ -551,3 +551,4 @@
 - [7kyu - Simple Fun #175: Same Encryption](sameEncryption.js)
 - [7kyu - Simple Fun #205: Split Exp](splitExp.js)
 - [7kyu - Simple Fun #326: The Shortest Time](shortestTime.js)
+- [7kyu - Squeaky Window](sliding.js)
