@@ -483,3 +483,4 @@
 - [6kyu - Alphabet wars - reinforces massacre](alphabetWar.js)
 - [6kyu - Array Product (Sans n)](productSansN.js)
 - [6kyu - Objectify all the strings](hashify.js)
+- [6kyu - Sudoku Strategies - Naked Single](sudoku_single.js)
