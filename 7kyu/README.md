@@ -552,3 +552,4 @@
 - [7kyu - Simple Fun #205: Split Exp](splitExp.js)
 - [7kyu - Simple Fun #326: The Shortest Time](shortestTime.js)
 - [7kyu - Squeaky Window](sliding.js)
+- [7kyu - Simple Fun #17: Rounders](rounders.js)
