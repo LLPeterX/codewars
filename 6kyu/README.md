@@ -485,3 +485,4 @@
 - [6kyu - Objectify all the strings](hashify.js)
 - [6kyu - Sudoku Strategies - Naked Single](sudoku_single.js)
 - [6kyu - Get your steppin' on son](wordStep.js)
+- [6kyu - Sort the columns of a csv-file](sortCsvColumns.js)
