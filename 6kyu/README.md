@@ -486,3 +486,4 @@
 - [6kyu - Sudoku Strategies - Naked Single](sudoku_single.js)
 - [6kyu - Get your steppin' on son](wordStep.js)
 - [6kyu - Sort the columns of a csv-file](sortCsvColumns.js)
+- [6kyu - Take a picture !](sortPhotos.js)
