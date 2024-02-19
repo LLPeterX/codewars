@@ -554,3 +554,4 @@
 - [7kyu - Squeaky Window](sliding.js)
 - [7kyu - Simple Fun #17: Rounders](rounders.js)
 - [7kyu - Is that a real phone number? (British version)](validateNumber.js)
+- [7kyu - Simple Fun #384: Is Turing's Equation?](isTuringEquation.js)
