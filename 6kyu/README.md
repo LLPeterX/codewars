@@ -493,3 +493,5 @@
 - [6kyu - Clever split](old/cleverSplit.js)
 
 ## Current solutions
+
+- [6kyu - Pete, the baker (part 2)](getMissingIngredients)
