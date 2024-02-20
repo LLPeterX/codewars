@@ -496,3 +496,4 @@
 
 - [6kyu - Pete, the baker (part 2)](getMissingIngredients.js)
 - [6kyu - Basic Bitmapping 2)](toBits.js)
+- [6kyu - Missing Angle](missingAngle.js)
