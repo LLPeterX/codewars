@@ -488,3 +488,4 @@
 - [6kyu - Sort the columns of a csv-file](sortCsvColumns.js)
 - [6kyu - Take a picture !](sortPhotos.js)
 - [6kyu - Permutations and Dot Products](minDot.js)
+- [6kyu - Clever split](cleverSplit.js)
