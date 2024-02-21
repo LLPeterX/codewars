@@ -554,3 +554,5 @@
 - [7kyu - Simple Fun #384: Is Turing's Equation?](old/isTuringEquation.js)
 
 ## Current
+
+- [7kyu - 80's Kids #1: How Many Licks Does it Take?](totalLicks.js)
