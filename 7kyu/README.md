@@ -558,3 +558,4 @@
 - [7kyu - 80's Kids #1: How Many Licks Does it Take?](totalLicks.js)
 - [7kyu - Fractran Interpreter](fractran.js)
 - [7kyu - Outrun your past self](number_lappings.js)
+- [7kyu - Simple Fun #39: Switch Lights](switchLights.js)
