@@ -500,3 +500,4 @@
 - [6kyu - Simple Fun #180: Repeat Adjacent](repeatAdjacent.js)
 - [6kyu - Cryptography #1 - Viva Cesare](CaesarCryptoEncode.js)
 - [6kyu - Find an area](findArea.js)
+- [6kyu - Simple card game](winner.js)
