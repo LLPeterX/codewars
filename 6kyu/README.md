@@ -501,3 +501,4 @@
 - [6kyu - Cryptography #1 - Viva Cesare](CaesarCryptoEncode.js)
 - [6kyu - Find an area](findArea.js)
 - [6kyu - Simple card game](winner.js)
+- [6kyu - Group Anagrams](groupAnagrams.js)
