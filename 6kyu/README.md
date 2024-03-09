@@ -502,3 +502,4 @@
 - [6kyu - Find an area](findArea.js)
 - [6kyu - Simple card game](winner.js)
 - [6kyu - Group Anagrams](groupAnagrams.js)
+- [6kyu - Find X](findX.js)
