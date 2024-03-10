@@ -503,3 +503,4 @@
 - [6kyu - Simple card game](winner.js)
 - [6kyu - Group Anagrams](groupAnagrams.js)
 - [6kyu - Find X](findX.js)
+- [6kyu - The Spider and the Fly (Jumping Spider)](spiderToFly.js)
