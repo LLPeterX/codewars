@@ -560,3 +560,4 @@
 - [7kyu - Outrun your past self](number_lappings.js)
 - [7kyu - Simple Fun #39: Switch Lights](switchLights.js)
 - [7kyu - Trilingual democracy](trilingualDemocracy.js)
+- [7kyu - Racing 1: Simplified Drag Race](dragRace.js)
