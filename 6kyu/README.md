@@ -507,3 +507,4 @@
 - [6kyu - The 196-algorithm and Lychrel numbers](alg196.js)
 - [6kyu - Simple Fun #185: Revamp](revamp.js)
 - [6kyu - Simple Fun #279: Finding K](findingK.js)
+- [6kyu - Simple Fun #183: Direction In Grid](directionInGrid.js)
