@@ -562,3 +562,4 @@
 - [7kyu - Trilingual democracy](trilingualDemocracy.js)
 - [7kyu - Racing 1: Simplified Drag Race](dragRace.js)
 - [7kyu - Simple Fun #324: Is John Lying?](isJohnLying.js)
+- [7kyu - Simple Fun #327: The Final Attack Value](finalAttackValue.js)
