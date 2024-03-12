@@ -505,3 +505,4 @@
 - [6kyu - Find X](findX.js)
 - [6kyu - The Spider and the Fly (Jumping Spider)](spiderToFly.js)
 - [6kyu - The 196-algorithm and Lychrel numbers](alg196.js)
+- [6kyu - Simple Fun #185: Revamp](revamp.js)
