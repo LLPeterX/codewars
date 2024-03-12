@@ -41,6 +41,7 @@ function directionInGrid(n, m) {
     dir[dirId].next();
     let prevId = dirId;
     dirId = (dirId + 1) % 4;
+    // проверяем крайний случай, когда уперлись в стену, а дальнеших ходов нет
     if (!(x + dir[dirId].stepX >= leftMargin && x + dir[dirId].stepX < rightMargin && y + dir[dirId].stepY >= topMargin && y + dir[dirId].stepY < bottomMargin)) {
       return dir[prevId].to;
     }
