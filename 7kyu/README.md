@@ -561,3 +561,4 @@
 - [7kyu - Simple Fun #39: Switch Lights](switchLights.js)
 - [7kyu - Trilingual democracy](trilingualDemocracy.js)
 - [7kyu - Racing 1: Simplified Drag Race](dragRace.js)
+- [7kyu - Simple Fun #324: Is John Lying?](isJohnLying.js)
