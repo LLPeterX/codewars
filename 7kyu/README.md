@@ -564,3 +564,4 @@
 - [7kyu - Simple Fun #324: Is John Lying?](isJohnLying.js)
 - [7kyu - Simple Fun #327: The Final Attack Value](finalAttackValue.js)
 - [7kyu - Slice the middle of a list backwards](reverseMiddle.js)
+- [7kyu - Lorraine Wants to Win the TV Contest](unscramble.js)
