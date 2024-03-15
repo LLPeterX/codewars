@@ -511,3 +511,4 @@
 - [6kyu - Sort the number sequence](sortSequence.js)
 - [6kyu - Simple Fun #318: Sort String](sortString.js)
 - [6kyu - Rasterize a Triangle](drawTriangle.js)
+- [6kyu - FIRE and FURY](fireAndFury.js)
