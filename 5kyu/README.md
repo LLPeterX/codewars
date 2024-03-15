@@ -145,3 +145,5 @@
 - [5kyu - Conway's Game of Life](old/nextGen.js)
 
 ## Current solutions
+
+- [5kyu - Simple Fun #155: Pac-Man](pacMan.js)
