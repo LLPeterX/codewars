@@ -509,3 +509,4 @@
 - [6kyu - Simple Fun #279: Finding K](findingK.js)
 - [6kyu - Simple Fun #183: Direction In Grid](directionInGrid.js)
 - [6kyu - Sort the number sequence](sortSequence.js)
+- [6kyu - Simple Fun #318: Sort String](sortString.js)
