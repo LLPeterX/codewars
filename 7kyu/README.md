@@ -565,3 +565,4 @@
 - [7kyu - Simple Fun #327: The Final Attack Value](finalAttackValue.js)
 - [7kyu - Slice the middle of a list backwards](reverseMiddle.js)
 - [7kyu - Lorraine Wants to Win the TV Contest](unscramble.js)
+- [7kyu - Simple Fun #24: Pages Numbering with Ink](pagesNumberingWithInk.js)
