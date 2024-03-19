@@ -514,3 +514,4 @@
 - [6kyu - FIRE and FURY](fireAndFury.js)
 - [6kyu - Promises Made and Broken: The Misadventures of Bob the Highly Paid Consultant](submitOrder.js)
 - [6kyu - Collapse Left](operationArguments.js)
+- [6kyu - Minutes to Midnight](minutesToMidnight.js)
