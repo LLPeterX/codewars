@@ -147,3 +147,4 @@
 ## Current solutions
 
 - [5kyu - Simple Fun #155: Pac-Man](pacMan.js)
+- [5kyu - Finding an appointment](getStartTime.js)
