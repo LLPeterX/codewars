@@ -567,3 +567,4 @@
 - [7kyu - Lorraine Wants to Win the TV Contest](unscramble.js)
 - [7kyu - Simple Fun #24: Pages Numbering with Ink](pagesNumberingWithInk.js)
 - [7kyu - Simple Fun #189: Plant Doubling](plantDoubling.js)
+- [7kyu - Calculate the resultant force](resultant_force.js) - not solved
