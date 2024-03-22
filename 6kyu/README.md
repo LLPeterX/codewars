@@ -516,3 +516,4 @@
 - [6kyu - Collapse Left](operationArguments.js)
 - [6kyu - Minutes to Midnight](minutesToMidnight.js)
 - [6kyu - Each n-th element of list](each.js)
+- [6kyu - Selecting Quotients From an Array](selectQuotients.js)
