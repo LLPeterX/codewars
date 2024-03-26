@@ -570,3 +570,4 @@
 - [7kyu - Calculate the resultant force](resultant_force.js) - not solved
 - [7kyu - Food combinations](actuallyReallyGood.js)
 - [7kyu - Simple Fun #49: Decipher](decipher.js)
+- [7kyu - Can I play right now?](canIPlay.js)
