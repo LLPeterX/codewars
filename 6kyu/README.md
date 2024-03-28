@@ -518,3 +518,4 @@
 - [6kyu - Each n-th element of list](each.js)
 - [6kyu - Selecting Quotients From an Array](selectQuotients.js)
 - [6kyu - Balanced centrifuge verification](balanced.js)
+- [6kyu - Sort sentence pseudo-alphabetically](sort_sent.js)
