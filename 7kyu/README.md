@@ -572,3 +572,4 @@
 - [7kyu - Simple Fun #49: Decipher](decipher.js)
 - [7kyu - Can I play right now?](canIPlay.js)
 - [7kyu - PatternCraft - Visitor](pattern_visitor.js)
+- [7kyu - Return pyramids](pyramid.js)
