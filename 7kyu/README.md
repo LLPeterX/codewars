@@ -573,3 +573,4 @@
 - [7kyu - Can I play right now?](canIPlay.js)
 - [7kyu - PatternCraft - Visitor](pattern_visitor.js)
 - [7kyu - Return pyramids](pyramid.js)
+- [7kyu - Simple Fun #129: Repeat Sequence Length](repeatSequenceLen.js)
