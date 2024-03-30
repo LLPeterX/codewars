@@ -523,3 +523,4 @@
 - [6kyu - Get Euchre Score](updateScore.js)
 - [6kyu - Word Mesh](wordMesh.js)
 - [6kyu - Simple Fun #191: Sum Of Regular Numbers](sumOfRegularNumbers.js)
+- [6kyu - Find the discounted prices](findDiscounted.js)
