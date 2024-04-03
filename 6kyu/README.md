@@ -525,3 +525,4 @@
 - [6kyu - Simple Fun #191: Sum Of Regular Numbers](sumOfRegularNumbers.js)
 - [6kyu - Find the discounted prices](findDiscounted.js)
 - [6kyu - Bingo!](bingo.js)
+- [6kyu - Game Hit the target - 2nd part](hit_target2.js)
