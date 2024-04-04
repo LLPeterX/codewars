@@ -527,3 +527,4 @@
 - [6kyu - Bingo!](bingo.js)
 - [6kyu - Game Hit the target - 2nd part](hit_target2.js)
 - [6kyu - Help Mrs Jefferson](shortestArrang.js)
+- [6kyu - Permutations Of An Array And Associated Values](sscForperm.js)
