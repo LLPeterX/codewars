@@ -528,3 +528,4 @@
 - [6kyu - Game Hit the target - 2nd part](hit_target2.js)
 - [6kyu - Help Mrs Jefferson](shortestArrang.js)
 - [6kyu - Permutations Of An Array And Associated Values](sscForperm.js)
+- [6kyu - Sum of numbers in radix / base n](baseSum.js)
