@@ -529,3 +529,4 @@
 - [6kyu - Help Mrs Jefferson](shortestArrang.js)
 - [6kyu - Permutations Of An Array And Associated Values](sscForperm.js)
 - [6kyu - Sum of numbers in radix / base n](baseSum.js)
+- [6kyu - Clock Patience](clockPatience.js)
