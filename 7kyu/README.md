@@ -576,3 +576,4 @@
 - [7kyu - Simple Fun #129: Repeat Sequence Length](repeatSequenceLen.js)
 - [7kyu - Simple Fun #21: Number Of Clans](numberOfClans.js)
 - [7kyu - Scott Booleans](scott_booleans.js)
+- [7kyu - Number encrypting: cypher](cipher.js)
