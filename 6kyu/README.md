@@ -531,3 +531,4 @@
 - [6kyu - Sum of numbers in radix / base n](baseSum.js)
 - [6kyu - Clock Patience](clockPatience.js)
 - [6kyu - Zig-Zag Camel](zigZagCamel.js)
+- [6kyu - Acronym Buster](acronymBuster.js)
