@@ -26,5 +26,9 @@
     "bigint-isqrt": "^0.3.2",
     "lodash": "^4.17.21",
     "prime-lib": "^0.5.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
 }
