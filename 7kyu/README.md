@@ -577,3 +577,4 @@
 - [7kyu - Simple Fun #21: Number Of Clans](numberOfClans.js)
 - [7kyu - Scott Booleans](scott_booleans.js)
 - [7kyu - Number encrypting: cypher](cipher.js)
+- [7kyu - Simple templater](createTemplate.js)
