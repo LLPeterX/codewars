@@ -532,3 +532,4 @@
 - [6kyu - Clock Patience](clockPatience.js)
 - [6kyu - Zig-Zag Camel](zigZagCamel.js)
 - [6kyu - Acronym Buster](acronymBuster.js)
+- [6kyu - DNA Sequence Tester](checkDNA.js)
