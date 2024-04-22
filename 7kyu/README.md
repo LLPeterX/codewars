@@ -579,3 +579,4 @@
 - [7kyu - Number encrypting: cypher](cipher.js)
 - [7kyu - Simple templater](createTemplate.js)
 - [7kyu - Geometric Mean I](geometricMean1.js)
+- [6kyu - Memesorting](memesorting.js)
