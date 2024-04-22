@@ -578,3 +578,4 @@
 - [7kyu - Scott Booleans](scott_booleans.js)
 - [7kyu - Number encrypting: cypher](cipher.js)
 - [7kyu - Simple templater](createTemplate.js)
+- [7kyu - Geometric Mean I](geometricMean1.js)
