@@ -534,3 +534,4 @@
 - [6kyu - Acronym Buster](acronymBuster.js)
 - [6kyu - DNA Sequence Tester](checkDNA.js)
 - [6kyu - Memesorting](memesorting.js)
+- [6kyu - Number Shortening Filter](shortenNumber.js)
