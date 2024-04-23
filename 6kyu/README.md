@@ -535,3 +535,4 @@
 - [6kyu - DNA Sequence Tester](checkDNA.js)
 - [6kyu - Memesorting](memesorting.js)
 - [6kyu - Number Shortening Filter](shortenNumber.js)
+- [6kyu - Time Math](timeMath.js)
