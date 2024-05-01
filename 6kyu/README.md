@@ -537,3 +537,4 @@
 - [6kyu - Number Shortening Filter](shortenNumber.js)
 - [6kyu - Time Math](timeMath.js)
 - [6kyu - 2D Cellular Neighbourhood - Part 2](getNeighbourhood.js)
+- [6kyu - Grill it!](grille.js)
