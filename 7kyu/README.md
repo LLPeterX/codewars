@@ -580,3 +580,4 @@
 - [7kyu - Simple templater](createTemplate.js)
 - [7kyu - Geometric Mean I](geometricMean1.js)
 - [7kyu - Print count and numbers](countMe.js)
+- [7kyu - Blowing Birthday Candles](blowCandles.js)
