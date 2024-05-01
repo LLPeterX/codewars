@@ -539,3 +539,4 @@
 - [6kyu - 2D Cellular Neighbourhood - Part 2](getNeighbourhood.js)
 - [6kyu - Grill it!](grille.js)
 - [6kyu - Mr. Safety's treasures](unlock.js)
+- [6kyu - Emojicode](emoji.js)
