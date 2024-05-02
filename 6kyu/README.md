@@ -541,3 +541,4 @@
 - [6kyu - Mr. Safety's treasures](unlock.js)
 - [6kyu - Emojicode](emoji.js)
 - [6kyu - Linux history and `!` command. Series#2 The `!n` command](bangN.js)
+- [6kyu - Bomb has been planted!](bombHasBeenPlanted.js)
