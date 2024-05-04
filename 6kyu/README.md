@@ -543,3 +543,4 @@
 - [6kyu - Linux history and `!` command. Series#2 The `!n` command](bangN.js)
 - [6kyu - Bomb has been planted!](bombHasBeenPlanted.js)
 - [6kyu - Keyword Cipher Helper](KeywordCipher.js)
+- [6kyu - imple Fun #221: Furthest Distance Of Same Letter](distSameLetter.js)
