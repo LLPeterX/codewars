@@ -583,3 +583,4 @@
 - [7kyu - Blowing Birthday Candles](blowCandles.js)
 - [7kyu - Simple Fun #215: Properly Closed Bracket Word](closedBracketWord.js)
 - [7kyu - Simple reversal game](simple_reversal_game.js)
+- [7kyu - T.T.T.27: Four piles of apples](fourPiles.js)
