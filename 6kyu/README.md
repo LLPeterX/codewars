@@ -544,3 +544,4 @@
 - [6kyu - Bomb has been planted!](bombHasBeenPlanted.js)
 - [6kyu - Keyword Cipher Helper](KeywordCipher.js)
 - [6kyu - imple Fun #221: Furthest Distance Of Same Letter](distSameLetter.js)
+- [6kyu - The Creep Inspector](creep_inspector.js)
