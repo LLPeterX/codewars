@@ -585,3 +585,4 @@
 - [7kyu - Simple reversal game](simple_reversal_game.js)
 - [7kyu - T.T.T.27: Four piles of apples](fourPiles.js)
 - [7kyu - Alternate Logic](alternateOR.js)
+- [7kyu - De-Emojify](deEmojify.js)
