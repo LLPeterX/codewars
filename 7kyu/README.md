@@ -587,3 +587,4 @@
 - [7kyu - Alternate Logic](alternateOR.js)
 - [7kyu - De-Emojify](deEmojify.js)
 - [7kyu - Visualization of Wedding Cakes](cakeVisualizer.js)
+- [7kyu - Simple string division](simple_string_division.js)
