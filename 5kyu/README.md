@@ -149,3 +149,4 @@
 - [5kyu - Simple Fun #155: Pac-Man](pacMan.js)
 - [5kyu - Finding an appointment](getStartTime.js)
 - [5kyu - A Man and his Umbrellas](minUmbrellas.js)
+- [6kyu - Chess Fun #9: Bishops And Rooks](bishopsAndRooks.js)
