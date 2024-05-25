@@ -546,3 +546,4 @@
 - [6kyu - imple Fun #221: Furthest Distance Of Same Letter](distSameLetter.js)
 - [6kyu - The Creep Inspector](creep_inspector.js)
 - [6kyu - Gray Code](gray_code.js)
+- [6kyu - Thinking & Testing #38: What's the "?"](think38.js)
