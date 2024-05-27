@@ -550,3 +550,4 @@
 - [6kyu - Allocating Hotel Rooms](allocateRooms.js)
 - [6kyu - GA-DE-RY-PO-LU-KI cypher vol 2](GADERYPOLUKI.js)
 - [6kyu - Ideal electron distribution](atomicNumber.js)
+- [6kyu - Setting Places for the Dead](setTable.js)
