@@ -549,3 +549,4 @@
 - [6kyu - Thinking & Testing #38: What's the "?"](think38.js)
 - [6kyu - Allocating Hotel Rooms](allocateRooms.js)
 - [6kyu - GA-DE-RY-PO-LU-KI cypher vol 2](GADERYPOLUKI.js)
+- [6kyu - Ideal electron distribution](atomicNumber.js)
