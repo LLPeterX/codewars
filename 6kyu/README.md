@@ -552,3 +552,4 @@
 - [6kyu - Ideal electron distribution](atomicNumber.js)
 - [6kyu - Setting Places for the Dead](setTable.js)
 - [6kyu - Proquints: Pro-nouncable Quint-uplets](proquints.js)
+- [6kyu - Hofstadter Q](hofstadterQ.js)
