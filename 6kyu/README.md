@@ -554,3 +554,4 @@
 - [6kyu - Proquints: Pro-nouncable Quint-uplets](proquints.js)
 - [6kyu - Hofstadter Q](hofstadterQ.js)
 - [6kyu - The PaperFold sequence](paperFold.js)
+- [6kyu - Grouping integers into a nested list](groupInts.js)
