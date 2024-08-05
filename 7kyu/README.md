@@ -591,3 +591,4 @@
 - [7kyu - Basics 04: Rotate Matrix](rotateMatrix.js)
 - [7kyu - Trigrams](trigrams.js)
 - [7kyu - Simple Fun #59: Reverse On Diagonals](reverseOnDiagonals.js)
+- [7kyu - Chinese Zodiac](chineseZodiac.js)
