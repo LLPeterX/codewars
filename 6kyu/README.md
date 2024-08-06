@@ -557,3 +557,4 @@
 - [6kyu - Grouping integers into a nested list](groupInts.js)
 - [6kyu - Parse bank account number](parseBankAccount.js)
 - [6kyu - Points in the circle](points_in_the_circle.js)
+- [6kyu - Alex & snooker: scores.](frame.js)
